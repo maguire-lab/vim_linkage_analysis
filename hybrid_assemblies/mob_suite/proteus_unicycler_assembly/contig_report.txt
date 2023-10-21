@@ -1,0 +1,27 @@
+sample_id	molecule_type	primary_cluster_id	secondary_cluster_id	contig_id	size	gc	md5	circularity_status	rep_type(s)	rep_type_accession(s)	relaxase_type(s)	relaxase_type_accession(s)	mpf_type	mpf_type_accession(s)	orit_type(s)	orit_accession(s)	predicted_mobility	mash_nearest_neighbor	mash_neighbor_distance	mash_neighbor_identification	repetitive_dna_id	repetitive_dna_type	filtering_reason
+assembly	chromosome	-	-	1 length=3252987 depth=1.00x	3252987	0.3878088046463143	ffec227d10d876585507954b01c40925	not tested	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	chromosome	-	-	2 length=451292 depth=1.30x	451292	0.3967254017354617	775a4538760c709684820377efaccf5b	not tested	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	chromosome	-	-	3 length=287844 depth=1.40x	287844	0.40334695182112534	ac8abbdeef3cbeae3622258c034f1921	not tested	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	chromosome	-	-	4 length=58718 depth=1.52x	58718	0.40299397118430463	8d89e8b966ea4f6de052dfdba383b316	not tested	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	plasmid	AC082	-	5 length=51686 depth=5.03x circular=true	51686	0.5547730526641643	c31f491447fa2053491761785df64a1a	not tested	IncQ1	000195__NC_013728_00014	-	-	-	-	-	-	-	NC_019091	0.0496454	Escherichia coli	-	-	-
+assembly	plasmid	AC864	AM219	6 length=40918 depth=1.65x circular=true	40918	0.3621144728481353	3937f3719fbab47dc60e7df553f79158	not tested	-	-	MOBP	CP021855_00025	-	-	-	-	-	KX832926	0.00263042	Providencia rettgeri	-	-	-
+assembly	chromosome	-	-	7 length=40005 depth=1.06x	40005	0.38160229971253595	3b7c76ee63d6e7eec6b97a40bd7fa025	not tested	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	chromosome	-	-	8 length=12165 depth=1.03x	12165	0.3833127825729552	62f5b48152e2a2f6b3b9a7e5b269d7f5	not tested	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	chromosome	-	-	9 length=1768 depth=1.52x	1768	0.5096153846153846	6a071a0cdfbe42e4947fd862ace52bb1	not tested	-	-	-	-	-	-	-	-	-	-	-	-	CP016586.1	16s-rRNA	repetitve element
+assembly	chromosome	-	-	10 length=1613 depth=2.77x	1613	0.536887786732796	e9e52351617d43c283161300ceb4f388	not tested	-	-	-	-	-	-	-	-	-	-	-	-	CP016586.1	23s-rRNA	repetitve element
+assembly	chromosome	-	-	11 length=557 depth=2.77x	557	0.5296229802513465	8bbcad6c8d5fd0fd3d8ea7086ff635e6	not tested	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	chromosome	-	-	12 length=549 depth=1.35x	549	0.546448087431694	0e6e7a9799bb0e28d2fb0bb1cc935348	not tested	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	chromosome	-	-	13 length=303 depth=2.77x	303	0.48514851485148514	56793c8d18643789ddddd334369757d2	not tested	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	chromosome	-	-	14 length=249 depth=1.52x	249	0.4819277108433735	e4288537640f54f1974fe9ae72cee04e	not tested	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	chromosome	-	-	15 length=189 depth=1.63x	189	0.41798941798941797	8e066e267b6c50bdbb9f957875b81111	not tested	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	chromosome	-	-	16 length=187 depth=1.63x	187	0.5026737967914439	bc27dea30023ec15ea02b855bad546de	not tested	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	chromosome	-	-	17 length=187 depth=1.42x	187	0.3155080213903743	708c918472a98ba7cac6360db99855cf	not tested	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	chromosome	-	-	18 length=172 depth=2.77x	172	0.5290697674418605	a46f998cc10c6ec28e3f59f045d2e1c4	not tested	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	chromosome	-	-	19 length=171 depth=1.99x	171	0.4093567251461988	0d070cf72139237eb3b49c2959f04c84	not tested	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	chromosome	-	-	20 length=154 depth=2.77x	154	0.44805194805194803	5dbae31e0dacd459dbcd999e7963ba58	not tested	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	chromosome	-	-	21 length=149 depth=2.77x	149	0.44966442953020136	e8938cec816825f20aa2a0023cff477e	not tested	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	chromosome	-	-	22 length=131 depth=1.63x	131	0.44274809160305345	981b78081e072a6af0b676ff1bc86f04	not tested	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	chromosome	-	-	23 length=128 depth=2.77x	128	0.4765625	9cf11fd5f4c5a5548f5a850a3b950ec0	not tested	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	chromosome	-	-	24 length=127 depth=1.63x	127	0.4409448818897638	0d065b0d7d72b696d11f481a4bd8e4ba	not tested	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	chromosome	-	-	25 length=120 depth=0.47x	120	0.5166666666666667	83cbc5990431d1c636eac00dd4f5002e	not tested	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	chromosome	-	-	26 length=104 depth=2.99x	104	0.6153846153846154	355610befa2e1a2b6e896d7d9f3e9412	not tested	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
