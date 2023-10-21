@@ -14,10 +14,7 @@ Each sample was sequenced via Nanopore with plasmid miniprep and general easyMAG
 - VIM-bearing plasmids were extracted from assemblies (and in the case of Pseudomonas putida's large but poorly annotated plasmid - reassembled using trycycler v0.5.4 (following this [protocol](https://github.com/rrwick/Trycycler/wiki/Generating-assemblies) i.e., long-read assembly and contig clustering/reconciliation of raven v6.10.0, miniasm v0.3-r179, flye v2.9.2-b1786 assemblies followed by medaka v1.8.0 /w `r941_min_hac_g507` and polypolish v0.5.0 short read polishing). See `vim_plasmids` (and vim_plasmids/pputida_trycycler.sh` for pputdia VIM-plasmid trycycler example run script).
 
 - Each VIM plasmid was then:
-    - Re-identified (mob-suite v3.1.7)
-    - Annotated using Bakta v1.8.2 w/ Full DB v2023-02-20 and amrfinderplus v4.11.17 w/ DB v2023-08-08.2): `vim_plasmids/annotate.sh` `vim_genes/{bakta,mobsuite}` 
-    - VIM genes sequences extracted and aligned (mafft v...)
-    - MGE/Integron-finder (bakta 
-    - 
-
-
+    - Re-identified (mob-suite v3.1.7) `vim_genes/{annotate.sh,mobsuite}`
+    - Annotated (Bakta v1.8.2 w/ Full DB v2023-02-20 including amrfinderplus v4.11.17 w/ DB v2023-08-08.2): `vim_genes/{annotate.sh,mobsuite}` 
+    - VIM genes sequences extracted and aligned (mafft v7.515): `vim_genes/`
+    - Integron-finder (integron_finder v2.0.2 w/ HMMs from AMRFinderPlus DB v2023-08-08.2): `vim_integrons/`

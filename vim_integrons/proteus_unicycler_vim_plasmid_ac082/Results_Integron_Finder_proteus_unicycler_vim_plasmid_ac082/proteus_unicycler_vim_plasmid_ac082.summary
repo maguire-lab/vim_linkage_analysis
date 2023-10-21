@@ -1,0 +1,3 @@
+# cmd: integron_finder --circ --local-max --cpu 3 --promoter-attI --outdir proteus_unicycler_vim_plasmid_ac082 --gbk --path-func-annot ../../HMM --pdf ../vim_plasmids/proteus_unicycler_vim_plasmid_ac082.fna
+ID_replicon	CALIN	complete	In0	topology	size
+5	1	1	0	circ	51686
