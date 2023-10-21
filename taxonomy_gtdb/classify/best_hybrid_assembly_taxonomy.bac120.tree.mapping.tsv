@@ -1,0 +1,4 @@
+user_genome	is_ani_classification	class_tree_mapped	classification_rule
+enterobacter_unicycler_assembly	True	1	Rule 7
+proteus_unicycler_assembler	True	1	Rule 7
+pseudomonas_dragonflye_assembly	True	1	Rule 7
