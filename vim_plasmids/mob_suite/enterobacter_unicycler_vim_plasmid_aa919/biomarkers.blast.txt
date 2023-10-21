@@ -1,0 +1,8 @@
+qseqid	sseqid	qlen	slen	qstart	qend	sstart	send	length	mismatch	pident	qcovhsp	qcovs	sstrand	evalue	bitscore	biomarker
+NC_022371|MOBP	4 length=61540 depth=4.80x circular=true	374	61540	1	374	30904	31277	374	0	100.0	100.0	100.0	plus	0.0	691	oriT
+000177__AB237782_00014|IncP	4 length=61540 depth=4.80x circular=true	1224	61540	10	1224	18161	19375	1215	20	98.354	99.0	99.0	plus	0.0	2134	replicon
+NC_001735_00050|MOBP	4 length=61540 depth=4.80x circular=true	747	61540	1	744	31687	33915	744	15	97.849	99.0	99.0	plus	0.0	1317	relaxase
+NC_008459_00022|MPF_T	4 length=61540 depth=4.80x circular=true	299	61540	1	299	10976	11872	299	2	99.331	100.0	100.0	minus	0.0	579	mate-pair-formation
+NC_004956_00085|MPF_T	4 length=61540 depth=4.80x circular=true	260	61540	1	260	11893	12672	260	3	98.846	100.0	100.0	minus	1.369999999999999e-161	488	mate-pair-formation
+NC_019318_00059|MPF_T	4 length=61540 depth=4.80x circular=true	852	61540	23	852	12672	15161	830	86	89.639	97.0	97.0	minus	0.0	1569	mate-pair-formation
+NC_001735_00049|MPF_T	4 length=61540 depth=4.80x circular=true	637	61540	1	637	33924	35834	637	2	99.686	100.0	100.0	plus	0.0	1247	mate-pair-formation

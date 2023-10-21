@@ -1,0 +1,2 @@
+sample_id	molecule_type	primary_cluster_id	secondary_cluster_id	contig_id	size	gc	md5	mge_id	mge_acs	mge_type	mge_subtype	mge_length	mge_start	mge_end	contig_start	contig_end	length	sstrand	qcovhsp	pident	evalue	bitscore
+enterobacter_unicycler_vim_plasmid_aa919.fna	plasmid	AA919		4 length=61540 depth=4.80x circular=true	61540	0.6239681507962301	589733bbcc11e1651777365114e5cc72	01029	KU997026	IS6100	IS6	5466	474	3757	49368	52655	3289	plus	60.0	99.514	0.0	5980

@@ -1,0 +1,14 @@
+qseqid	sseqid	qlen	slen	qstart	qend	sstart	send	length	mismatch	pident	qcovhsp	qcovs	sstrand	evalue	bitscore	biomarker
+001724__KU254577|rep_cluster_402	cluster_005_consensus_polypolish	1284	279019	1	1284	1	1284	1284	15	98.832	100.0	100.0	plus	0.0	2289	replicon
+NC_022739_00374|MOBF	cluster_005_consensus_polypolish	281	279019	1	281	225933	226775	281	8	97.153	100.0	100.0	plus	0.0	554	relaxase
+NC_022739_00358|MPF_F	cluster_005_consensus_polypolish	209	279019	1	209	210240	210866	209	7	96.651	100.0	100.0	plus	4.049999999999999e-139	423	mate-pair-formation
+NC_022739_00359|MPF_F	cluster_005_consensus_polypolish	345	279019	1	345	210866	211900	345	4	98.841	100.0	100.0	plus	0.0	687	mate-pair-formation
+NC_022739_00360|MPF_F	cluster_005_consensus_polypolish	243	279019	23	243	211917	212579	221	5	97.738	91.0	91.0	plus	2.5899999999999986e-135	414	mate-pair-formation
+NC_022739_00368|MPF_I	cluster_005_consensus_polypolish	424	279019	1	424	220162	221433	424	71	83.255	100.0	100.0	minus	0.0	692	mate-pair-formation
+NC_022739_00369|MPF_I	cluster_005_consensus_polypolish	586	279019	1	586	221429	223186	586	20	96.587	100.0	100.0	minus	0.0	1118	mate-pair-formation
+NC_022739_00373|MPF_F	cluster_005_consensus_polypolish	210	279019	1	210	225304	225933	210	28	86.667	100.0	100.0	plus	4.44e-124	380	mate-pair-formation
+NC_022739_00374|MPF_F	cluster_005_consensus_polypolish	281	279019	1	281	225933	226775	281	8	97.153	100.0	100.0	plus	0.0	554	mate-pair-formation
+NC_022739_00375|MPF_F	cluster_005_consensus_polypolish	400	279019	1	400	226781	227977	400	51	87.0	100.0	100.0	plus	0.0	655	mate-pair-formation
+NC_022739_00376|MPF_F	cluster_005_consensus_polypolish	208	279019	1	208	227977	228600	208	10	95.192	100.0	100.0	plus	3.8199999999999975e-126	385	mate-pair-formation
+NC_022739_00378|MPF_T	cluster_005_consensus_polypolish	815	279019	1	815	229063	231507	815	35	95.706	100.0	100.0	plus	0.0	1641	mate-pair-formation
+NC_022739_00382|MPF_F	cluster_005_consensus_polypolish	483	279019	1	483	233693	235141	483	28	94.203	100.0	100.0	plus	0.0	888	mate-pair-formation
