@@ -18,3 +18,21 @@ Each sample was sequenced via Nanopore with plasmid miniprep and general easyMAG
     - Annotated (Bakta v1.8.2 w/ Full DB v2023-02-20 including amrfinderplus v4.11.17 w/ DB v2023-08-08.2): `vim_genes/{annotate.sh,mobsuite}` 
     - VIM genes sequences extracted and aligned (mafft v7.515): `vim_genes/`
     - Integron-finder (integron_finder v2.0.2 w/ HMMs from AMRFinderPlus DB v2023-08-08.2): `vim_integrons/`
+
+- Plasmids were visualised with pycirclize, integrons with clinker, and the VIM alignment via aliview before combining in inkscape.
+- Overview figure was created in inkscape
+
+## Sample Data
+
+| **Accession** 	| **Title**                                                      	| **Data Archive** 	| **Links**                   	| **BioSample**                          	| **BioProject** 	| **Release Date** 	| **SRA.filename**                                               	| **BioSample.organism_name** 	|
+|---------------	|----------------------------------------------------------------	|------------------	|-----------------------------	|----------------------------------------	|----------------	|------------------	|----------------------------------------------------------------	|-----------------------------	|
+| SRR26458397   	| Genomic sequencing of CPO Pseudomonas clinical isolate         	| SRA              	| BioSample: 1, BioProject: 1 	| SAMN37915621                           	| PRJNA1030769   	| 2023-10-21       	| Pseudomonas_short_R1.fastq.gz, Pseudomonas_short_R2.fastq.gz   	| Pseudomonas putida          	|
+| SRR26458396   	| Genomic sequencing of CPO Pseudomonas clinical isolate         	| SRA              	| BioProject: 1, BioSample: 1 	| SAMN37915621                           	| PRJNA1030769   	| 2023-10-21       	| Pseudomonas_combined_long.fastq.gz                             	| Pseudomonas putida          	|
+| SRR26458395   	| Genomic sequencing of CPO Enterobacter clinical isolate        	| SRA              	| BioSample: 1, BioProject: 1 	| SAMN37915572                           	| PRJNA1030769   	| 2023-10-21       	| Enterobacter_short_R1.fastq.gz, Enterobacter_short_R2.fastq.gz 	| Enterobacter soli           	|
+| SRR26458394   	| Genomic sequencing of CPO Enterobacter clinical isolate        	| SRA              	| BioProject: 1, BioSample: 1 	| SAMN37915572                           	| PRJNA1030769   	| 2023-10-21       	| Enterobacter_combined_long.fastq.gz                            	| Enterobacter soli           	|
+| SRR26458393   	| Genomic sequencing of CPO Proteus clinical isolate             	| SRA              	| BioProject: 1, BioSample: 1 	| SAMN37915621                           	| PRJNA1030769   	| 2023-10-21       	| Proteus_short_R1.fastq.gz, Proteus_short_R2.fastq.gz           	| Proteus mirabilis           	|
+| SRR26458392   	| Genomic sequencing of CPO Proteus clinical isolate             	| SRA              	| BioSample: 1, BioProject: 1 	| SAMN37915621                           	| PRJNA1030769   	| 2023-10-21       	| Proteus_combined_long.fastq.gz                                 	| Proteus mirabilis           	|
+| SAMN37915621  	| Pathogen: clinically-associated Pseudomonas putida             	| BioSample        	| BioProject: 1, SRA: 2       	| SAMN37915621                           	| PRJNA1030769   	| 2023-10-21       	|                                                                	| Pseudomonas putida          	|
+| SAMN37915572  	| Pathogen: clinically-associated Enterobacter soli              	| BioSample        	| BioProject: 1, SRA: 2       	| SAMN37915572                           	| PRJNA1030769   	| 2023-10-21       	|                                                                	| Enterobacter soli           	|
+| SAMN37915571  	| Pathogen: clinically-associated Proteus mirabilis              	| BioSample        	| SRA: 2, BioProject: 1       	| SAMN37915571                           	| PRJNA1030769   	| 2023-10-21       	|                                                                	| Proteus mirabilis           	|
+| PRJNA1030769  	| Clinical Carbapenemase Producing Organism Genomic Surveillance 	| BioProject       	| BioSample: 3, SRA: 6        	| SAMN37915621,SAMN37915571,SAMN37915572 	| PRJNA1030769   	| 2023-10-21       	|                                                                	|                             	|
