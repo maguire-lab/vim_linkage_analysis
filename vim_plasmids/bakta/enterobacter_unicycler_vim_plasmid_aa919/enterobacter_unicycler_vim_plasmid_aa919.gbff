@@ -1,4 +1,4 @@
-LOCUS       contig_1               61540 bp    DNA     circular BCT 15-MAR-2023
+LOCUS       contig_1               61540 bp    DNA     circular BCT 22-OCT-2023
 DEFINITION  plasmid unnamed1, complete sequence.
 ACCESSION   contig_1
 VERSION     contig_1
@@ -7,17 +7,14 @@ SOURCE      None
   ORGANISM  .
             .
 COMMENT     Annotated with Bakta
-            Software: v1.4.2
-            Database: v3.1
+            Software: v1.8.2
+            Database: v5.0, full
             DOI: 10.1099/mgen.0.000685
             URL: github.com/oschwengers/bakta
             
             ##Genome Annotation Summary:##
-            Annotation Date                :: 03/15/2023, 17:45:25
-            Annotation Pipeline            :: Bakta
-            Annotation Software version    ::  v1.4.2
-            Annotation Database version    ::  v3.1
-            CDSs                           ::    62
+            Annotation Date                :: 10/22/2023, 12:42:49
+            CDSs                           ::    66
             tRNAs                          ::     0
             tmRNAs                         ::     0
             rRNAs                          ::     0
@@ -27,6 +24,7 @@ COMMENT     Annotated with Bakta
             oriCs/oriVs                    ::     1
             oriTs                          ::     1
             gaps                           ::     0
+            pseudogenes                    ::     0
 FEATURES             Location/Qualifiers
      source          1..61540
                      /mol_type="genomic DNA"
@@ -41,49 +39,54 @@ FEATURES             Location/Qualifiers
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00004539CD"
                      /db_xref="UniRef:UniRef100_A0A7L9EDA4"
-                     /db_xref="UniRef:UniRef50_B5WYU1"
-                     /db_xref="UniRef:UniRef90_B5WYU1"
-                     /product="TniC protein"
+                     /db_xref="UniRef:UniRef50_A0A4Y1LRB1"
+                     /db_xref="UniRef:UniRef90_B8F0B7"
+                     /product="Site-specific DNA recombinase SpoIVCA/DNA
+                     invertase PinE"
                      /locus_tag="LOPNJJ_00005"
+                     /protein_id="gnl|Bakta|LOPNJJ_00005"
                      /translation="MLIGYMRVSKADGSQSTNLQRDALIGAGVSPAHLYEDLASGRRDD
                      RPGLAACLKALREGDTLIVWKLDRLGRDLRHLINTVHDLTARSVGLKVLTGHGAAVDTT
                      TAAGKLVFGIFAALAEFERELISERTVAGLVSARARGRKGGRPFKMTAAKLRLAMASMG
                      QPETKVGDLCEELGITRQTLYRHVSPKGELRPDGVKLLSRGSAA"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00005"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_011222094.1"
                      /gene="spoIVCA"
-     gene            complement(877..1548)
+     gene            complement(877..1659)
                      /locus_tag="LOPNJJ_00010"
                      /gene="blaOXA"
-     CDS             complement(877..1548)
+     CDS             complement(877..1659)
+                     /db_xref="NCBIFam:NF012161.0"
                      /db_xref="SO:0001217"
+                     /db_xref="UniParc:UPI00004539CC"
+                     /db_xref="UniRef:UniRef100_Q5W3I4"
                      /db_xref="UniRef:UniRef50_Q00983"
                      /db_xref="UniRef:UniRef90_Q5W3I4"
                      /product="class D beta-lactamase"
                      /locus_tag="LOPNJJ_00010"
-                     /translation="MIESVRTGQRFVHNDPRSKQPFSAASTFKVLNTLIALEEGVISGA
-                     DAIFQWDGTRYEIANWNNDQTLESAFKASCVWCYQQLARRVGAVKYPPYIQQSDYGQLR
-                     QPYNETEFWLDGSLTISAEQQVAFLRQIVERKLPFKASSYDTLKKIMLTDVTERYRLYA
-                     KTGWATRNVPSVGWYVGFVETSDDIWLFALNLVTRDAKDLPLRIQIAKDALKVKGALPS
-                     S"
+                     /protein_id="gnl|Bakta|LOPNJJ_00010"
+                     /translation="MPKLILLACSLCISFFVRAEDSAVEQLFRSADIDGTIVIESVRTG
+                     QRFVHNDPRSKQPFSAASTFKVLNTLIALEEGVISGADAIFQWDGTRYEIANWNNDQTL
+                     ESAFKASCVWCYQQLARRVGAVKYPPYIQQSDYGQLRQPYNETEFWLDGSLTISAEQQV
+                     AFLRQIVERKLPFKASSYDTLKKIMLTDVTERYRLYAKTGWATRNVPSVGWYVGFVETS
+                     DDIWLFALNLVTRDAKDLPLRIQIAKDALKVKGALPSS"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00010"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA sequence:UniRef:UniRef90_Q5W3I4"
+                     /inference="similar to AA sequence:UniRef:UniRef100_Q5W3I4"
                      /gene="blaOXA"
      gene            1917..2768
                      /locus_tag="LOPNJJ_00015"
      CDS             1917..2768
                      /db_xref="SO:0001217"
-                     /db_xref="UniRef:UniRef50_A0A7G5X9I2"
+                     /db_xref="UniRef:UniRef50_C7T556"
                      /db_xref="UniRef:UniRef90_C7T556"
                      /product="Resolvase/invertase-type recombinase catalytic
                      domain-containing protein"
                      /locus_tag="LOPNJJ_00015"
+                     /protein_id="gnl|Bakta|LOPNJJ_00015"
                      /translation="MTSRNGYFPGKTKAKRSAIITPRTAQETQIAAMPRQSRAARQALA
                      KTPPLRVGGDGLVEGADRIMRTPTEHQAAGVAFKVARIYLRVSTDEQDLTRQAAIVEST
                      RAAGFYVAGIYREKASGARADRAELLRMIGDLQPGEVVVAEKIDRISRLPLPEAERLVA
@@ -92,7 +95,6 @@ FEATURES             Location/Qualifiers
                      QA"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00015"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:UniRef:UniRef90_C7T556"
      gene            complement(2770..3444)
@@ -104,8 +106,10 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef100_Q5W3I6"
                      /db_xref="UniRef:UniRef50_Q08KY5"
                      /db_xref="UniRef:UniRef90_Q08KY5"
-                     /product="Upf31-0"
+                     /product="site-specific DNA-methyltransferase
+                     (adenine-specific)"
                      /locus_tag="LOPNJJ_00020"
+                     /protein_id="gnl|Bakta|LOPNJJ_00020"
                      /translation="MRYPGGKGGAGVYQTIINNIPPHDTYIETHLGGGNILERKRPAAR
                      SVGIDVDPEVIEVWRQLDVPGLELHHGDAVAWLESHPFTGTEFVYVDPPYVMDSRRGGK
                      LYRHEYDDADHVRLLDVLAGLPCAVMVSGYSSTIYDSSPLASWRTIDFNAMTRGGIAIE
@@ -113,7 +117,6 @@ FEATURES             Location/Qualifiers
                      AE"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00020"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_011222091.1"
      gene            complement(3599..4030)
@@ -127,25 +130,27 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef90_A0A1L5QYQ6"
                      /product="OmpA-like domain-containing protein"
                      /locus_tag="LOPNJJ_00025"
+                     /protein_id="gnl|Bakta|LOPNJJ_00025"
                      /translation="MRKPVLLALSMAFLVSAQSALAAGDAGNFGTPIKSGVSVSFPDSS
                      ATFQPTPEALELLADARNAAIIYISGRTSTLRPSAADEALALRRALSARSYLVARGVSP
                      LKIMVNFASAADFVADNSTAEGRRENQRVDIEVVYIPTY"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00025"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_011222090.1"
      gene            complement(4046..4744)
                      /locus_tag="LOPNJJ_00030"
+                     /gene="trbP"
      CDS             complement(4046..4744)
                      /db_xref="RefSeq:WP_011222089.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00004539C8"
                      /db_xref="UniRef:UniRef100_Q5W3I8"
-                     /db_xref="UniRef:UniRef50_P71191"
-                     /db_xref="UniRef:UniRef90_P71191"
+                     /db_xref="UniRef:UniRef50_A0A899NDB1"
+                     /db_xref="UniRef:UniRef90_A0A899NDB1"
                      /product="TrbP"
                      /locus_tag="LOPNJJ_00030"
+                     /protein_id="gnl|Bakta|LOPNJJ_00030"
                      /translation="MKALRIPDGTVEALKWLALVLMTGDHVNKYLFNATLPVLFEAGRV
                      ALPLFVFVLAYNLARPGTLERGVYGRTMSRLAVFGALASVPFVALGGLYAGWWPLNVMF
                      TLLVVTATAYLVERGGKLHLAAAGVVFLVGGSSVEYWWPAVAFGLAVWSYTRRPSWSAA
@@ -153,27 +158,29 @@ FEATURES             Location/Qualifiers
                      PMSKAGYLFF"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00030"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_011222089.1"
+                     /gene="trbP"
      gene            complement(4744..5010)
                      /locus_tag="LOPNJJ_00035"
+                     /gene="trbO"
      CDS             complement(4744..5010)
                      /db_xref="RefSeq:WP_010890140.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00000BB532"
                      /db_xref="UniRef:UniRef100_A0A899NKC6"
                      /db_xref="UniRef:UniRef50_A6N8V9"
-                     /db_xref="UniRef:UniRef90_U3LPJ0"
-                     /product="TrbO:mating pair formation protein"
+                     /db_xref="UniRef:UniRef90_A0A899NKC6"
+                     /product="Conjugal transfer protein TrbO"
                      /locus_tag="LOPNJJ_00035"
+                     /protein_id="gnl|Bakta|LOPNJJ_00035"
                      /translation="MDKFHAFMMRYTLGVGRLLQAYCKWAEGQAKNQLDLLLLGLGPIF
                      ALGLLLWALPAWIGKPIAFVLSLPALYIIFLVLRAYAIRGGRR"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00035"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_010890140.1"
+                     /gene="trbO"
      gene            complement(5039..5674)
                      /locus_tag="LOPNJJ_00040"
      CDS             complement(5039..5674)
@@ -181,51 +188,55 @@ FEATURES             Location/Qualifiers
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00004539C7"
                      /db_xref="UniRef:UniRef100_A6N8W0"
-                     /db_xref="UniRef:UniRef50_A0A6N7D313"
-                     /db_xref="UniRef:UniRef90_A0A6N7D313"
+                     /db_xref="UniRef:UniRef50_A0A899NBQ9"
+                     /db_xref="UniRef:UniRef90_A0A899NBQ9"
                      /product="SLT domain-containing protein"
                      /locus_tag="LOPNJJ_00040"
+                     /protein_id="gnl|Bakta|LOPNJJ_00040"
                      /translation="MPFFADLPPQLQERVVCSISAAVKYEVPVNIVLAVAEKEGGKPGQ
                      WVRNSNGTHDVGPMQFNTAYLGDLARYGITANDVAAAGCYSFDLAAWRLRMHIRNDKGD
                      LWTKAANYHSRTPQYNAVYRADLMRKASKWADWLEARFVTLDVTKAGATPSTPSQPATM
                      AQRATPAARPAPAPQQAAPAAAAARSVSVAGYVPRTVSFNTSREGSAE"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00040"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_011222088.1"
      gene            complement(5688..6275)
                      /locus_tag="LOPNJJ_00045"
+                     /gene="trbM"
      CDS             complement(5688..6275)
                      /db_xref="RefSeq:WP_011222087.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00004539C6"
                      /db_xref="UniRef:UniRef100_Q5W3J1"
-                     /db_xref="UniRef:UniRef50_Q5NWL5"
-                     /db_xref="UniRef:UniRef90_C7T551"
-                     /product="TrbM"
+                     /db_xref="UniRef:UniRef50_B0ZB69"
+                     /db_xref="UniRef:UniRef90_A0A899NCR3"
+                     /product="Conjugal transfer protein TrbM"
                      /locus_tag="LOPNJJ_00045"
+                     /protein_id="gnl|Bakta|LOPNJJ_00045"
                      /translation="MKKKLFALAALVAALGSTASTASAQDVLTGDTRLACEAILCLSSG
                      TRPSECTPSLSRYFNITKRKLSDTIRARLNFLQLCPVASQTPEMQSLVSAISRGAGRCD
                      AQSLNSTLMMWTGGYDDGRTYISNQLPDYCGAYTGHAYTDFASSGTLPRYVGTPERGGY
                      WVEARDYDRALAEYNERIRREDEERRRQSWLN"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00045"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_011222087.1"
+                     /gene="trbM"
      gene            complement(6293..8023)
                      /locus_tag="LOPNJJ_00050"
                      /gene="trbL"
      CDS             complement(6293..8023)
+                     /db_xref="KEGG:K07344"
                      /db_xref="RefSeq:WP_011222086.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00004539C5"
                      /db_xref="UniRef:UniRef100_Q5W3J2"
                      /db_xref="UniRef:UniRef50_Q4AC44"
-                     /db_xref="UniRef:UniRef90_Q7X3E2"
-                     /product="Mating pair formation protein"
+                     /db_xref="UniRef:UniRef90_A0A899NDT8"
+                     /product="P-type conjugative transfer protein TrbL"
                      /locus_tag="LOPNJJ_00050"
+                     /protein_id="gnl|Bakta|LOPNJJ_00050"
                      /translation="MRMPANLKTLALPLFVWLAFFAVDAHAAIDNAGVFDSVLDRYQAA
                      ASGWAGVITTAATWLFWTLVVISMVWTFGMMALRKADIGEFFAEFVRFTIFTGFFWWAL
                      TNGPNFASSIYASLRQLAGNATGLGNALSPSGIVDVGFAIFDKVMDQSSVWSPVDSMAG
@@ -239,7 +250,6 @@ FEATURES             Location/Qualifiers
                      "
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00050"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_011222086.1"
                      /gene="trbL"
@@ -251,15 +261,15 @@ FEATURES             Location/Qualifiers
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00004539C4"
                      /db_xref="UniRef:UniRef100_Q5W3J3"
-                     /db_xref="UniRef:UniRef50_A0A0C4WX25"
+                     /db_xref="UniRef:UniRef50_Q936Y5"
                      /db_xref="UniRef:UniRef90_P71186"
-                     /product="TrbK"
+                     /product="entry exclusion lipoprotein TrbK"
                      /locus_tag="LOPNJJ_00055"
+                     /protein_id="gnl|Bakta|LOPNJJ_00055"
                      /translation="MKAIKALSLTSAALVAALVAGCDNKPATAPMPEVNDENCKPENIA
                      KIEDKGVQQAFSSLCLRRGGEFKPSPKREW"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00055"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_011222085.1"
                      /gene="trbK"
@@ -267,14 +277,16 @@ FEATURES             Location/Qualifiers
                      /locus_tag="LOPNJJ_00060"
                      /gene="trbJ"
      CDS             complement(8271..9035)
+                     /db_xref="KEGG:K20266"
                      /db_xref="RefSeq:WP_011222084.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00004539C3"
                      /db_xref="UniRef:UniRef100_Q5W3J4"
-                     /db_xref="UniRef:UniRef50_A0A0C4WL44"
-                     /db_xref="UniRef:UniRef90_A0A192XF51"
-                     /product="Conjugative transfer protein"
+                     /db_xref="UniRef:UniRef50_A0A1W6T9F5"
+                     /db_xref="UniRef:UniRef90_A0A899NAJ3"
+                     /product="P-type conjugative transfer protein TrbJ"
                      /locus_tag="LOPNJJ_00060"
+                     /protein_id="gnl|Bakta|LOPNJJ_00060"
                      /translation="MKQKFLAAKLALVVAVSSTLAVTPVQAGIPVIDGTNLSQNIMTAI
                      ESVAQTLKQIEQYSTQLQQYQNQLQNTMAPAAYIWDQAQSTINGLMNAVNTLDYYKTQL
                      GSLDSYIGKFQDVNYYKNSPCFTAAGCSDAERAALRNVAQLASESQKKANDALFKGLDR
@@ -282,21 +294,22 @@ FEATURES             Location/Qualifiers
                      KMQADADKEAQQAAAAAQLRQGSYRASPARTW"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00060"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_011222084.1"
                      /gene="trbJ"
      gene            complement(9056..10477)
                      /locus_tag="LOPNJJ_00065"
+                     /gene="trbI"
      CDS             complement(9056..10477)
                      /db_xref="RefSeq:WP_000138182.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00004539C2"
                      /db_xref="UniRef:UniRef100_G9FA09"
                      /db_xref="UniRef:UniRef50_A0A139SR26"
-                     /db_xref="UniRef:UniRef90_P71184"
+                     /db_xref="UniRef:UniRef90_A0A8D6MPZ5"
                      /product="TrbI"
                      /locus_tag="LOPNJJ_00065"
+                     /protein_id="gnl|Bakta|LOPNJJ_00065"
                      /translation="MTENADQMAPDASPGEVSKKAGVRRVNNMPMYILGGVLLSFVLVM
                      ALVAADRAAKQNAPADGPKEKAGNTSMFAKEIAGDKTGGLIEPASPLKVPDMPTGPASA
                      PLEIARPSNPDAPPAPPANPGNPGQPVNDDEAQRIRMAKMQMFGEAVKAKTTVRVDAPR
@@ -308,28 +321,30 @@ FEATURES             Location/Qualifiers
                      TKDMTFSKPYRSFDY"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00065"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_000138182.1"
+                     /gene="trbI"
      gene            complement(10482..10970)
                      /locus_tag="LOPNJJ_00070"
+                     /gene="trbH"
      CDS             complement(10482..10970)
                      /db_xref="RefSeq:WP_031943234.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI000292D0FC"
                      /db_xref="UniRef:UniRef100_Q5W3J6"
-                     /db_xref="UniRef:UniRef50_Q5NWM0"
-                     /db_xref="UniRef:UniRef90_P71183"
-                     /product="TrbH"
+                     /db_xref="UniRef:UniRef50_A0A899NFG8"
+                     /db_xref="UniRef:UniRef90_A0A899NFG8"
+                     /product="Conjugal transfer protein TrbH"
                      /locus_tag="LOPNJJ_00070"
+                     /protein_id="gnl|Bakta|LOPNJJ_00070"
                      /translation="MRKIVSLALCALALGLGGCATTSQYGNFVQSAALDQQKLATDAVQ
                      QLATLYAPARTRLELQQPTPDPFGQALVKSLRDKGYALLEYAPAGASAQAPASAASQPS
                      APATTAAPGGLPLRYVLDQAGDSNLYRLTLMVGNQSITRPYLAQNGTFAPAGYWVRKE"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00070"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_031943234.1"
+                     /gene="trbH"
      gene            complement(10973..11872)
                      /locus_tag="LOPNJJ_00075"
                      /gene="trbG"
@@ -340,8 +355,9 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef100_Q5W3J7"
                      /db_xref="UniRef:UniRef50_A0A1E7WBX0"
                      /db_xref="UniRef:UniRef90_P71182"
-                     /product="TrbG"
+                     /product="P-type conjugative transfer protein TrbG"
                      /locus_tag="LOPNJJ_00075"
+                     /protein_id="gnl|Bakta|LOPNJJ_00075"
                      /translation="MKKTLSALIVGAAVAVPSLALAAPGDDIADKYFNKTNPTLTAQER
                      AALAIAKRWEAGSATGIKPVAGAGGAIKFVYGAQQPSIVCAVLQVCDVALQPGEQVNSI
                      NLGDTARWTVEPAITGSGATEVQHLIIKPMDVGLETSLVVTTNRRSYHFRLRSHRTEYM
@@ -350,21 +366,22 @@ FEATURES             Location/Qualifiers
                      LIAGVGSSQDRVTISRRK"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00075"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_011222082.1"
                      /gene="trbG"
      gene            complement(11890..12672)
                      /locus_tag="LOPNJJ_00080"
+                     /gene="virB8"
      CDS             complement(11890..12672)
                      /db_xref="RefSeq:WP_011222081.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00004539BF"
                      /db_xref="UniRef:UniRef100_Q5W3J8"
-                     /db_xref="UniRef:UniRef50_A0A533QM95"
-                     /db_xref="UniRef:UniRef90_P71181"
-                     /product="TrbF"
+                     /db_xref="UniRef:UniRef50_A0A899NDA0"
+                     /db_xref="UniRef:UniRef90_A0A899NDA0"
+                     /product="VirB8 domain-containing protein"
                      /locus_tag="LOPNJJ_00080"
+                     /protein_id="gnl|Bakta|LOPNJJ_00080"
                      /translation="MSIADTLKGLIFKKPAHPAEPRDPRRSKEPLAGGRRAGEAENPYL
                      AARRTWNDHVGGVVSQRQTWQVIGILSLLIALAGVGGVIHIGSQSKFIPYVVEVDKLGQ
                      TVAAGPVQAAGKADPRVIHAAVADWMSCARMVSPDVALQRKCVFKAYSMLAPNDPATPK
@@ -372,9 +389,9 @@ FEATURES             Location/Qualifiers
                      RALVTTYIAEVTPNTTDEQLRNNPLSIYVRDYSWSRIQ"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00080"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_011222081.1"
+                     /gene="virB8"
      gene            complement(12669..15227)
                      /locus_tag="LOPNJJ_00085"
                      /gene="virB4"
@@ -385,10 +402,11 @@ FEATURES             Location/Qualifiers
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00004539BE"
                      /db_xref="UniRef:UniRef100_Q5W3J9"
-                     /db_xref="UniRef:UniRef50_A0A0Q4F0H4"
+                     /db_xref="UniRef:UniRef50_G9EPD8"
                      /db_xref="UniRef:UniRef90_Q4AC51"
-                     /product="Type IV secretion system protein virB4"
+                     /product="Type IV secretory pathway, VirB4 component"
                      /locus_tag="LOPNJJ_00085"
+                     /protein_id="gnl|Bakta|LOPNJJ_00085"
                      /translation="MIEAIAIAIAVLGAVLLLILFARIRAVDAELKLKKHRAKDAGLAD
                      LLNYAAVVDDGVIVGKNGSFMAAWLYKGDDNASSTEEQREMVSFRINQALAGLGNGWMV
                      HVDAVRRPAPNYSERGVSSFPDSVSFAIDEERRRLFEGLGAMFEGYFVLTVTWFPPVLA
@@ -406,7 +424,6 @@ FEATURES             Location/Qualifiers
                      ASDKESVATIKSLEAKFGHEWVHEWLAGRGLNLNDYLEAA"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00085"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_011222080.1"
                      /gene="virB4"
@@ -420,37 +437,39 @@ FEATURES             Location/Qualifiers
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00000BE23C"
                      /db_xref="UniRef:UniRef100_A0A899NCN3"
-                     /db_xref="UniRef:UniRef50_G4T4I6"
-                     /db_xref="UniRef:UniRef90_P71179"
-                     /product="TrbD"
+                     /db_xref="UniRef:UniRef50_C7RW42"
+                     /db_xref="UniRef:UniRef90_A0A899NCN3"
+                     /product="Type IV secretory pathway, TrbD component"
                      /locus_tag="LOPNJJ_00090"
+                     /protein_id="gnl|Bakta|LOPNJJ_00090"
                      /translation="MALRAIPIRRAGNRENLFMGGDRELVMFSGLLAGALIFSAQEVRA
                      TVFGIALWFGALFALRLMAKADPKLRHVYLRHRRYKPYYPARSTPFRDNTPSQGKQYK"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00090"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_001207961.1"
                      /gene="trbD"
      gene            complement(15539..16003)
                      /locus_tag="LOPNJJ_00095"
+                     /gene="trbC"
      CDS             complement(15539..16003)
                      /db_xref="RefSeq:WP_011222079.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00004539BD"
                      /db_xref="UniRef:UniRef100_Q5W3K1"
-                     /db_xref="UniRef:UniRef50_P71178"
-                     /db_xref="UniRef:UniRef90_P71178"
-                     /product="TrbC"
+                     /db_xref="UniRef:UniRef50_A0A899ND68"
+                     /db_xref="UniRef:UniRef90_Q6UP62"
+                     /product="conjugal transfer system pilin TrbC"
                      /locus_tag="LOPNJJ_00095"
+                     /protein_id="gnl|Bakta|LOPNJJ_00095"
                      /translation="MQASLSAFRFNRSAMFYLGLFALLAFMMLAPHPAFASEGTGGSLP
                      YESWLTNLRNSVTGPVAFALSIIGIVVAGGILIFGGELNGFFRTLIFIVLVMALLVGAQ
                      NMMSTFFGRGAEIAALTDGALHQVKVAALDVAGFPGEAVMRWAERGHIAG"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00095"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_011222079.1"
+                     /gene="trbC"
      gene            complement(16017..16982)
                      /locus_tag="LOPNJJ_00100"
                      /gene="trbB"
@@ -459,10 +478,11 @@ FEATURES             Location/Qualifiers
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00004539BC"
                      /db_xref="UniRef:UniRef100_Q5W3K2"
-                     /db_xref="UniRef:UniRef50_C7RW44"
-                     /db_xref="UniRef:UniRef90_Q5W3K2"
-                     /product="Conjugative transfer protein"
+                     /db_xref="UniRef:UniRef50_A0A8H9D9N6"
+                     /db_xref="UniRef:UniRef90_A0A7T2VWB6"
+                     /product="P-type conjugative transfer ATPase TrbB"
                      /locus_tag="LOPNJJ_00100"
+                     /protein_id="gnl|Bakta|LOPNJJ_00100"
                      /translation="MSDQDNEHDSIKTRARKKLERDMGPTLLEALHDPKTQEILLNADG
                      RLWLESQGKRLRCIGSLRRAQAQAIIETVAGYHGKEVKRDSPLLEGEFPIDGSRFAGQL
                      GPVVTGPTFAIRKKAIAVFTLAQYVERGIMTEAQKQAIERAAAAHKNILVIGGTSSGKT
@@ -471,42 +491,64 @@ FEATURES             Location/Qualifiers
                      IGAAVHVVVHIAKTPDGSRRVQEILEVSGYVNGQYITKSL"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00100"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_011222078.1"
                      /gene="trbB"
-     gene            17766..18107
+     gene            complement(17290..17652)
                      /locus_tag="LOPNJJ_00105"
+                     /gene="trfB"
+     CDS             complement(17290..17652)
+                     /db_xref="RefSeq:WP_011222077.1"
+                     /db_xref="SO:0001217"
+                     /db_xref="UniParc:UPI00004539BB"
+                     /db_xref="UniRef:UniRef100_Q5W3K3"
+                     /db_xref="UniRef:UniRef50_C7RW45"
+                     /db_xref="UniRef:UniRef90_A0A899NCE4"
+                     /product="TrfB transcriptional repressor protein"
+                     /locus_tag="LOPNJJ_00105"
+                     /protein_id="gnl|Bakta|LOPNJJ_00105"
+                     /translation="MYNYIFFTNVLRLLDERHMTKKELSDRSGVSISFLSDLTTGKANP
+                     SLKVMEDIAQALETPLPLLLESTDLDKEALDALAGGKAPRSLPPGFERVAAVLPEHQAF
+                     IVKKWGETARKKLRGS"
+                     /codon_start=1
+                     /transl_table=11
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /inference="similar to AA sequence:RefSeq:WP_011222077.1"
+                     /gene="trfB"
+     gene            17766..18107
+                     /locus_tag="LOPNJJ_00110"
                      /gene="ssb"
      CDS             17766..18107
                      /db_xref="RefSeq:WP_000019167.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00000BC516"
-                     /db_xref="UniRef:UniRef100_Q7BHY8"
-                     /db_xref="UniRef:UniRef50_A0A2I6TCS3"
-                     /db_xref="UniRef:UniRef90_Q7BHY8"
+                     /db_xref="UniRef:UniRef100_Q6UP65"
+                     /db_xref="UniRef:UniRef50_A0A899NHR2"
+                     /db_xref="UniRef:UniRef90_A0A899NHR2"
                      /product="Single-stranded DNA-binding protein"
-                     /locus_tag="LOPNJJ_00105"
+                     /locus_tag="LOPNJJ_00110"
+                     /protein_id="gnl|Bakta|LOPNJJ_00110"
                      /translation="MSHNLFQFIGNLTRDTDVRHSENSARAVFDLAVNRVWRNAAGAKQ
                      EQTDFFRIKSFGGLAENAGKYLGKGSKVFVQGRIEPTKYEKDGKTEYGFDFIAEEIEYL
                      DTKAPGGGQ"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00105"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_000019167.1"
                      /gene="ssb"
      gene            18155..19375
-                     /locus_tag="LOPNJJ_00110"
+                     /locus_tag="LOPNJJ_00115"
+                     /gene="trfA"
      CDS             18155..19375
                      /db_xref="RefSeq:WP_011222076.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00004539BA"
                      /db_xref="UniRef:UniRef100_Q5W3K5"
                      /db_xref="UniRef:UniRef50_Q8RSK0"
-                     /db_xref="UniRef:UniRef90_A0A6C0L611"
-                     /product="TrfA"
-                     /locus_tag="LOPNJJ_00110"
+                     /db_xref="UniRef:UniRef90_A0A899NBG1"
+                     /product="Plasmid replication initiator protein TrfA"
+                     /locus_tag="LOPNJJ_00115"
+                     /protein_id="gnl|Bakta|LOPNJJ_00115"
                      /translation="MPNEFNEQEYRRKLIEGGLSEADATDLAARTAAARRDSGSAGGAF
                      RPAGSLFELPATAGDNKAALPPKPPTPASAAVERSERMAQESAELARTMGLPPEPRTAV
                      NKMAEQIGALAQDKRSSAMATKKRTAGGELAEKVSEAKQTALLKHTKQQIKDMQLSLFD
@@ -517,35 +559,46 @@ FEATURES             Location/Qualifiers
                      DLVHCKR"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00110"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_011222076.1"
+                     /gene="trfA"
+     gene            complement(19376..19570)
+                     /locus_tag="LOPNJJ_00120"
+     CDS             complement(19376..19570)
+                     /product="hypothetical protein"
+                     /locus_tag="LOPNJJ_00120"
+                     /protein_id="gnl|Bakta|LOPNJJ_00120"
+                     /translation="MGPSVHRWMRRWSTVARTWPASPEVTMLQLDVRELVRGTPSPEVA
+                     MLEKKSRLDLGRLQGRAGR"
+                     /codon_start=1
+                     /transl_table=11
+                     /inference="ab initio prediction:Prodigal:2.6"
      rep_origin      19614..20866
                      /note="origin of replication"
                      /inference="similar to DNA sequence"
      gene            20867..21295
-                     /locus_tag="LOPNJJ_00115"
+                     /locus_tag="LOPNJJ_00125"
                      /gene="klcA"
      CDS             20867..21295
                      /db_xref="RefSeq:WP_001095942.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI0000000D98"
                      /db_xref="UniRef:UniRef100_P52602"
-                     /db_xref="UniRef:UniRef50_P52603"
+                     /db_xref="UniRef:UniRef50_P52602"
                      /db_xref="UniRef:UniRef90_P52602"
                      /product="Antirestriction protein KlcA"
-                     /locus_tag="LOPNJJ_00115"
+                     /locus_tag="LOPNJJ_00125"
+                     /protein_id="gnl|Bakta|LOPNJJ_00125"
                      /translation="MNTQDQPVTASLVAEAQRLDFLPTYFGPRLMMRGEALVYAWLRRL
                      CERYNGAYWHYYTLSDGGFYLAPDLAERLEIEVDGNGFRGELSADAAGIVATLFALGQL
                      AAEIAGTDAADALIDRYHFLRGFAAGHPEAAAIYRAID"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00115"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_001095942.1"
                      /gene="klcA"
      gene            21347..22555
-                     /locus_tag="LOPNJJ_00120"
+                     /locus_tag="LOPNJJ_00130"
                      /gene="klcB"
      CDS             21347..22555
                      /db_xref="GO:0003677"
@@ -556,7 +609,8 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef50_P52604"
                      /db_xref="UniRef:UniRef90_P52604"
                      /product="Protein KlcB"
-                     /locus_tag="LOPNJJ_00120"
+                     /locus_tag="LOPNJJ_00130"
+                     /protein_id="gnl|Bakta|LOPNJJ_00130"
                      /translation="MAKRTKQPAQAGQDWSAPAAELLAELPADRDGLLAAAVAAVVEID
                      AAVMRGDGAAAELAGERYEAIIWKLNGGTNFGCMADDEAAGRVIERHCAAVPGEVPLWG
                      QRGQFLAVTGDMRALVEYEAGYGGPLNAHFQFHAVDLDGPFISATGYRSHFDTARGCMT
@@ -567,14 +621,15 @@ FEATURES             Location/Qualifiers
                      LIT"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00120"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_011222112.1"
                      /gene="klcB"
      gene            22572..22829
-                     /locus_tag="LOPNJJ_00125"
+                     /locus_tag="LOPNJJ_00135"
                      /gene="korC"
      CDS             22572..22829
+                     /db_xref="BlastRules:WP_010890115"
+                     /db_xref="BlastRules:WP_011205775"
                      /db_xref="GO:0003677"
                      /db_xref="RefSeq:WP_011222111.1"
                      /db_xref="SO:0001217"
@@ -583,37 +638,37 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef50_Q52331"
                      /db_xref="UniRef:UniRef90_Q52277"
                      /product="transcriptional repressor KorC"
-                     /locus_tag="LOPNJJ_00125"
+                     /locus_tag="LOPNJJ_00135"
+                     /protein_id="gnl|Bakta|LOPNJJ_00135"
                      /translation="MTNDTNIRLECLKPAERWAQPTGEEVREVLRLAGLTGGKAAKVLG
                      LGPKGDRTIRRWVGEDTPIPYAAWALLCDYAGLGLIWKED"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00125"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_011222111.1"
                      /gene="korC"
      gene            22987..23223
-                     /locus_tag="LOPNJJ_00130"
+                     /locus_tag="LOPNJJ_00140"
                      /gene="kleA"
      CDS             22987..23223
                      /db_xref="RefSeq:WP_011222110.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00004539DE"
                      /db_xref="UniRef:UniRef100_Q5W3F0"
-                     /db_xref="UniRef:UniRef50_P13964"
+                     /db_xref="UniRef:UniRef50_Q52278"
                      /db_xref="UniRef:UniRef90_Q52278"
                      /product="Protein KleA"
-                     /locus_tag="LOPNJJ_00130"
+                     /locus_tag="LOPNJJ_00140"
+                     /protein_id="gnl|Bakta|LOPNJJ_00140"
                      /translation="MSKNKIMPWVDALPNVQATDFQARRDQIEATMAEAAELVKQAEEL
                      RGKAYFAALSLEASAKGEWSSQVVEQAKRSVGW"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00130"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_011222110.1"
                      /gene="kleA"
      gene            23282..23497
-                     /locus_tag="LOPNJJ_00135"
+                     /locus_tag="LOPNJJ_00145"
                      /gene="kleB"
      CDS             23282..23497
                      /db_xref="GO:0003677"
@@ -624,21 +679,20 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef50_Q52279"
                      /db_xref="UniRef:UniRef90_Q52279"
                      /product="Protein KleB"
-                     /locus_tag="LOPNJJ_00135"
+                     /locus_tag="LOPNJJ_00145"
+                     /protein_id="gnl|Bakta|LOPNJJ_00145"
                      /translation="MSKGKIEIIETCCRRCGKSIRTLSHSIIGADDAREKFGSICGGCI
                      TPEEDNELTEMLLAAAVRRMSGATLQ"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00135"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_011222109.1"
                      /gene="kleB"
      gene            23642..23971
-                     /locus_tag="LOPNJJ_00140"
+                     /locus_tag="LOPNJJ_00150"
                      /gene="kleE"
      CDS             23642..23971
                      /db_xref="GO:0005886"
-                     /db_xref="GO:0016021"
                      /db_xref="RefSeq:WP_087866456.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI000B40C50E"
@@ -646,18 +700,18 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef50_Q52280"
                      /db_xref="UniRef:UniRef90_Q52280"
                      /product="Protein KleE"
-                     /locus_tag="LOPNJJ_00140"
+                     /locus_tag="LOPNJJ_00150"
+                     /protein_id="gnl|Bakta|LOPNJJ_00150"
                      /translation="MSNIVKFPRASKPPAPEPVQSAAPAAAPAASKAEGRGLVAGLVKF
                      VWVATVLVWPVLKWVLAIITFFQFVRMLYHWNTPGVYAGWSFLAYFAALTAITYFVSIY
                      KPKGL"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00140"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_087866456.1"
                      /gene="kleE"
      gene            23973..24503
-                     /locus_tag="LOPNJJ_00145"
+                     /locus_tag="LOPNJJ_00155"
                      /gene="kleF"
      CDS             23973..24503
                      /db_xref="RefSeq:WP_011222107.1"
@@ -667,19 +721,19 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef50_Q52281"
                      /db_xref="UniRef:UniRef90_Q52281"
                      /product="Protein KleF"
-                     /locus_tag="LOPNJJ_00145"
+                     /locus_tag="LOPNJJ_00155"
+                     /protein_id="gnl|Bakta|LOPNJJ_00155"
                      /translation="MAKQTLPYPPGFVEPTTGRVAVLVREYADSDLNGDAPAYWYSAQS
                      EEWGLDPWRLVEGVDPHVGGGSFDVCFASGGTRTVGPLMTFFLSAAHAAQLTDAKGEEL
                      ALRRATLAVIAAGLGLPVEALRIEAKVEGRPAVFYEQDGATLCACAVDSDHWRQARATA
                      ATAAAIDKARTNF"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00145"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_011222107.1"
                      /gene="kleF"
      gene            24608..24919
-                     /locus_tag="LOPNJJ_00150"
+                     /locus_tag="LOPNJJ_00160"
                      /gene="trfB"
      CDS             24608..24919
                      /db_xref="GO:0003677"
@@ -689,21 +743,22 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef50_Q57423"
                      /db_xref="UniRef:UniRef90_Q57423"
                      /product="TrfB transcriptional repressor protein"
-                     /locus_tag="LOPNJJ_00150"
+                     /locus_tag="LOPNJJ_00160"
+                     /protein_id="gnl|Bakta|LOPNJJ_00160"
                      /translation="MQSMKKRLTEAQFQTAIKGLEIGQQTIDIARGVLVDGRPQAEFVT
                      SLGLTKGAVSQAVSRVWAAAGGQLPEGFERVTAVLPEHQAFIVKKWEADAKRKQEPKS"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00150"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA
                      sequence:UniRef:UniRef100_A0A899NEE9"
                      /gene="trfB"
      gene            24916..25680
-                     /locus_tag="LOPNJJ_00155"
+                     /locus_tag="LOPNJJ_00165"
                      /gene="incC"
      CDS             24916..25680
                      /db_xref="GO:0006260"
+                     /db_xref="KEGG:K03496"
                      /db_xref="RefSeq:WP_011222106.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00004539D9"
@@ -711,7 +766,8 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef50_P07673"
                      /db_xref="UniRef:UniRef90_Q52312"
                      /product="Protein IncC"
-                     /locus_tag="LOPNJJ_00155"
+                     /locus_tag="LOPNJJ_00165"
+                     /protein_id="gnl|Bakta|LOPNJJ_00165"
                      /translation="MKTLVTAIQKGGQGKTFATCHLAFDFLERGLRVAVIDLDTQGNAS
                      FTLSAYQSGYLASQLFTGNTDDLRYWFGKREGESLALIAADANLANLDKMELSQAAAAL
                      RASVAALGEFFDVCLIDTAPSLGVAMTAAVLTADYMLSPIEMEAYSLQGMKKMVAVISN
@@ -719,12 +775,11 @@ FEATURES             Location/Qualifiers
                      PVWKIKKTAARKATQEVRALADYVFTKMEIAQ"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00155"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_011222106.1"
                      /gene="incC"
      gene            25677..26726
-                     /locus_tag="LOPNJJ_00160"
+                     /locus_tag="LOPNJJ_00170"
                      /gene="korB"
      CDS             25677..26726
                      /db_xref="GO:0003677"
@@ -732,11 +787,12 @@ FEATURES             Location/Qualifiers
                      /db_xref="RefSeq:WP_011114060.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00001A96A4"
-                     /db_xref="UniRef:UniRef100_A0A192XEK3"
+                     /db_xref="UniRef:UniRef100_Q6UPB6"
                      /db_xref="UniRef:UniRef50_P07674"
                      /db_xref="UniRef:UniRef90_Q52313"
                      /product="Transcriptional repressor protein KorB"
-                     /locus_tag="LOPNJJ_00160"
+                     /locus_tag="LOPNJJ_00170"
+                     /protein_id="gnl|Bakta|LOPNJJ_00170"
                      /translation="MSAKTNAKKKEQDKPQSSGLGLDGLGDLAGLLNEQPAANAGGAGP
                      QELPLDLIDEDPHQPRTADNPGFSPESIAEIGETIKARGVKSPISVRENPDAPGRYLIN
                      HGARRYRGSKWAHKTTIPAFIDNDYNEADQVIENLQRNELTAREIADFIGRELAKGKKK
@@ -746,21 +802,21 @@ FEATURES             Location/Qualifiers
                      VQLVALLEG"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00160"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_011114060.1"
                      /gene="korB"
      gene            26905..27936
-                     /locus_tag="LOPNJJ_00165"
+                     /locus_tag="LOPNJJ_00175"
      CDS             26905..27936
                      /db_xref="RefSeq:WP_011222104.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00004539D7"
                      /db_xref="UniRef:UniRef100_Q5W3F8"
-                     /db_xref="UniRef:UniRef50_A0A1G7F944"
-                     /db_xref="UniRef:UniRef90_G9FA43"
-                     /product="KfrA"
-                     /locus_tag="LOPNJJ_00165"
+                     /db_xref="UniRef:UniRef50_Q8RSN5"
+                     /db_xref="UniRef:UniRef90_A0A8D6MH34"
+                     /product="KfrA-N domain-containing protein"
+                     /locus_tag="LOPNJJ_00175"
+                     /protein_id="gnl|Bakta|LOPNJJ_00175"
                      /translation="MAISKEQIFAVADELDAAGQNPTLANVRKQLGSGSFTTISEAMNE
                      WRARKASQAAPIREPAPQAITDKLAELGGDLWAVALEMANNRLAAEREALEAVRQETEA
                      ARQEAAELADQLTGELDEAKARVAALEAVEAAAKGEADELRGKLAATSERAATAEARAG
@@ -770,11 +826,11 @@ FEATURES             Location/Qualifiers
                      KKT"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00165"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_011222104.1"
      gene            28108..28455
-                     /locus_tag="LOPNJJ_00170"
+                     /locus_tag="LOPNJJ_00180"
+                     /gene="kfrB"
      CDS             28108..28455
                      /db_xref="RefSeq:WP_000664557.1"
                      /db_xref="SO:0001217"
@@ -783,40 +839,42 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef50_A0A4R6DUM4"
                      /db_xref="UniRef:UniRef90_A0A318SDR2"
                      /product="KfrB domain-containing protein"
-                     /locus_tag="LOPNJJ_00170"
+                     /locus_tag="LOPNJJ_00180"
+                     /protein_id="gnl|Bakta|LOPNJJ_00180"
                      /translation="MKERLLVMNGQRIVQAEKDGAWTNQKVDKAGALKPGIYNLYTAQA
                      ADKKQTHAGVIVHADATNVYQQIGKNFVMHARSDFDKVPEIGSAKSISYNAQGKAAVAA
                      EAPKLTRGRSM"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00170"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_000664557.1"
+                     /gene="kfrB"
      gene            28484..29137
-                     /locus_tag="LOPNJJ_00175"
+                     /locus_tag="LOPNJJ_00185"
+                     /gene="traN"
      CDS             28484..29137
                      /db_xref="RefSeq:WP_087864990.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI000B420FDF"
                      /db_xref="UniRef:UniRef100_UPI000B420FDF"
-                     /db_xref="UniRef:UniRef50_G9FAN2"
-                     /db_xref="UniRef:UniRef90_A0A192XFZ7"
-                     /product="DNA transfer protein"
-                     /locus_tag="LOPNJJ_00175"
+                     /db_xref="UniRef:UniRef50_A0A0K6IC25"
+                     /db_xref="UniRef:UniRef90_A0A0K6IC25"
+                     /product="TraN"
+                     /locus_tag="LOPNJJ_00185"
+                     /protein_id="gnl|Bakta|LOPNJJ_00185"
                      /translation="MKRLTIPGSGTESRATKPARVSAPAILGGAAFGASREDTGADLLE
                      AAQAAEIEQQATLEAAPVEQSYPETLALYVQAKHDQVEHIEDRLENLIDRQQARLQQTQ
                      ASAPGRLSLPGSKRAWQNQQAQQQARLQTLHARLEAVREIKEGMGLHSPKIEELATRKM
                      RAENPELASDWDAMREAARRHELLMRKQEQERKQSQAQERPGRSQSLGLSARPA"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00175"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_087864990.1"
+                     /gene="traN"
      gene            complement(29340..29780)
-                     /locus_tag="LOPNJJ_00180"
+                     /locus_tag="LOPNJJ_00190"
                      /gene="traM"
      CDS             complement(29340..29780)
-                     /db_xref="GO:0000746"
                      /db_xref="GO:0009372"
                      /db_xref="RefSeq:WP_000718516.1"
                      /db_xref="SO:0001217"
@@ -825,29 +883,29 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef50_Q00186"
                      /db_xref="UniRef:UniRef90_P71198"
                      /product="Protein TraM"
-                     /locus_tag="LOPNJJ_00180"
+                     /locus_tag="LOPNJJ_00190"
+                     /protein_id="gnl|Bakta|LOPNJJ_00190"
                      /translation="MAADDKIEELIREIAAKHGIAVGRDDPILILQTINMKLMQDSASA
                      QQEILDAFKSELESIAHRWGDDAKGKAERTLNAALAASKDAMTRGMQEGAKAAAEAVRR
                      EVEAVTAQLVAPIREARRVAMMNMVAAGMAVVAAGLALWASL"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00180"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_000718516.1"
                      /gene="traM"
      gene            complement(29780..30505)
-                     /locus_tag="LOPNJJ_00185"
+                     /locus_tag="LOPNJJ_00195"
                      /gene="traL"
      CDS             complement(29780..30505)
-                     /db_xref="GO:0000746"
                      /db_xref="RefSeq:WP_001062597.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00000BB688"
                      /db_xref="UniRef:UniRef100_A0A192XFY8"
-                     /db_xref="UniRef:UniRef50_Q00188"
+                     /db_xref="UniRef:UniRef50_Q00187"
                      /db_xref="UniRef:UniRef90_Q00187"
                      /product="Protein TraL"
-                     /locus_tag="LOPNJJ_00185"
+                     /locus_tag="LOPNJJ_00195"
+                     /protein_id="gnl|Bakta|LOPNJJ_00195"
                      /translation="MAKIHMVLQGKGGVGKSMIAATIAQYKAGKGQKPLCIDTDPVNAT
                      FEGYKALNVRRLNIMDGDEINTRNFDALVEMIASAEGDVIIDNGASSFVPLSHYLISNQ
                      VPALLQDMGHELVVHTVVTGGQALVDTVSGFAQLASQFPAECLFVVWLNPYWGPIEHEG
@@ -855,12 +913,11 @@ FEATURES             Location/Qualifiers
                      RLKIVKTQLFAQLENAAVL"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00185"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_001062597.1"
                      /gene="traL"
      gene            complement(30505..30903)
-                     /locus_tag="LOPNJJ_00190"
+                     /locus_tag="LOPNJJ_00200"
                      /gene="traK"
      CDS             complement(30505..30903)
                      /db_xref="RefSeq:WP_001127128.1"
@@ -870,13 +927,13 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef50_P17910"
                      /db_xref="UniRef:UniRef90_P17908"
                      /product="Protein TraK"
-                     /locus_tag="LOPNJJ_00190"
+                     /locus_tag="LOPNJJ_00200"
+                     /protein_id="gnl|Bakta|LOPNJJ_00200"
                      /translation="MPKTYPEELAEWVKGREAKKPRQDKHVVAFLAVKSDVQAALDAGY
                      AMKTIWEHMKETGRLRCRYETFTQHVKRYIKAAPVASPPPPATPPDSQPKGAKPEPKAA
                      PPASESKSEPPKIGGFTFDATPKKEDLL"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00190"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_001127128.1"
                      /gene="traK"
@@ -890,41 +947,40 @@ FEATURES             Location/Qualifiers
                      /inference="profile:Rfam:RF01760"
                      /regulatory_class="other"
      gene            31278..31652
-                     /locus_tag="LOPNJJ_00195"
+                     /locus_tag="LOPNJJ_00205"
                      /gene="traJ"
      CDS             31278..31652
-                     /db_xref="GO:0000746"
                      /db_xref="GO:0005737"
                      /db_xref="RefSeq:WP_011222102.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00004539D5"
                      /db_xref="UniRef:UniRef100_Q5W3G4"
-                     /db_xref="UniRef:UniRef50_P17907"
+                     /db_xref="UniRef:UniRef50_P17909"
                      /db_xref="UniRef:UniRef90_P17907"
-                     /product="Protein TraJ"
-                     /locus_tag="LOPNJJ_00195"
+                     /product="conjugal transfer transcriptional regulator TraJ"
+                     /locus_tag="LOPNJJ_00205"
+                     /protein_id="gnl|Bakta|LOPNJJ_00205"
                      /translation="MENDEKEHGRRRRQHLRVPVFPEEKDEIEANAKRAGVSVARYLRD
                      VGQGYQIKGVMDYQHVRELVRVNGDLGRLGGLLKLWLTDDLRTLQFGEATILALLGRIE
                      ATQDEMSRIMKAVVQPRAEP"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00195"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_011222102.1"
                      /gene="traJ"
      gene            31687..33927
-                     /locus_tag="LOPNJJ_00200"
+                     /locus_tag="LOPNJJ_00210"
                      /gene="traI"
      CDS             31687..33927
-                     /db_xref="GO:0000746"
                      /db_xref="RefSeq:WP_011222100.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00004539D3"
                      /db_xref="UniRef:UniRef100_Q5W3G6"
-                     /db_xref="UniRef:UniRef50_Q00191"
+                     /db_xref="UniRef:UniRef50_Q00192"
                      /db_xref="UniRef:UniRef90_Q00192"
                      /product="Protein TraI"
-                     /locus_tag="LOPNJJ_00200"
+                     /locus_tag="LOPNJJ_00210"
+                     /protein_id="gnl|Bakta|LOPNJJ_00210"
                      /translation="MIAKHVPMRSLGKSDFAGLANYITDAQSKDHRLGHVQATNCEAGS
                      IQDAITEVLATQHTNTRAKGDKTYHLIVSFRAGEQPSADTLRAIEERICAGLGYGEHQR
                      ISAVHNDTDNLHIHIAINKIHPTRHTMHEPYYPHRALAELCTALERDYGLERDNHEPRK
@@ -940,28 +996,28 @@ FEATURES             Location/Qualifiers
                      EGQPLALLKRGEEVMVMPIDQATARRLTRIAVGDAVSITAKGSIKTSKGRSR"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00200"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_011222100.1"
                      /gene="traI"
      gene            33924..35837
-                     /locus_tag="LOPNJJ_00205"
+                     /locus_tag="LOPNJJ_00215"
                      /gene="traG"
      CDS             33924..35837
                      /db_xref="COG:COG3505"
                      /db_xref="COG:U"
-                     /db_xref="GO:0000746"
+                     /db_xref="EC:7.4.2.8"
                      /db_xref="GO:0003677"
                      /db_xref="GO:0005886"
-                     /db_xref="GO:0016021"
+                     /db_xref="KEGG:K03205"
                      /db_xref="RefSeq:WP_011222099.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00004539D2"
                      /db_xref="UniRef:UniRef100_Q5W3G7"
-                     /db_xref="UniRef:UniRef50_Q00185"
+                     /db_xref="UniRef:UniRef50_Q00184"
                      /db_xref="UniRef:UniRef90_Q00184"
                      /product="Conjugal transfer protein TraG"
-                     /locus_tag="LOPNJJ_00205"
+                     /locus_tag="LOPNJJ_00215"
+                     /protein_id="gnl|Bakta|LOPNJJ_00215"
                      /translation="MKIKMNNAVGPQVRTAKPKPSKLLPVLGAASMVGGLQAATQFFAH
                      TFAYHATLGPNVGHVYAPWSILHWTYKWYSQYPDEIMKAGSMGMLVSTVGLLGVAVAKV
                      VTSNSSKANEYLHGSARWAEKKDIQAAGLLPRERNVLEIVTGKAAPTATGVYVGGWQDK
@@ -976,15 +1032,13 @@ FEATURES             Location/Qualifiers
                      TI"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00205"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_011222099.1"
                      /gene="traG"
      gene            35834..36370
-                     /locus_tag="LOPNJJ_00210"
+                     /locus_tag="LOPNJJ_00220"
                      /gene="traF"
      CDS             35834..36370
-                     /db_xref="GO:0000746"
                      /db_xref="GO:0004252"
                      /db_xref="GO:0006465"
                      /db_xref="GO:0042597"
@@ -994,32 +1048,35 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef100_Q5W3G8"
                      /db_xref="UniRef:UniRef50_Q03450"
                      /db_xref="UniRef:UniRef90_Q05119"
-                     /product="Plasmid transfer protein TraF"
-                     /locus_tag="LOPNJJ_00210"
+                     /product="conjugative transfer signal peptidase TraF"
+                     /locus_tag="LOPNJJ_00220"
+                     /protein_id="gnl|Bakta|LOPNJJ_00220"
                      /translation="MSRILKRIAAGVAIAGVAALLLAAGGYAAGARVNTTKSIPVGLYW
                      TSSAPVEKGAYVLFCPPQLGVFDDAKERGYIGAGFCEGGYGYMMKRVLAAKDDAVAVAD
                      DGVRVNGELLPLSAPIKADKAGRPLPRYQSNSYTLGNSEVLLMSDVSATSFDGRYFGPI
                      NRSQIKTVIRPVITW"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00210"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_011222098.1"
                      /gene="traF"
      gene            36383..38446
-                     /locus_tag="LOPNJJ_00215"
+                     /locus_tag="LOPNJJ_00225"
                      /gene="topB"
      CDS             36383..38446
                      /db_xref="COG:COG0550"
                      /db_xref="COG:L"
+                     /db_xref="EC:5.6.2.1"
+                     /db_xref="KEGG:K03169"
                      /db_xref="RefSeq:WP_011222097.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00004539D0"
                      /db_xref="UniRef:UniRef100_Q5W3G9"
-                     /db_xref="UniRef:UniRef50_A0A139SPH4"
+                     /db_xref="UniRef:UniRef50_A0A899NHM9"
                      /db_xref="UniRef:UniRef90_G9C9X7"
-                     /product="DNA topoisomerase"
-                     /locus_tag="LOPNJJ_00215"
+                     /product="DNA topoisomerase IA"
+                     /locus_tag="LOPNJJ_00225"
+                     /protein_id="gnl|Bakta|LOPNJJ_00225"
                      /translation="MRLFIAEKPSVAKAIAGELGATGKGDGFIECGTDKVTWCFGHMLE
                      QADPDEYTPDDVPRGQSGKKVWRVDELPIIPESWILKPKDDAKKQLAVIGKLLKEAKEI
                      VNAGDPDREGQLLVDEVLEHFRNSKPVRRFWVSAQDSVSVKRGLAALKENTTYAGWADA
@@ -1034,12 +1091,11 @@ FEATURES             Location/Qualifiers
                      CMACGSGLSRRPSKKKGQFWWGCSNFPTCKQTYPDLKGRPDYSKGRNGPASE"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00215"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_011222097.1"
                      /gene="topB"
      gene            38468..38857
-                     /locus_tag="LOPNJJ_00220"
+                     /locus_tag="LOPNJJ_00230"
                      /gene="traD"
      CDS             38468..38857
                      /db_xref="RefSeq:WP_006122510.1"
@@ -1049,23 +1105,25 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef50_P27192"
                      /db_xref="UniRef:UniRef90_P27192"
                      /product="Protein TraD"
-                     /locus_tag="LOPNJJ_00220"
+                     /locus_tag="LOPNJJ_00230"
+                     /protein_id="gnl|Bakta|LOPNJJ_00230"
                      /translation="MNEQTTTNTAAHDEPLAVLPPVDDDAAGREAVREKMADALTPGFQ
                      VEFDPDEAERVGAFVEDALSEQDAAASGDDLVEVDGALEPAFLDDEGPSADIPPFITTT
                      NARELYDLRPGETVAQAAARKASEG"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00220"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_006122510.1"
                      /gene="traD"
      gene            38861..43207
-                     /locus_tag="LOPNJJ_00225"
+                     /locus_tag="LOPNJJ_00235"
                      /gene="traC"
      CDS             38861..43207
                      /db_xref="EC:2.7.7.-"
-                     /db_xref="GO:0003899"
+                     /db_xref="GO:0000428"
+                     /db_xref="GO:0003697"
                      /db_xref="GO:0006260"
+                     /db_xref="GO:0016779"
                      /db_xref="RefSeq:WP_011222096.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00004539CF"
@@ -1073,7 +1131,8 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef50_P27190"
                      /db_xref="UniRef:UniRef90_P27190"
                      /product="DNA primase TraC"
-                     /locus_tag="LOPNJJ_00225"
+                     /locus_tag="LOPNJJ_00235"
+                     /protein_id="gnl|Bakta|LOPNJJ_00235"
                      /translation="MPITKAEAQGVTRAFVRDYPGALELAYKFREDAAELYGPRAAEVP
                      ADMKGGYVPKETMHAGRAYRGRVDVPLQNVESAGDLLMTLRHEVLGHYGANTFAPGEKR
                      ALLDGLAAARNEPTLKPLWDDVNRRYAGQSLDVRAEEVFALHCEGIEPSQHQVADQVQQ
@@ -1101,12 +1160,11 @@ FEATURES             Location/Qualifiers
                      IEGVKRQIGAAISQVQRDEQQHQEQKHVEKKQQQIEQRPRRAARIG"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00225"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_011222096.1"
                      /gene="traC"
      gene            complement(43590..45167)
-                     /locus_tag="LOPNJJ_00230"
+                     /locus_tag="LOPNJJ_00240"
      CDS             complement(43590..45167)
                      /db_xref="RefSeq:WP_001323889.1"
                      /db_xref="SO:0001217"
@@ -1115,7 +1173,8 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef50_Q56321"
                      /db_xref="UniRef:UniRef90_Q56321"
                      /product="Aerotaxis receptor"
-                     /locus_tag="LOPNJJ_00230"
+                     /locus_tag="LOPNJJ_00240"
+                     /protein_id="gnl|Bakta|LOPNJJ_00240"
                      /translation="MRQNLPVTGRNLELPKDANILSTTSPQSHITYVNPDFIKISGFTE
                      EELLGQPHNIVRHPDMPPAAFEHMWSTLKSGRSWMGLVKNRCKNGDHYWVSAYVTPIAK
                      NGSIVEYQSVRTKPEPEQVLAAEKLYAQLRSGKAARPKLAASFSVKILLLIWGSIISSA
@@ -1128,36 +1187,32 @@ FEATURES             Location/Qualifiers
                      KQFWEKRG"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00230"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_001323889.1"
      gene            45477..46037
-                     /locus_tag="LOPNJJ_00235"
+                     /locus_tag="LOPNJJ_00245"
                      /gene="tnpR"
      CDS             45477..46037
-                     /db_xref="GO:0000150"
-                     /db_xref="GO:0003677"
-                     /db_xref="GO:0015074"
                      /db_xref="RefSeq:WP_033958617.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI0001CBD32F"
-                     /db_xref="UniRef:UniRef100_A0A7R7V5S1"
-                     /db_xref="UniRef:UniRef50_P06691"
-                     /db_xref="UniRef:UniRef90_P06691"
-                     /product="Transposons Tn4653 resolvase"
-                     /locus_tag="LOPNJJ_00235"
+                     /db_xref="UniRef:UniRef100_A0A6L5I1A0"
+                     /db_xref="UniRef:UniRef50_P04130"
+                     /db_xref="UniRef:UniRef90_F8T8V3"
+                     /product="TnpR"
+                     /locus_tag="LOPNJJ_00245"
+                     /protein_id="gnl|Bakta|LOPNJJ_00245"
                      /translation="MQGHRIGYVRVSSFDQNPERQLEQTQVSKVFTDKASGKDTQRPQL
                      EALLSFVREGDTVVVHSMDRLARNLDDLRRLVQKLTQRGVRIEFLKEGLVFTGEDSPMA
                      NLMLSVMGAFAEFERALIRERQREGIALAKQRGAYRGRKKALSDEQTVTLRQRAAAGEP
                      KAQLAREFNISRETLYQYLRTDD"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00235"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_033958617.1"
                      /gene="tnpR"
      gene            46041..49007
-                     /locus_tag="LOPNJJ_00240"
+                     /locus_tag="LOPNJJ_00250"
                      /gene="tnpA"
      CDS             46041..49007
                      /db_xref="GO:0003677"
@@ -1167,10 +1222,11 @@ FEATURES             Location/Qualifiers
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00083B93F1"
                      /db_xref="UniRef:UniRef100_A0A6S4VPW0"
-                     /db_xref="UniRef:UniRef50_P06695"
-                     /db_xref="UniRef:UniRef90_P06695"
-                     /product="Transposase for transposon Tn501"
-                     /locus_tag="LOPNJJ_00240"
+                     /db_xref="UniRef:UniRef50_P13694"
+                     /db_xref="UniRef:UniRef90_P51565"
+                     /product="Tn3 family transposase"
+                     /locus_tag="LOPNJJ_00250"
+                     /protein_id="gnl|Bakta|LOPNJJ_00250"
                      /translation="MPRRLILSATERDTLLALPESQDDLIRYYTFNDSDLSLIRQRRGD
                      ANRLGFAVQLCLLRYPGYALGTDSELPEPVILWVAKQVQTDPASWTKYGERDVTRREHA
                      QELRTYLQLAPFGLSDFRALVRELTELAQQTDKGLLLAGQALESLRQKRRILPALSVID
@@ -1190,13 +1246,26 @@ FEATURES             Location/Qualifiers
                      ERATQGLVEAGKPVDGELLQFLSPLGWEHINLTGDYVWRQSRRLEDGKFRPLRMPGKP"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00240"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_068979434.1"
                      /gene="tnpA"
+     gene            complement(49004..49348)
+                     /locus_tag="LOPNJJ_00255"
+     CDS             complement(49004..49348)
+                     /product="hypothetical protein"
+                     /locus_tag="LOPNJJ_00255"
+                     /protein_id="gnl|Bakta|LOPNJJ_00255"
+                     /translation="MTGLLSNPIPSRRLVHTTTEQVVSAVLCTRYGQPNEPVQSPSEND
+                     IILAGSLLAGLNGRSVDLIARNGDARSRAGRPPSSDLAMVDAGDLVPSSAMAMLQLDVG
+                     SPQNSEKIVR"
+                     /codon_start=1
+                     /transl_table=11
+                     /inference="ab initio prediction:Prodigal:2.6"
      gene            complement(49422..50186)
-                     /locus_tag="LOPNJJ_00245"
+                     /locus_tag="LOPNJJ_00260"
+                     /gene="tnp"
      CDS             complement(49422..50186)
+                     /db_xref="BlastRules:WP_001389365"
                      /db_xref="RefSeq:WP_001389365.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00000BF4A2"
@@ -1204,7 +1273,8 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef50_Q50HM3"
                      /db_xref="UniRef:UniRef90_Q50HM3"
                      /product="IS6-like element IS6100 family transposase"
-                     /locus_tag="LOPNJJ_00245"
+                     /locus_tag="LOPNJJ_00260"
+                     /protein_id="gnl|Bakta|LOPNJJ_00260"
                      /translation="MTDFKWRHFQGDVILWAVRWYCRYPISYRDLEEMLAERGISVDHT
                      TIYRWVQCYAPEMEKRLRWFWRRGFDPSWRLDETYVKVRGKWTYLYRAVDKRGDTIDFY
                      LSPTRSAKAAKRFLGKALRGLKHWEKPATLNTDKAPSYGAAITELKREGKLDRETAHRQ
@@ -1212,11 +1282,29 @@ FEATURES             Location/Qualifiers
                      GEVRLVERAFGIGPSALTEAMGMLNHHFAAAA"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00245"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_001389365.1"
+                     /gene="tnp"
+     gene            50573..50710
+                     /locus_tag="LOPNJJ_00265"
+     CDS             50573..50710
+                     /db_xref="RefSeq:WP_000451483.1"
+                     /db_xref="SO:0001217"
+                     /db_xref="UniParc:UPI0001C4375A"
+                     /db_xref="UniRef:UniRef100_Q6I6D1"
+                     /db_xref="UniRef:UniRef50_Q6I6D1"
+                     /db_xref="UniRef:UniRef90_Q6I6D1"
+                     /product="hypothetical protein"
+                     /locus_tag="LOPNJJ_00265"
+                     /protein_id="gnl|Bakta|LOPNJJ_00265"
+                     /translation="MEVEDIDNLSRNQDIAVGLQVILKPRARPTPTWTSMPERTLDFEF
+                     "
+                     /codon_start=1
+                     /transl_table=11
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /inference="similar to AA sequence:RefSeq:WP_000451483.1"
      gene            complement(50693..51124)
-                     /locus_tag="LOPNJJ_00250"
+                     /locus_tag="LOPNJJ_00270"
                      /gene="yhbS"
      CDS             complement(50693..51124)
                      /db_xref="COG:COG3153"
@@ -1224,27 +1312,30 @@ FEATURES             Location/Qualifiers
                      /db_xref="SO:0001217"
                      /db_xref="UniRef:UniRef50_A0A6M4NPN8"
                      /db_xref="UniRef:UniRef90_A0A6M4NPN8"
-                     /product="N-acetyltransferase domain-containing protein"
-                     /locus_tag="LOPNJJ_00250"
+                     /product="putative N-acetyltransferase YhbS"
+                     /locus_tag="LOPNJJ_00270"
+                     /protein_id="gnl|Bakta|LOPNJJ_00270"
                      /translation="MHDAAAWMSAKGTPAWDVARIDRTFAETFVLRSELLVASCSDGIV
                      GCCTLSAEDPEFWPDALKGEAAYLHKLAVRRTHAGRGVSSALIEACRHAARTQGCAKLR
                      LDCHPNLRGLYERLGFTHVDTFNPGWDPTFIAERLELEI"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00250"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA
                      sequence:UniRef:UniRef90_A0A6M4NPN8"
                      /gene="yhbS"
      gene            complement(51323..52162)
-                     /locus_tag="LOPNJJ_00255"
+                     /locus_tag="LOPNJJ_00275"
                      /gene="sul1"
      CDS             complement(51323..52162)
+                     /db_xref="COG:COG0294"
+                     /db_xref="COG:H"
                      /db_xref="EC:2.5.1.15"
                      /db_xref="GO:0004156"
                      /db_xref="GO:0046654"
                      /db_xref="GO:0046656"
                      /db_xref="GO:0046872"
+                     /db_xref="KEGG:K18974"
                      /db_xref="NCBIProtein:WP_000259031.1"
                      /db_xref="RefSeq:WP_000259031.1"
                      /db_xref="SO:0001217"
@@ -1254,7 +1345,8 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef90_P0C002"
                      /product="sulfonamide-resistant dihydropteroate synthase
                      Sul1"
-                     /locus_tag="LOPNJJ_00255"
+                     /locus_tag="LOPNJJ_00275"
+                     /protein_id="gnl|Bakta|LOPNJJ_00275"
                      /translation="MVTVFGILNLTEDSFFDESRRLDPAGAVTAAIEMLRVGSDVVDVG
                      PAASHPDARPVSPADEIRRIAPLLDALSDQMHRVSIDSFQPETQRYALKRGVGYLNDIQ
                      GFPDPALYPDIAEADCRLVVMHSAQRDGIATRTGHLRPEDALDEIVRFFEARVSALRRS
@@ -1262,29 +1354,64 @@ FEATURES             Location/Qualifiers
                      VKDLGPASLAAELHAIGNGADYVRTHAPGDLRSAITFSETLAKFRSRDARDRGLDHA"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00255"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_000259031.1"
                      /gene="sul1"
-     gene            53036..53419
-                     /locus_tag="LOPNJJ_00260"
-     CDS             53036..53419
+     gene            complement(52156..52503)
+                     /locus_tag="LOPNJJ_00280"
+                     /gene="qacEdelta1"
+     CDS             complement(52156..52503)
+                     /db_xref="GO:0005886"
+                     /db_xref="GO:0022857"
+                     /db_xref="GO:0042221"
+                     /db_xref="NCBIProtein:WP_000679427.1"
+                     /db_xref="RefSeq:WP_000679427.1"
                      /db_xref="SO:0001217"
-                     /db_xref="UniRef:UniRef50_C0MP51"
-                     /db_xref="UniRef:UniRef90_A0A6S5DCI4"
-                     /product="Uncharacterized protein ORF"
-                     /locus_tag="LOPNJJ_00260"
-                     /translation="MFSCFCQQDSQINVNRGWLEDTCKNVIALPFSKLQFALSWITPRN
-                     DVVVHNNGDFYSAENLALSRGSRRFQKVVDQSSPRCFIKPYGHRNQQINITVWLQAAIH
-                     CGAVQMYGQQRRFEMALDDANYL"
+                     /db_xref="UniParc:UPI0000000BEC"
+                     /db_xref="UniRef:UniRef100_P0AA22"
+                     /db_xref="UniRef:UniRef50_P0AA22"
+                     /db_xref="UniRef:UniRef90_P0AA22"
+                     /product="quaternary ammonium compound efflux SMR
+                     transporter QacE delta 1"
+                     /locus_tag="LOPNJJ_00280"
+                     /protein_id="gnl|Bakta|LOPNJJ_00280"
+                     /translation="MKGWLFLVIAIVGEVIATSALKSSEGFTKLAPSAVVIIGYGIAFY
+                     FLSLVLKSIPVGVAYAVWSGLGVVIITAIAWLLHGQKLDAWGFVGMGLIIAAFLLARSP
+                     SWKSLRRPTPW"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00260"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA
-                     sequence:UniRef:UniRef90_A0A6S5DCI4"
+                     /inference="similar to AA sequence:RefSeq:WP_000679427.1"
+                     /gene="qacEdelta1"
+     gene            complement(52667..53446)
+                     /locus_tag="LOPNJJ_00285"
+                     /gene="aadA1"
+     CDS             complement(52667..53446)
+                     /db_xref="EC:2.7.7.47"
+                     /db_xref="KEGG:K00984"
+                     /db_xref="NCBIProtein:WP_001206317.1"
+                     /db_xref="RefSeq:WP_001535723.1"
+                     /db_xref="SO:0001217"
+                     /db_xref="UniParc:UPI00004CF3E7"
+                     /db_xref="UniRef:UniRef100_Q5DUC3"
+                     /db_xref="UniRef:UniRef50_P0AG05"
+                     /db_xref="UniRef:UniRef90_Q5DUC3"
+                     /product="ANT(3'')-Ia family aminoglycoside
+                     nucleotidyltransferase AadA1"
+                     /locus_tag="LOPNJJ_00285"
+                     /protein_id="gnl|Bakta|LOPNJJ_00285"
+                     /translation="MIAEVSTQLSEVVGVIERHLEPTLLAVHLYGSAVDGGLKPHSDID
+                     LLVTVTVRLDETTRRALINDLLETSASPGESEILRAVEVTIVVHDDIIPWRYPAKRELQ
+                     FGEWQRNDILAGIFEPATIDIDLAILLTKAREHSVALVGPAAEELFDPVPEQDLFEALN
+                     ETLTLWNSPPDWAGDERNVVLTLSRIWYSAVTGRIAPKDVAADWAMERLPAQYQPVILE
+                     ARQAYLGQEEDRLASRADQLEEFVHYVKGEITKVVGK"
+                     /codon_start=1
+                     /transl_table=11
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /inference="similar to AA sequence:RefSeq:WP_001535723.1"
+                     /gene="aadA1"
      gene            complement(53495..54322)
-                     /locus_tag="LOPNJJ_00265"
+                     /locus_tag="LOPNJJ_00290"
                      /gene="blaOXA-2"
      CDS             complement(53495..54322)
                      /db_xref="COG:COG2602"
@@ -1294,6 +1421,7 @@ FEATURES             Location/Qualifiers
                      /db_xref="GO:0008800"
                      /db_xref="GO:0017001"
                      /db_xref="GO:0046677"
+                     /db_xref="KEGG:K18791"
                      /db_xref="NCBIProtein:WP_001007673.1"
                      /db_xref="RefSeq:WP_001007673.1"
                      /db_xref="SO:0001217"
@@ -1303,7 +1431,8 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef90_P0A1V9"
                      /product="oxacillin-hydrolyzing class D beta-lactamase
                      OXA-2"
-                     /locus_tag="LOPNJJ_00265"
+                     /locus_tag="LOPNJJ_00290"
+                     /protein_id="gnl|Bakta|LOPNJJ_00290"
                      /translation="MAIRIFAILFSIFSLATFAHAQEGTLERSDWRKFFSEFQAKGTIV
                      VADERQADRAMLVFDPVRSKKRYSPASTFKIPHTLFALDAGAVRDEFQIFRWDGVNRGF
                      AGHNQDQDLRSAMRNSTVWVYELFAKEIGDDKARRYLKKIDYGNADPSTSNGDYWIEGS
@@ -1311,12 +1440,11 @@ FEATURES             Location/Qualifiers
                      WVEWPTGSVFFALNIDTPNRMDDLFKREAIVRAILRSIEALPPNPAVNSDAAR"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00265"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_001007673.1"
                      /gene="blaOXA-2"
      gene            complement(54404..55030)
-                     /locus_tag="LOPNJJ_00270"
+                     /locus_tag="LOPNJJ_00295"
                      /gene="aac(6')-Ib"
      CDS             complement(54404..55030)
                      /db_xref="COG:COG1670"
@@ -1324,35 +1452,25 @@ FEATURES             Location/Qualifiers
                      /db_xref="NCBIProtein:WP_003159191.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI0002A17C21"
-                     /db_xref="UniRef:UniRef100_A0A3P5KDM8"
-                     /db_xref="UniRef:UniRef50_A0A6S4VSJ2"
+                     /db_xref="UniRef:UniRef100_A0A6C0L5A9"
+                     /db_xref="UniRef:UniRef50_Q849Y4"
                      /db_xref="UniRef:UniRef90_A0A6S4VSJ2"
                      /product="AAC(6')-Ib family aminoglycoside
                      6'-N-acetyltransferase"
-                     /locus_tag="LOPNJJ_00270"
+                     /locus_tag="LOPNJJ_00295"
+                     /protein_id="gnl|Bakta|LOPNJJ_00295"
                      /translation="MLRRLRLLRKSPSTQALGITKYSIVTNSNDSVTLRLMTEHDLAML
                      YEWLNRSHIVEWWGGEEARPTLADVQEQYLPSVLAQESVTPYIAMLNGEPIGYAQSYVA
                      LGSGDGWWEEETDPGVRGIDQSLANASQLGKGLGTKLVRALVELLFNDPEVTKIQTDPS
                      PSNLRAIRCYEKAGFERQGTVTTPDGPAVYMVQTRQAFERTRSDA"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00270"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA
-                     sequence:UniRef:UniRef100_A0A3P5KDM8"
+                     sequence:UniRef:UniRef100_A0A6C0L5A9"
                      /gene="aac(6')-Ib"
-     gene            complement(55128..55232)
-                     /locus_tag="LOPNJJ_00275"
-     CDS             complement(55128..55232)
-                     /product="hypothetical protein"
-                     /locus_tag="LOPNJJ_00275"
-                     /translation="MRHNWLNGPPPLSGFKNTTRKQRSSFPGTVYRAV"
-                     /codon_start=1
-                     /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00275"
-                     /inference="ab initio prediction:Prodigal:2.6"
      gene            complement(55236..56036)
-                     /locus_tag="LOPNJJ_00280"
+                     /locus_tag="LOPNJJ_00300"
                      /gene="blaVIM-4"
      CDS             complement(55236..56036)
                      /db_xref="NCBIProtein:WP_032492008.1"
@@ -1363,7 +1481,8 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef50_I6ZVA9"
                      /db_xref="UniRef:UniRef90_A0A451F5F8"
                      /product="subclass B1 metallo-beta-lactamase VIM-4"
-                     /locus_tag="LOPNJJ_00280"
+                     /locus_tag="LOPNJJ_00300"
+                     /protein_id="gnl|Bakta|LOPNJJ_00300"
                      /translation="MLKVISSLLVYMTASVMAVASPLAHSGEPSGEYPTVNEIPVGEVR
                      LYQIADGVWSHIATQSFDGAVYPSNGLIVRDGDELLLIDTAWGAKNTAALLAEIEKQIG
                      LPVTRAVSTHFHDDRVGGVDVLRAAGVATYASPSTRRLAEAEGNEIPTHSLEGLSSSGD
@@ -1371,7 +1490,6 @@ FEATURES             Location/Qualifiers
                      VERIQKHYPEAEVVIPGHGLPGGLDLLQHTANVVKAHKNRSVAE"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00280"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_032492008.1"
                      /gene="blaVIM-4"
@@ -1382,18 +1500,19 @@ FEATURES             Location/Qualifiers
                      /inference="profile:Rfam:RF02912"
                      /regulatory_class="riboswitch"
      gene            56206..57165
-                     /locus_tag="LOPNJJ_00285"
+                     /locus_tag="LOPNJJ_00305"
                      /gene="xerD"
      CDS             56206..57165
                      /db_xref="COG:COG4974"
                      /db_xref="COG:L"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI0000674A42"
-                     /db_xref="UniRef:UniRef100_H1ZXN6"
+                     /db_xref="UniRef:UniRef100_A0A6M4NPY4"
                      /db_xref="UniRef:UniRef50_A0A257FG49"
                      /db_xref="UniRef:UniRef90_A0A2P9E760"
-                     /product="Class I integrase"
-                     /locus_tag="LOPNJJ_00285"
+                     /product="integron integrase"
+                     /locus_tag="LOPNJJ_00305"
+                     /protein_id="gnl|Bakta|LOPNJJ_00305"
                      /translation="MKTATAPLPPLRSVKVLDQLRERIRYLHYSLRTEQAYVHWVRAFI
                      RFHGVRHPATLGSSEVEAFLSWLANERKVSVSTHRQALAALLFFYGKVLCTDLPWLQEI
                      GRPRPSRRLPVVLTPDEVVRILGFLEGEHRLFAQLLYGTGMRISEGLQLRVKDLDFDHG
@@ -1402,23 +1521,26 @@ FEATURES             Location/Qualifiers
                      KGLTFQKLCLPGAFRPGDHHNKMLRPGLCVVHASPQYL"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00285"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA sequence:UniRef:UniRef100_H1ZXN6"
+                     /inference="similar to AA
+                     sequence:UniRef:UniRef100_A0A6M4NPY4"
                      /gene="xerD"
      gene            complement(57056..57760)
-                     /locus_tag="LOPNJJ_00290"
+                     /locus_tag="LOPNJJ_00310"
+                     /gene="tnp"
      CDS             complement(57056..57760)
                      /db_xref="COG:COG3316"
                      /db_xref="COG:X"
+                     /db_xref="IS:IS15DIV"
                      /db_xref="RefSeq:WP_001067855.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI0000003DD8"
                      /db_xref="UniRef:UniRef100_A0A6H1PZP7"
-                     /db_xref="UniRef:UniRef50_S6DCX2"
-                     /db_xref="UniRef:UniRef90_A0A6H1PZP7"
-                     /product="IS6-like element IS26 family transposase"
-                     /locus_tag="LOPNJJ_00290"
+                     /db_xref="UniRef:UniRef50_A0A0J3XVZ3"
+                     /db_xref="UniRef:UniRef90_A0A0J3XVZ3"
+                     /product="IS6 family IS15DIV transposase"
+                     /locus_tag="LOPNJJ_00310"
+                     /protein_id="gnl|Bakta|LOPNJJ_00310"
                      /translation="MNPFKGRHFQRDIILWAVRWYCKYGISYRELQEMLAERGVNVDHS
                      TIYRWVQRYAPEMEKRLRWYWRNPSDLCPWHMDETYVKVNGRWAYLYRAVDSRGRTVDF
                      YLSSRRNSKAAYRFLGKILNNVKKWQIPRFINTDKAPAYGRALALLKREGRCPSDVEHR
@@ -1426,21 +1548,22 @@ FEATURES             Location/Qualifiers
                      GEMRLVSRVFEM"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00290"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_001067855.1"
+                     /gene="tnp"
      gene            complement(57844..58728)
-                     /locus_tag="LOPNJJ_00295"
+                     /locus_tag="LOPNJJ_00315"
                      /gene="mph(E)"
      CDS             complement(57844..58728)
                      /db_xref="COG:COG3173"
                      /db_xref="COG:R"
                      /db_xref="NCBIProtein:WP_000155092.1"
                      /db_xref="SO:0001217"
-                     /db_xref="UniRef:UniRef50_A0A2S9JV19"
-                     /db_xref="UniRef:UniRef90_F6M9N0"
+                     /db_xref="UniRef:UniRef50_Q17U37"
+                     /db_xref="UniRef:UniRef90_A0A7X2KUA5"
                      /product="Mph(E) family macrolide 2'-phosphotransferase"
-                     /locus_tag="LOPNJJ_00295"
+                     /locus_tag="LOPNJJ_00315"
+                     /protein_id="gnl|Bakta|LOPNJJ_00315"
                      /translation="MTIQDIQSLAEAHGLLLTDKMNFNEMGIDFKVVFALDTKGQQWLL
                      RIPRRDGMREQIKKEKRILELVKKHLSVEVPDWRISSTELVAYPILKDNPVLNLDAETY
                      EIIWNMDKDSPKYITSLAKTLFEIHSIPEKEVRENDLKIMKPSDLRPEIANNLQLVKSE
@@ -1449,14 +1572,15 @@ FEATURES             Location/Qualifiers
                      SLIVGAKAQLGVI"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00295"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA sequence:UniRef:UniRef90_F6M9N0"
+                     /inference="similar to AA
+                     sequence:UniRef:UniRef90_A0A7X2KUA5"
                      /gene="mph(E)"
      gene            complement(58784..60259)
-                     /locus_tag="LOPNJJ_00300"
+                     /locus_tag="LOPNJJ_00320"
                      /gene="msr(E)"
      CDS             complement(58784..60259)
+                     /db_xref="BlastRules:WP_000052512"
                      /db_xref="COG:COG0488"
                      /db_xref="COG:R"
                      /db_xref="NCBIProtein:WP_000052512.1"
@@ -1467,7 +1591,8 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef50_Q17U38"
                      /db_xref="UniRef:UniRef90_Q17U38"
                      /product="ABC-F type ribosomal protection protein Msr(E)"
-                     /locus_tag="LOPNJJ_00300"
+                     /locus_tag="LOPNJJ_00320"
+                     /protein_id="gnl|Bakta|LOPNJJ_00320"
                      /translation="MSLIIKARNIRLDYAGRDVLDIDELEIHSYDRIGLVGDNGAGKSS
                      LLKVLNGEIVLAEATLQRFGDFAHISQLGGIEIETVEDRAMLSRLGVSNVQNDTMSGGE
                      ETRAKIAAAFSQQVHGILADEPTSHLDLNGIDLLIGQLKAFDGALLVISHDRYFLDMVV
@@ -1479,23 +1604,25 @@ FEATURES             Location/Qualifiers
                      IFVSHDKQLVDNIADIIYEIKDHKIIKTFERDC"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00300"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_000052512.1"
                      /gene="msr(E)"
      gene            complement(60346..61050)
-                     /locus_tag="LOPNJJ_00305"
+                     /locus_tag="LOPNJJ_00325"
+                     /gene="tnp"
      CDS             complement(60346..61050)
                      /db_xref="COG:COG3316"
                      /db_xref="COG:X"
+                     /db_xref="IS:IS15DIV"
                      /db_xref="RefSeq:WP_001067855.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI0000003DD8"
                      /db_xref="UniRef:UniRef100_A0A6H1PZP7"
-                     /db_xref="UniRef:UniRef50_S6DCX2"
-                     /db_xref="UniRef:UniRef90_A0A6H1PZP7"
-                     /product="IS6-like element IS26 family transposase"
-                     /locus_tag="LOPNJJ_00305"
+                     /db_xref="UniRef:UniRef50_A0A0J3XVZ3"
+                     /db_xref="UniRef:UniRef90_A0A0J3XVZ3"
+                     /product="IS6 family IS15DIV transposase"
+                     /locus_tag="LOPNJJ_00325"
+                     /protein_id="gnl|Bakta|LOPNJJ_00325"
                      /translation="MNPFKGRHFQRDIILWAVRWYCKYGISYRELQEMLAERGVNVDHS
                      TIYRWVQRYAPEMEKRLRWYWRNPSDLCPWHMDETYVKVNGRWAYLYRAVDSRGRTVDF
                      YLSSRRNSKAAYRFLGKILNNVKKWQIPRFINTDKAPAYGRALALLKREGRCPSDVEHR
@@ -1503,36 +1630,27 @@ FEATURES             Location/Qualifiers
                      GEMRLVSRVFEM"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00305"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_001067855.1"
-     gene            61251..61337
-                     /locus_tag="LOPNJJ_00310"
-                     /gene="int"
-     CDS             61251..61337
-                     /db_xref="COG:COG4974"
-                     /db_xref="COG:L"
-                     /db_xref="GO:0003677"
-                     /db_xref="GO:0006310"
-                     /db_xref="GO:0015074"
-                     /db_xref="GO:0044826"
-                     /db_xref="GO:0046718"
-                     /db_xref="GO:0075713"
+                     /gene="tnp"
+     gene            complement(61062..61232)
+                     /locus_tag="LOPNJJ_00330"
+     CDS             complement(61062..61232)
                      /db_xref="SO:0001217"
-                     /db_xref="UniParc:UPI000E05F305"
-                     /db_xref="UniRef:UniRef100_A0A6G9I1V5"
-                     /db_xref="UniRef:UniRef50_P62590"
-                     /db_xref="UniRef:UniRef90_P62590"
-                     /product="Integrase/recombinase"
-                     /locus_tag="LOPNJJ_00310"
-                     /translation="MIYTHVLKVGGAGVRSPLDALPPLTSER"
+                     /db_xref="UniParc:UPI000A7058CD"
+                     /db_xref="UniRef:UniRef100_A0A482MA69"
+                     /db_xref="UniRef:UniRef50_A0A482MA69"
+                     /db_xref="UniRef:UniRef90_A0A482MA69"
+                     /product="hypothetical protein"
+                     /locus_tag="LOPNJJ_00330"
+                     /protein_id="gnl|Bakta|LOPNJJ_00330"
+                     /translation="MAEQILHGSNVVTAAEQGRRERVAEGVRCGGLRDACLFYGALLQI
+                     VGGDKLIIPFC"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|LOPNJJ_00310"
-                     /inference="ab initio prediction:Bakta:1.4"
+                     /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA
-                     sequence:UniRef:UniRef100_A0A6G9I1V5"
-                     /gene="int"
+                     sequence:UniRef:UniRef100_A0A482MA69"
 ORIGIN
         1 gtcccctgca cgatgctgtc ttgcgccgtc actttactaa ccataaacac cctttgtatg
        61 ccttagacag aattacgggt taagtgacaa tttttgacga ccggcacgtt ctggctcaca

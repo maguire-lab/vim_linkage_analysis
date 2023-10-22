@@ -7,9 +7,10 @@
 set -euo pipefail
 
 mkdir -p mob_suite bakta 
-for assembly in *.fna.gz;
+cat *.fna | prodigal -t bakta/prodigal_training_file -p single # create common prodigal training file from all 3 plasmids for consistency
+for assembly in *.fna;
 do
     sample=$(echo $assembly | cut -d '.' -f1)
-    mob_recon -i $assembly -o mob_suite/${sample}
-    bakta --db ../bakta_db/db --output bakta/${sample} --complete --threads 6 $assembly 
+    #mob_recon -i $assembly -o mob_suite/${sample}
+    bakta --force --db ../../../bakta_db/db --output bakta/${sample} --complete --threads 12 --prodigal-tf bakta/prodigal_training_file $assembly 
 done

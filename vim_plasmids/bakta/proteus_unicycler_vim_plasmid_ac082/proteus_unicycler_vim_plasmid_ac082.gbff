@@ -1,4 +1,4 @@
-LOCUS       contig_1               51686 bp    DNA     circular BCT 15-MAR-2023
+LOCUS       contig_1               51686 bp    DNA     circular BCT 22-OCT-2023
 DEFINITION  plasmid unnamed1, complete sequence.
 ACCESSION   contig_1
 VERSION     contig_1
@@ -7,17 +7,14 @@ SOURCE      None
   ORGANISM  .
             .
 COMMENT     Annotated with Bakta
-            Software: v1.4.2
-            Database: v3.1
+            Software: v1.8.2
+            Database: v5.0, full
             DOI: 10.1099/mgen.0.000685
             URL: github.com/oschwengers/bakta
             
             ##Genome Annotation Summary:##
-            Annotation Date                :: 03/15/2023, 17:49:32
-            Annotation Pipeline            :: Bakta
-            Annotation Software version    ::  v1.4.2
-            Annotation Database version    ::  v3.1
-            CDSs                           ::    73
+            Annotation Date                :: 10/22/2023, 12:47:59
+            CDSs                           ::    57
             tRNAs                          ::     1
             tmRNAs                         ::     0
             rRNAs                          ::     0
@@ -27,6 +24,7 @@ COMMENT     Annotated with Bakta
             oriCs/oriVs                    ::     0
             oriTs                          ::     0
             gaps                           ::     0
+            pseudogenes                    ::     0
 FEATURES             Location/Qualifiers
      source          1..51686
                      /mol_type="genomic DNA"
@@ -48,6 +46,7 @@ FEATURES             Location/Qualifiers
                      /product="16S rRNA (guanine(1405)-N(7))-methyltransferase
                      RmtB1"
                      /locus_tag="CJHFKP_00005"
+                     /protein_id="gnl|Bakta|CJHFKP_00005"
                      /translation="MNINDALTSILASKKYRALCPDTVRRILTEEWGRHKSPKQTVEAA
                      RTRLHGICGAYVTPESLKAAAAALSAGDVKKALSLHASTKERLAELDTLYDFIFSAETP
                      RRVLDIACGLNPLALYERGIASVWGCDIHQGLGDVITPFAREKDWDFTFALQDVLCAPP
@@ -55,52 +54,56 @@ FEATURES             Location/Qualifiers
                      FEGGLPAEFEIEDKKTIGTELIYLIKKNG"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00005"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_012372818.1"
                      /gene="rmtB1"
-     gene            complement(859..1311)
+     gene            complement(859..1407)
                      /locus_tag="CJHFKP_00010"
-     CDS             complement(859..1311)
+     CDS             complement(859..1407)
+                     /db_xref="RefSeq:WP_014342204.1"
                      /db_xref="SO:0001217"
-                     /db_xref="UniRef:UniRef50_UPI00155DC4D9"
-                     /db_xref="UniRef:UniRef90_UPI00155DC4D9"
-                     /product="cation:proton antiporter"
+                     /db_xref="UniParc:UPI000243A6ED"
+                     /db_xref="UniRef:UniRef100_A0A1Y1CQN9"
+                     /db_xref="UniRef:UniRef50_A0A1Y1CQN9"
+                     /db_xref="UniRef:UniRef90_A0A1Y1CQN9"
+                     /product="Na(+)/H(+) antiporter"
                      /locus_tag="CJHFKP_00010"
-                     /translation="MLAVMGMGVTLLKTNAPVAKRISGKFSKLWVAAEIWLFVLVGATV
-                     NIRYLFSAGLSGMLLITAALLFRMLGVWMSTLGTDLSRKERLFCMIAYLPKATVQAAIG
-                     AIPLAMGLGSGETILAVAVLAIILTAPLGALGIELSYKRLLQKQQS"
-                     /codon_start=1
-                     /transl_table=11
                      /protein_id="gnl|Bakta|CJHFKP_00010"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA
-                     sequence:UniRef:UniRef90_UPI00155DC4D9"
-     gene            1667..2725
-                     /locus_tag="CJHFKP_00015"
-                     /gene="tnp-ISL3"
-     CDS             1667..2725
-                     /db_xref="SO:0001217"
-                     /db_xref="UniParc:UPI000AF1C9A9"
-                     /db_xref="UniRef:UniRef100_A0A7I8I0K9"
-                     /db_xref="UniRef:UniRef50_A0A0K1ZND7"
-                     /db_xref="UniRef:UniRef90_A0A7H9F7Q8"
-                     /product="ISL3 family transposase"
-                     /locus_tag="CJHFKP_00015"
-                     /translation="MIHDQRIRRVRERDLFDRQVWLQLPVRRVDCLRCGRVSEHIDWLP
-                     SGSRLTRRMQCWIEALVQYLPIRHVSQLTGVGWHTIKEIDKRRLQTSVGTIELGEVRRL
-                     VMDEFALHKGHRYATVIMDAERTRVLWVGHGNSRAAIRPFFEQLGERCQQIEAVAMDMN
-                     TAFDLEVKQHCPQAEVVYDLFHVVARYGREVVDRVRVEQANALKSDKPARKVVKSARWL
-                     LLRNRAKLSEKQDVKLQELLAANQPLAMVYVLKEGLKGIWYAPSVWEGWRRWRSWMRQV
-                     KESGLAPLQRFGRNLSKYMRGILASANYPMHTSVLEGVNNKIKVIKRMAYGFRDSEYFF
-                     LKIKAAFPGKPR"
+                     /translation="MRDTIKVLLLLGASFALVALEKTLGERALFSGLLAVMGMGVTLLK
+                     TNAPVAKRISGKFSKLWVAAEIWLFVLVGATVNIRYLFSAGLSGMLLITAALLFRMLGV
+                     WMSTLGTDLSRKERLFCMIAYLPKATVQAAIGAIPLAMGLGSGETILAVAVLAIILTAP
+                     LGALGIELSYKRLLQKQQS"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00015"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA
-                     sequence:UniRef:UniRef100_A0A7I8I0K9"
-                     /gene="tnp-ISL3"
+                     /inference="similar to AA sequence:RefSeq:WP_014342204.1"
+     gene            1523..2725
+                     /locus_tag="CJHFKP_00015"
+                     /gene="tnp"
+     CDS             1523..2725
+                     /db_xref="IS:ISAeme19"
+                     /db_xref="RefSeq:WP_076611394.1"
+                     /db_xref="SO:0001217"
+                     /db_xref="UniParc:UPI000444D9FD"
+                     /db_xref="UniRef:UniRef100_A0A7H9F7Q8"
+                     /db_xref="UniRef:UniRef50_A0A663AV98"
+                     /db_xref="UniRef:UniRef90_A0A8D6RSY7"
+                     /product="ISL3 family ISAeme19 transposase"
+                     /locus_tag="CJHFKP_00015"
+                     /protein_id="gnl|Bakta|CJHFKP_00015"
+                     /translation="MHHIDIASFWPGYTVIAQALSANHHTLFTLEPRADLLPRCRRCLQ
+                     PTPLIHDQRIRRVRERDLFDRQVWLQLPVRRVDCLRCGRVSEHIDWLPSGSRLTRRMQC
+                     WIEALVQYLPIRHVSQLTGVGWHTIKEIDKRRLQTSVGTIELGEVRRLVMDEFALHKGH
+                     RYATVIMDAERTRVLWVGHGNSRAAIRPFFEQLGERCQQIEAVAMDMNTAFDLEVKQHC
+                     PQAEVVYDLFHVVARYGREVVDRVRVEQANALKSDKPARKVVKSARWLLLRNRAKLSEK
+                     QDVKLQELLAANQPLAMVYVLKEGLKGIWYAPSVWEGWRRWRSWMRQVKESGLAPLQRF
+                     GRNLSKYMRGILASANYPMHTSVLEGVNNKIKVIKRMAYGFRDSEYFFLKIKAAFPGKP
+                     R"
+                     /codon_start=1
+                     /transl_table=11
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /inference="similar to AA sequence:RefSeq:WP_076611394.1"
+                     /gene="tnp"
      gene            2755..3132
                      /locus_tag="CJHFKP_00020"
      CDS             2755..3132
@@ -108,40 +111,30 @@ FEATURES             Location/Qualifiers
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI000243A6EE"
                      /db_xref="UniRef:UniRef100_A0A1Y1CSV0"
-                     /db_xref="UniRef:UniRef50_A0A519PXL9"
-                     /db_xref="UniRef:UniRef90_A0A1Y1CSV0"
-                     /product="60 kDa chaperonin"
+                     /db_xref="UniRef:UniRef50_A0A5C7SH07"
+                     /db_xref="UniRef:UniRef90_A0A8G1QE20"
+                     /product="Phage integrase N-terminal SAM-like
+                     domain-containing protein"
                      /locus_tag="CJHFKP_00020"
+                     /protein_id="gnl|Bakta|CJHFKP_00020"
                      /translation="MLCTDLPWQGINEDQNLGIAITRRALEAPLRAIVANAGEEPSVIV
                      ANVKAGEGSYGYNAATGEFGDMIAMGILDPTKVTRSALQHAASVAGLAITTEVVVAEVP
                      KKEEPAMPGAGGMGGMGGMDF"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00020"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_014342205.1"
-     gene            3092..3331
-                     /locus_tag="CJHFKP_00025"
-     CDS             3092..3331
-                     /product="hypothetical protein"
-                     /locus_tag="CJHFKP_00025"
-                     /translation="MLAVWAAWAAWISDPVGPVVREPDRASAVRSRQRPDIKAPRTGPE
-                     PGSDAGLFVVPAPRQCLTRRSERTDTNVRTQAQH"
-                     /codon_start=1
-                     /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00025"
-                     /inference="ab initio prediction:Prodigal:2.6"
      gene            3359..4891
-                     /locus_tag="CJHFKP_00030"
+                     /locus_tag="CJHFKP_00025"
      CDS             3359..4891
-                     /db_xref="RefSeq:WP_012372820.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00017178CC"
                      /db_xref="UniRef:UniRef100_B1VCH6"
-                     /db_xref="UniRef:UniRef50_U5N703"
-                     /db_xref="UniRef:UniRef90_U5N703"
-                     /product="TnpA ISCR21 transposase"
-                     /locus_tag="CJHFKP_00030"
+                     /db_xref="UniRef:UniRef50_A0A866WPE2"
+                     /db_xref="UniRef:UniRef90_A0A6C0L2R3"
+                     /product="Zn-Tnp-IS91 domain-containing protein"
+                     /locus_tag="CJHFKP_00025"
+                     /protein_id="gnl|Bakta|CJHFKP_00025"
                      /translation="MPRLATSRRQAAGCAPLPSAHTGSRYARHAPERTLLYALVEAHYP
                      DFIARIEAEGRSLPGYVREAFDAYLRCGVLEHGFLRVVCEHCRAERLVAFSCKKRGFCP
                      SCGARRMAESARHLVEEVFGPRPVRQWVLSFPYPLRFLFASKPEAIGPVLGIVQRVIAG
@@ -153,51 +146,66 @@ FEATURES             Location/Qualifiers
                      TACVHCGGTVRIVASIEEPTAIRAILAHFEKHGAREEAHYRPAARAPPVQAA"
                      /codon_start=1
                      /transl_table=11
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /inference="similar to AA sequence:UniRef:UniRef100_B1VCH6"
+     gene            complement(4983..5705)
+                     /locus_tag="CJHFKP_00030"
+     CDS             complement(4983..5705)
+                     /db_xref="RefSeq:WP_223151157.1"
+                     /db_xref="SO:0001217"
+                     /db_xref="UniParc:UPI0005D76CC4"
+                     /db_xref="UniRef:UniRef100_A0A3T0PX27"
+                     /db_xref="UniRef:UniRef50_Q2FD25"
+                     /db_xref="UniRef:UniRef90_Q2FD25"
+                     /product="Transcriptional regulator"
+                     /locus_tag="CJHFKP_00030"
                      /protein_id="gnl|Bakta|CJHFKP_00030"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA sequence:RefSeq:WP_012372820.1"
-     gene            5259..5696
-                     /locus_tag="CJHFKP_00035"
-     CDS             5259..5696
-                     /db_xref="SO:0001217"
-                     /db_xref="UniRef:UniRef50_A0A410J4N6"
-                     /db_xref="UniRef:UniRef90_A0A410J4N6"
-                     /product="hypothetical protein"
-                     /locus_tag="CJHFKP_00035"
-                     /translation="MGRARDERHVQPAGAKLHHRFTGRAFGDLDFNIGVILAVLADQLC
-                     EEAMRNQGMDTDTKPAAFSGCRHAGGFHRMVELVNTYGYPLDEMASGLGQPNAARMTLE
-                     QEDAEVFFQCLHAGADAGLCNAERVGGVTEVEIFGDSESVN"
+                     /translation="MMTLVHTLAVAEYLNFRHAANALGVAQSSVSARVKALEEDLGILL
+                     FERHARGVRLTEAGRHFVERIAVGIDQLDHAVKTAGMAAAGESGRLRIGIHALIPHSFL
+                     AKLIGQYRKDYPDVEVEIAEGPAREAVVQLRAGRLDVAFVAGTPQPPDCHSRRTWTEPL
+                     LAVLPERHPLAKRSAVTWPDLAGETFLAYRKFKRPFRAVCWVGGGRASPVLGTDRTSVS
+                     GISASRGHAAALSAAMLR"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00035"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA
-                     sequence:UniRef:UniRef90_A0A410J4N6"
-     gene            complement(5795..6520)
-                     /locus_tag="CJHFKP_00040"
+                     /inference="similar to AA sequence:RefSeq:WP_223151157.1"
+     gene            complement(5795..6970)
+                     /locus_tag="CJHFKP_00035"
                      /gene="tet(G)"
-     CDS             complement(5795..6520)
+     CDS             complement(5795..6970)
+                     /db_xref="COG:COG2814"
+                     /db_xref="COG:G"
+                     /db_xref="GO:0005886"
+                     /db_xref="GO:0015297"
+                     /db_xref="GO:0046677"
+                     /db_xref="GO:1902600"
                      /db_xref="NCBIProtein:WP_001257840.1"
+                     /db_xref="RefSeq:WP_001257840.1"
                      /db_xref="SO:0001217"
-                     /db_xref="UniRef:UniRef50_A0A6N6XMU0"
+                     /db_xref="UniParc:UPI00000B09B3"
+                     /db_xref="UniRef:UniRef100_A0A741PW90"
+                     /db_xref="UniRef:UniRef50_P02981"
+                     /db_xref="UniRef:UniRef90_P51563"
                      /product="tetracycline efflux MFS transporter Tet(G)"
-                     /locus_tag="CJHFKP_00040"
-                     /translation="MLGGISAHAPFIAAALLNGFAFLLACIFLKETHHSHGGTGKPVRI
-                     KPFVLLRLDDALRGLGALFAVFFIIQLIGQVPAALWVIYGEDRFQWNTATVGLSLAAFG
-                     ATHAIFQAFVTGPLSSRLGERRTLLFGMAADATGFVLLAFATQGWMVFPILLLLAAGGV
-                     GMPALQAMLSNNVSSNKQGALQGTLTSLTNLSSIAGPLGFTALYSATAGAWNGWVWIVG
-                     AILYLICLPILRRPFATSL"
+                     /locus_tag="CJHFKP_00035"
+                     /protein_id="gnl|Bakta|CJHFKP_00035"
+                     /translation="MRSSAIIALLIVGLDAMGLGLIMPVLPTLLRELVPAEQVAGHYGA
+                     LLSLYALMQVVFAPMLGQLSDSYGRRPVLLASLAGAAVDYTIMASAPVLWVLYIGRLVS
+                     GVTGATGAVAASTIADSTGEGSRARWFGYMGACYGAGMIAGPALGGMLGGISAHAPFIA
+                     AALLNGFAFLLACIFLKETHHSHGGTGKPVRIKPFVLLRLDDALRGLGALFAVFFIIQL
+                     IGQVPAALWVIYGEDRFQWNTATVGLSLAAFGATHAIFQAFVTGPLSSRLGERRTLLFG
+                     MAADATGFVLLAFATQGWMVFPILLLLAAGGVGMPALQAMLSNNVSSNKQGALQGTLTS
+                     LTNLSSIAGPLGFTALYSATAGAWNGWVWIVGAILYLICLPILRRPFATSL"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00040"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA
-                     sequence:UniRef:UniRef50_A0A6N6XMU0"
+                     /inference="similar to AA sequence:RefSeq:WP_001257840.1"
                      /gene="tet(G)"
      gene            7074..7700
-                     /locus_tag="CJHFKP_00045"
+                     /locus_tag="CJHFKP_00040"
                      /gene="tetR(G)"
      CDS             7074..7700
+                     /db_xref="BlastRules:WP_000163574"
                      /db_xref="COG:COG1309"
                      /db_xref="COG:K"
                      /db_xref="GO:0003677"
@@ -212,44 +220,35 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef90_P51560"
                      /product="tetracycline resistance transcriptional repressor
                      TetR(G)"
-                     /locus_tag="CJHFKP_00045"
+                     /locus_tag="CJHFKP_00040"
+                     /protein_id="gnl|Bakta|CJHFKP_00040"
                      /translation="MTKLDKGTVIAAALELLNEVGMDSLTTRKLAERLKVQQPALYWHF
                      QNKRALLDALAEAMLAERHTRSLPEENEDWRVFLKENALSFRTALLSYRDGARIHAGTR
                      PTEPNFGTAETQIRFLCAEGFCPKRAVWALRAVSHYVVGSVLEQQASDADERVPDRPDV
                      SEQAPSSFLHDLFHELETDGMDAAFNFGLDSLIAGFERLRSSTTD"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00045"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_000163574.1"
                      /gene="tetR(G)"
-     gene            7707..7910
-                     /locus_tag="CJHFKP_00050"
-     CDS             7707..7910
-                     /product="hypothetical protein"
-                     /locus_tag="CJHFKP_00050"
-                     /translation="MPLCRPNCHDTDPLCTMPMTSRPSWRSMTGRHGTREMSGILPDRI
-                     PPFTRFRRLLRRIGAGLLPVVG"
-                     /codon_start=1
-                     /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00050"
-                     /inference="ab initio prediction:Prodigal:2.6"
      gene            complement(7907..9121)
-                     /locus_tag="CJHFKP_00055"
+                     /locus_tag="CJHFKP_00045"
                      /gene="floR2"
      CDS             complement(7907..9121)
                      /db_xref="COG:COG2814"
                      /db_xref="COG:G"
+                     /db_xref="KEGG:K18552"
                      /db_xref="NCBIProtein:WP_000214125.1"
                      /db_xref="RefSeq:WP_000214125.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI0000697679"
                      /db_xref="UniRef:UniRef100_A0A482F6C2"
-                     /db_xref="UniRef:UniRef50_A0A4U6BZT0"
+                     /db_xref="UniRef:UniRef50_A0A8E6P3I5"
                      /db_xref="UniRef:UniRef90_A0A6G7YXM9"
                      /product="chloramphenicol/florfenicol efflux MFS
                      transporter FloR2"
-                     /locus_tag="CJHFKP_00055"
+                     /locus_tag="CJHFKP_00045"
+                     /protein_id="gnl|Bakta|CJHFKP_00045"
                      /translation="MTTTRPAWAYTLPAALLLMAPFDILASLAMDIYLPVVPAMPGVLN
                      TTPSIIQLTLSLYMVMLGVGQVIFGPLSDRVGRRPILLVGATAFVAASLGAACSSTALA
                      FVAFRLVQAVGASAMLVATFATVRDVYANRPEGAVIYGLFSSMLAFVPALGPIAGALIG
@@ -260,215 +259,227 @@ FEATURES             Location/Qualifiers
                      KSPVV"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00055"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_000214125.1"
                      /gene="floR2"
-     gene            complement(9338..10396)
-                     /locus_tag="CJHFKP_00060"
+     gene            complement(9338..10309)
+                     /locus_tag="CJHFKP_00050"
                      /gene="sul1"
-     CDS             complement(9338..10396)
+     CDS             complement(9338..10309)
                      /db_xref="NCBIProtein:WP_063855066.1"
+                     /db_xref="RefSeq:WP_000259026.1"
                      /db_xref="SO:0001217"
-                     /db_xref="UniParc:UPI000ABA978F"
+                     /db_xref="UniParc:UPI0001B9ACA6"
                      /db_xref="UniRef:UniRef100_A0A482F2V0"
-                     /db_xref="UniRef:UniRef50_Q8GKW9"
+                     /db_xref="UniRef:UniRef50_P0C002"
                      /db_xref="UniRef:UniRef90_Q8GKW9"
                      /product="sulfonamide-resistant dihydropteroate synthase
                      Sul1"
-                     /locus_tag="CJHFKP_00060"
-                     /translation="MGLCRYGAHNCCLFARPIPIVEVAAEADAMVTVFGILNLTEDSFF
-                     DESRRLDPAGAVTAAIEMLRVGSDVVDVGPAASHPDARPVSPADEIRRIAPLLDALSDQ
-                     MHRVSIDSFQPETQRYALKRGVGYLNDIQGFPDPALYPDIAEADCRLVVMHSAQRDGIA
-                     TRTGHLRPEDALDEIVRFFEARVSALRRSGVAADRLILDPGMDRRLVHGETADLAPTGF
-                     GQQVREAMDQRREHHIEQRDATRNRDGRIFYRRNLLATLREREVARAGAEMAEGKALPF
-                     RAAKDGESVSGKFTGTVQLTSGKFAIVEKSHEFTLVPWRPIIDRQLGREVAGIMQGGSV
-                     SWQLGRQRGLGL"
+                     /locus_tag="CJHFKP_00050"
+                     /protein_id="gnl|Bakta|CJHFKP_00050"
+                     /translation="MVTVFGILNLTEDSFFDESRRLDPAGAVTAAIEMLRVGSDVVDVG
+                     PAASHPDARPVSPADEIRRIAPLLDALSDQMHRVSIDSFQPETQRYALKRGVGYLNDIQ
+                     GFPDPALYPDIAEADCRLVVMHSAQRDGIATRTGHLRPEDALDEIVRFFEARVSALRRS
+                     GVAADRLILDPGMDRRLVHGETADLAPTGFGQQVREAMDQRREHHIEQRDATRNRDGRI
+                     FYRRNLLATLREREVARAGAEMAEGKALPFRAAKDGESVSGKFTGTVQLTSGKFAIVEK
+                     SHEFTLVPWRPIIDRQLGREVAGIMQGGSVSWQLGRQRGLGL"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00060"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA
-                     sequence:UniRef:UniRef100_A0A482F2V0"
+                     /inference="similar to AA sequence:RefSeq:WP_000259026.1"
                      /gene="sul1"
-     gene            10414..10590
-                     /locus_tag="CJHFKP_00065"
-     CDS             10414..10590
+     gene            complement(10303..10650)
+                     /locus_tag="CJHFKP_00055"
+                     /gene="qacEdelta1"
+     CDS             complement(10303..10650)
+                     /db_xref="GO:0005886"
+                     /db_xref="GO:0022857"
+                     /db_xref="GO:0042221"
+                     /db_xref="NCBIProtein:WP_000679427.1"
+                     /db_xref="RefSeq:WP_000679427.1"
                      /db_xref="SO:0001217"
-                     /db_xref="UniParc:UPI00042F3BAB"
-                     /db_xref="UniRef:UniRef100_A0A7D5KIK8"
-                     /db_xref="UniRef:UniRef50_A0A7D5KIK8"
-                     /db_xref="UniRef:UniRef90_A0A7D5KIK8"
-                     /product="hypothetical protein"
-                     /locus_tag="CJHFKP_00065"
-                     /translation="MKQPGNGCNYDDAESRPDCISNTDRDGFQNQRKKIKCDAITDYDN
-                     GGRGKLSKALARF"
+                     /db_xref="UniParc:UPI0000000BEC"
+                     /db_xref="UniRef:UniRef100_P0AA22"
+                     /db_xref="UniRef:UniRef50_P0AA22"
+                     /db_xref="UniRef:UniRef90_P0AA22"
+                     /product="quaternary ammonium compound efflux SMR
+                     transporter QacE delta 1"
+                     /locus_tag="CJHFKP_00055"
+                     /protein_id="gnl|Bakta|CJHFKP_00055"
+                     /translation="MKGWLFLVIAIVGEVIATSALKSSEGFTKLAPSAVVIIGYGIAFY
+                     FLSLVLKSIPVGVAYAVWSGLGVVIITAIAWLLHGQKLDAWGFVGMGLIIAAFLLARSP
+                     SWKSLRRPTPW"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00065"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA
-                     sequence:UniRef:UniRef100_A0A7D5KIK8"
-     gene            complement(10814..11632)
-                     /locus_tag="CJHFKP_00070"
+                     /inference="similar to AA sequence:RefSeq:WP_000679427.1"
+                     /gene="qacEdelta1"
+     gene            complement(10814..11629)
+                     /locus_tag="CJHFKP_00060"
                      /gene="aadA1"
-     CDS             complement(10814..11632)
+     CDS             complement(10814..11629)
+                     /db_xref="EC:2.7.7.47"
+                     /db_xref="GO:0005524"
+                     /db_xref="GO:0009012"
+                     /db_xref="GO:0046677"
+                     /db_xref="GO:0070566"
                      /db_xref="NCBIProtein:WP_001209508.1"
                      /db_xref="SO:0001217"
-                     /db_xref="UniParc:UPI0019384049"
-                     /db_xref="UniRef:UniRef100_A0A7T0MBJ4"
-                     /db_xref="UniRef:UniRef50_P14511"
-                     /db_xref="UniRef:UniRef90_Q79JG0"
+                     /db_xref="UniParc:UPI00044D39F6"
+                     /db_xref="UniRef:UniRef100_A0A0A0R7A3"
+                     /db_xref="UniRef:UniRef50_P0AG05"
+                     /db_xref="UniRef:UniRef90_P0AG05"
                      /product="ANT(3'')-Ia family aminoglycoside
                      nucleotidyltransferase AadA1"
-                     /locus_tag="CJHFKP_00070"
-                     /translation="MVAKTKLNIMREVVIAEVSTQLSEVVGVIERHLEPTLLAVHLYGS
-                     AVDGGLKPHSDIDLLVTVTVRLDETTRRALINDLLETSASPGESEILRAVEVTIVVHDD
-                     IIPWRYPAKRELQFGEWQRNDILAGIFEPATIDIDLAILLTKAREHSVALVGPAAEELF
-                     DPVPEQDLFEALNETLTLWNSPPDWAGDERNVVLTLSRIWYSAVTGKIAPKDVAADWAM
-                     ERLPAQYQPVILEARQAYLGQEEDRLASRADQLEEFVHYVKGEITKVVGK"
+                     /locus_tag="CJHFKP_00060"
+                     /protein_id="gnl|Bakta|CJHFKP_00060"
+                     /translation="MAKTKLNIMREVVIAEVSTQLSEVVGVIERHLEPTLLAVHLYGSA
+                     VDGGLKPHSDIDLLVTVTVRLDETTRRALINDLLETSASPGESEILRAVEVTIVVHDDI
+                     IPWRYPAKRELQFGEWQRNDILAGIFEPATIDIDLAILLTKAREHSVALVGPAAEELFD
+                     PVPEQDLFEALNETLTLWNSPPDWAGDERNVVLTLSRIWYSAVTGKIAPKDVAADWAME
+                     RLPAQYQPVILEARQAYLGQEEDRLASRADQLEEFVHYVKGEITKVVGK"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00070"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA
-                     sequence:UniRef:UniRef100_A0A7T0MBJ4"
+                     sequence:UniRef:UniRef100_A0A0A0R7A3"
                      /gene="aadA1"
-     gene            complement(11622..12299)
-                     /locus_tag="CJHFKP_00075"
-                     /gene="blaOXA"
-     CDS             complement(11622..12299)
+     gene            complement(11622..12422)
+                     /locus_tag="CJHFKP_00065"
+                     /gene="blaOXA-10"
+     CDS             complement(11622..12422)
+                     /db_xref="EC:3.5.2.6"
+                     /db_xref="GO:0008658"
+                     /db_xref="GO:0008800"
+                     /db_xref="GO:0017001"
+                     /db_xref="GO:0046677"
                      /db_xref="NCBIProtein:WP_000846390.1"
+                     /db_xref="RefSeq:WP_000846390.1"
                      /db_xref="SO:0001217"
-                     /db_xref="UniRef:UniRef50_A0A411JJ04"
-                     /db_xref="UniRef:UniRef90_A0A411JJ04"
-                     /product="OXA-10 family class D beta-lactamase"
-                     /locus_tag="CJHFKP_00075"
-                     /translation="MLCKSSSKSCATNDLARASKEYLPASTFKIPNAIIGLETGVIKNE
-                     HQVFKWDGKPRAMKQWERDLTLRGAIQVSAVPVFQQIAREVGEVRMQKYLKKFSYGNQN
-                     ISGGIDKFWLEGQLRISAVNQVEFLESLYLNKLSASKENQLIVKEALVTEAAPEYLVHS
-                     KTGFSGVGTESNPGVAWWVGWVEKETEVYFFAFNMDIDNESKLPLRKSIPTKIMESEGI
-                     IGG"
+                     /db_xref="UniParc:UPI00000009A2"
+                     /db_xref="UniRef:UniRef100_P14489"
+                     /db_xref="UniRef:UniRef50_P14489"
+                     /db_xref="UniRef:UniRef90_P14489"
+                     /product="oxacillin-hydrolyzing class D beta-lactamase
+                     OXA-10"
+                     /locus_tag="CJHFKP_00065"
+                     /protein_id="gnl|Bakta|CJHFKP_00065"
+                     /translation="MKTFAAYVIIACLSSTALAGSITENTSWNKEFSAEAVNGVFVLCK
+                     SSSKSCATNDLARASKEYLPASTFKIPNAIIGLETGVIKNEHQVFKWDGKPRAMKQWER
+                     DLTLRGAIQVSAVPVFQQIAREVGEVRMQKYLKKFSYGNQNISGGIDKFWLEGQLRISA
+                     VNQVEFLESLYLNKLSASKENQLIVKEALVTEAAPEYLVHSKTGFSGVGTESNPGVAWW
+                     VGWVEKETEVYFFAFNMDIDNESKLPLRKSIPTKIMESEGIIGG"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00075"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA
-                     sequence:UniRef:UniRef90_A0A411JJ04"
-                     /gene="blaOXA"
-     gene            complement(12687..13508)
-                     /locus_tag="CJHFKP_00080"
+                     /inference="similar to AA sequence:RefSeq:WP_000846390.1"
+                     /gene="blaOXA-10"
+     gene            complement(12687..13946)
+                     /locus_tag="CJHFKP_00070"
                      /gene="cmlA5"
-     CDS             complement(12687..13508)
+     CDS             complement(12687..13946)
+                     /db_xref="COG:COG2814"
+                     /db_xref="COG:G"
+                     /db_xref="GO:0005886"
+                     /db_xref="GO:0042910"
+                     /db_xref="GO:0046677"
+                     /db_xref="GO:1990961"
                      /db_xref="NCBIProtein:WP_012300772.1"
+                     /db_xref="RefSeq:WP_012300772.1"
+                     /db_xref="SO:0001217"
+                     /db_xref="UniParc:UPI00000B5E4F"
+                     /db_xref="UniRef:UniRef100_A0A0V9LFE6"
+                     /db_xref="UniRef:UniRef50_P32482"
+                     /db_xref="UniRef:UniRef90_P32482"
                      /product="chloramphenicol efflux MFS transporter CmlA5"
-                     /locus_tag="CJHFKP_00080"
-                     /translation="MLAMVPAVGPLLGALVDMWLGWRAIFAFLGLGMIAASAAAWRFWP
-                     ETRVQRVAGLQWSQLLLPVKCLNFWLYTLCYAAGMGSFFVFFSIAPGLMMGRQGVSQLG
-                     FSLLFATVAIAMVFTARFMGRVIPKWGSPSVLRMGMGCLIAGAVLLAITEIWASQSVLG
-                     FIAPMWLVGIGVATAVSVSPNGALRGFDHVAGTVTAVYFCLGGVLLGSIGTLIISLLPR
-                     NTAWPVVVYCLTLATVVLGLSCVSRVKGSRGQGEHDVVALQSAESTSNPNR"
+                     /locus_tag="CJHFKP_00070"
+                     /protein_id="gnl|Bakta|CJHFKP_00070"
+                     /translation="MRSKNFSWRYSLAATVLLLSPFDLLASLGMDMYLPAVPFMPNALG
+                     TTASTIQLTLTTYLVMIGAGQLLFGPLSDRLGRRPVLLGGGLAYVVASMGLALTSSAEV
+                     FLGLRILQACGASACLVSTFATVRDIYAGREESNVIYGILGSMLAMVPAVGPLLGALVD
+                     MWLGWRAIFAFLGLGMIAASAAAWRFWPETRVQRVAGLQWSQLLLPVKCLNFWLYTLCY
+                     AAGMGSFFVFFSIAPGLMMGRQGVSQLGFSLLFATVAIAMVFTARFMGRVIPKWGSPSV
+                     LRMGMGCLIAGAVLLAITEIWASQSVLGFIAPMWLVGIGVATAVSVSPNGALRGFDHVA
+                     GTVTAVYFCLGGVLLGSIGTLIISLLPRNTAWPVVVYCLTLATVVLGLSCVSRVKGSRG
+                     QGEHDVVALQSAESTSNPNR"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00080"
                      /inference="ab initio prediction:Prodigal:2.6"
+                     /inference="similar to AA sequence:RefSeq:WP_012300772.1"
                      /gene="cmlA5"
-     gene            complement(13484..13762)
-                     /locus_tag="CJHFKP_00085"
-     CDS             complement(13484..13762)
-                     /product="hypothetical protein"
-                     /locus_tag="CJHFKP_00085"
-                     /translation="MVPVSSCLDRYRTDWGAAPFYWEVASPTLWRQWASLLRHRLKSFW
-                     GFGFFRLVVPRRALFPHLQQYVTFTQVARKVMSFTAYSDPCWPWSRR"
-                     /codon_start=1
-                     /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00085"
-                     /inference="ab initio prediction:Prodigal:2.6"
      gene            complement(14045..14074)
-                     /locus_tag="CJHFKP_00090"
+                     /locus_tag="CJHFKP_00075"
+                     /gene="cmlA1"
      CDS             complement(14045..14074)
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00000B722B"
                      /db_xref="UniRef:UniRef100_A0A0K2B799"
                      /product="CmlA1 leader peptide"
-                     /locus_tag="CJHFKP_00090"
+                     /locus_tag="CJHFKP_00075"
+                     /protein_id="gnl|Bakta|CJHFKP_00075"
                      /translation="MSTSKNADK"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00090"
-                     /inference="ab initio prediction:Bakta:1.4"
+                     /inference="ab initio prediction:Bakta:1.8"
                      /inference="similar to AA
                      sequence:UniRef:UniRef100_A0A0K2B799"
-     gene            14141..14287
-                     /locus_tag="CJHFKP_00095"
-     CDS             14141..14287
-                     /db_xref="SO:0001217"
-                     /db_xref="UniParc:UPI00050D2A97"
-                     /db_xref="UniRef:UniRef100_A0A6M4NLX6"
-                     /db_xref="UniRef:UniRef50_A0A6M4NLX6"
-                     /db_xref="UniRef:UniRef90_A0A6M4NLX6"
-                     /product="hypothetical protein"
-                     /locus_tag="CJHFKP_00095"
-                     /translation="MCAQRRHKRRQGGAPIAHKMAKPCATGAESLASGLMALLCKGLVF
-                     NDV"
-                     /codon_start=1
-                     /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00095"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA
-                     sequence:UniRef:UniRef100_A0A6M4NLX6"
-     gene            complement(14267..14758)
-                     /locus_tag="CJHFKP_00100"
-                     /gene="arr"
-     CDS             complement(14267..14758)
+                     /gene="cmlA1"
+     gene            complement(14267..14719)
+                     /locus_tag="CJHFKP_00080"
+                     /gene="arr-2"
+     CDS             complement(14267..14719)
                      /db_xref="NCBIProtein:WP_000237816.1"
+                     /db_xref="RefSeq:WP_000237816.1"
                      /db_xref="SO:0001217"
-                     /db_xref="UniParc:UPI000069767F"
-                     /db_xref="UniRef:UniRef100_A0A482F223"
-                     /db_xref="UniRef:UniRef50_A0A1C0AL71"
-                     /db_xref="UniRef:UniRef90_A0A059WMU4"
+                     /db_xref="UniParc:UPI00000B89C7"
+                     /db_xref="UniRef:UniRef100_A0A8F3EUD1"
+                     /db_xref="UniRef:UniRef50_A0A5P1MSY4"
+                     /db_xref="UniRef:UniRef90_A0A5P1MSY4"
                      /product="NAD(+)--rifampin ADP-ribosyltransferase Arr-2"
-                     /locus_tag="CJHFKP_00100"
-                     /translation="MLCSQIPTIKGLKMVKDWIPISHDNYKQVQGPFYHGTKANLAIGD
-                     LLTTGFISHFEDGRILKHIYFSALMEPAVWGAELAMSLSGLEGRGYIYIVEPTGPFEDD
-                     PNLTNKKFPGNPTQSYRTCEPLRIVGVVEDWEGHPVELIRGMLDSLEDLKRRGLHVIED
-                     "
+                     /locus_tag="CJHFKP_00080"
+                     /protein_id="gnl|Bakta|CJHFKP_00080"
+                     /translation="MVKDWIPISHDNYKQVQGPFYHGTKANLAIGDLLTTGFISHFEDG
+                     RILKHIYFSALMEPAVWGAELAMSLSGLEGRGYIYIVEPTGPFEDDPNLTNKKFPGNPT
+                     QSYRTCEPLRIVGVVEDWEGHPVELIRGMLDSLEDLKRRGLHVIED"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00100"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA
-                     sequence:UniRef:UniRef100_A0A482F223"
-                     /gene="arr"
-     gene            complement(14804..15316)
-                     /locus_tag="CJHFKP_00105"
+                     /inference="similar to AA sequence:RefSeq:WP_000237816.1"
+                     /gene="arr-2"
+     gene            complement(14804..15337)
+                     /locus_tag="CJHFKP_00085"
                      /gene="ant(2'')-Ia"
-     CDS             complement(14804..15316)
+     CDS             complement(14804..15337)
                      /db_xref="EC:2.7.7.46"
                      /db_xref="GO:0008871"
                      /db_xref="GO:0046677"
                      /db_xref="GO:0046872"
                      /db_xref="NCBIProtein:WP_000381802.1"
+                     /db_xref="RefSeq:WP_000381802.1"
                      /db_xref="SO:0001217"
-                     /db_xref="UniRef:UniRef50_P29806"
-                     /db_xref="UniRef:UniRef90_P29806"
+                     /db_xref="UniParc:UPI000000029A"
+                     /db_xref="UniRef:UniRef100_P0AE04"
+                     /db_xref="UniRef:UniRef50_P0AE04"
+                     /db_xref="UniRef:UniRef90_P0AE04"
                      /product="aminoglycoside nucleotidyltransferase
                      ANT(2'')-Ia"
-                     /locus_tag="CJHFKP_00105"
-                     /translation="MIHKILAAADERNLPLWIGGGWAIDARLGRVTRKHDDIDLTFPGE
-                     RRGELEAIVEMLGGRVMEELDYGFLAEIGDELLDCEPAWWADEAYEIAEAPQGSCPEAA
-                     EGVIAGRPVRCNSWEAIIWDYFYYADEVPPVDWPTKHIESYRLACTSLGAEKVEVLRAA
-                     FRSRYAA"
+                     /locus_tag="CJHFKP_00085"
+                     /protein_id="gnl|Bakta|CJHFKP_00085"
+                     /translation="MDTTQVTLIHKILAAADERNLPLWIGGGWAIDARLGRVTRKHDDI
+                     DLTFPGERRGELEAIVEMLGGRVMEELDYGFLAEIGDELLDCEPAWWADEAYEIAEAPQ
+                     GSCPEAAEGVIAGRPVRCNSWEAIIWDYFYYADEVPPVDWPTKHIESYRLACTSLGAEK
+                     VEVLRAAFRSRYAA"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00105"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA sequence:UniRef:UniRef90_P29806"
+                     /inference="similar to AA sequence:RefSeq:WP_000381802.1"
                      /gene="ant(2'')-Ia"
      gene            complement(15482..16381)
-                     /locus_tag="CJHFKP_00110"
+                     /locus_tag="CJHFKP_00090"
                      /gene="blaVEB-1"
      CDS             complement(15482..16381)
+                     /db_xref="EC:3.5.2.6"
+                     /db_xref="KEGG:K19097"
                      /db_xref="NCBIProtein:WP_000706731.1"
                      /db_xref="RefSeq:WP_000706731.1"
                      /db_xref="SO:0001217"
@@ -477,7 +488,8 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef50_Q7BVU7"
                      /db_xref="UniRef:UniRef90_Q7BVU7"
                      /product="extended-spectrum class A beta-lactamase VEB-1"
-                     /locus_tag="CJHFKP_00110"
+                     /locus_tag="CJHFKP_00090"
+                     /protein_id="gnl|Bakta|CJHFKP_00090"
                      /translation="MKIVKRILLVLLSLFFTIVYSNAQTDNLTLKIENVLKAKNARIGV
                      AIFNSNEKDTLKINNDFHFPMQSVMKFPIALAVLSEIDKGNLSFEQKIEITPQDLLPKT
                      WSPIKEEFPNGTTLTIEQILNYTVSESDNIGCDILLKLIGGTDSVQKFLNANHFTDISI
@@ -486,90 +498,87 @@ FEATURES             Location/Qualifiers
                      EKIISDIAKITWNYYLNK"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00110"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_000706731.1"
                      /gene="blaVEB-1"
      gene            complement(16496..16564)
-                     /locus_tag="CJHFKP_00115"
+                     /locus_tag="CJHFKP_00095"
                      /gene="RNA-OUT"
      ncRNA           complement(16496..16564)
                      /db_xref="RFAM:RF00240"
                      /db_xref="SO:0000655"
                      /product="RNA-OUT"
-                     /locus_tag="CJHFKP_00115"
+                     /locus_tag="CJHFKP_00095"
                      /inference="profile:Rfam:RF00240"
                      /ncRNA_class="other"
                      /gene="RNA-OUT"
-     gene            16515..17765
-                     /locus_tag="CJHFKP_00120"
-     CDS             16515..17765
+     gene            16557..17765
+                     /locus_tag="CJHFKP_00100"
+                     /gene="tnp"
+     CDS             16557..17765
+                     /db_xref="BlastRules:WP_001206290"
+                     /db_xref="RefSeq:WP_001206290.1"
                      /db_xref="SO:0001217"
-                     /db_xref="UniParc:UPI000052AB04"
-                     /db_xref="UniRef:UniRef100_A0A482KCY7"
+                     /db_xref="UniParc:UPI00000BB23F"
+                     /db_xref="UniRef:UniRef100_A0A0A0QX61"
                      /db_xref="UniRef:UniRef50_Q53371"
                      /db_xref="UniRef:UniRef90_A0A6C0VTA8"
                      /product="IS4-like element IS10A family transposase"
-                     /locus_tag="CJHFKP_00120"
-                     /translation="MIKWFLQKLHLDNKMREANILQHSLHQYCPELHLKRLNSLMLASK
-                     ALIECKTLTLTELGRNLPTTARTKHNIKRIDRLLGNTHLHQERLAVYQWHASLICSGNP
-                     MPIVLVDWSDIREHKRIMALRASIAFNGRSITLYEKSYPLSEQCSKASHNGFLADLAKI
-                     LPLHVTPLIVTDAGFKVPWYKEVEAHGWFWLSRIRGTVQFADIGAENWRAVRSTHDLAN
-                     GQAKSLGCKTLTKTNPINCHLTLYRSKPKGRTNQRSTRTNCHHPSAKTYSTSAKEPWVL
-                     ASNLPPESRSPKQLVNLYAKRMQIEETFRDLKSPAYGFGLRQSRTNSPERFDIILLIAL
-                     MVQCLLWLVGLHAQQQGWDKHFQANTIGHRTVLSTIRLGLEVLRRPDYQITEKELLAAW
-                     VLFANQLLKYGYAMADL"
+                     /locus_tag="CJHFKP_00100"
+                     /protein_id="gnl|Bakta|CJHFKP_00100"
+                     /translation="MREANILQHSLHQYCPELHLKRLNSLMLASKALIECKTLTLTELG
+                     RNLPTTARTKHNIKRIDRLLGNTHLHQERLAVYQWHASLICSGNPMPIVLVDWSDIREH
+                     KRIMALRASIAFNGRSITLYEKSYPLSEQCSKASHNGFLADLAKILPLHVTPLIVTDAG
+                     FKVPWYKEVEAHGWFWLSRIRGTVQFADIGAENWRAVRSTHDLANGQAKSLGCKTLTKT
+                     NPINCHLTLYRSKPKGRTNQRSTRTNCHHPSAKTYSTSAKEPWVLASNLPPESRSPKQL
+                     VNLYAKRMQIEETFRDLKSPAYGFGLRQSRTNSPERFDIILLIALMVQCLLWLVGLHAQ
+                     QQGWDKHFQANTIGHRTVLSTIRLGLEVLRRPDYQITEKELLAAWVLFANQLLKYGYAM
+                     ADL"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00120"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA
-                     sequence:UniRef:UniRef100_A0A482KCY7"
-     gene            complement(17775..18281)
-                     /locus_tag="CJHFKP_00125"
-                     /gene="tnp-IS6"
-     CDS             complement(17775..18281)
-                     /db_xref="COG:COG3316"
-                     /db_xref="COG:X"
+                     /inference="similar to AA sequence:RefSeq:WP_001206290.1"
+                     /gene="tnp"
+     gene            complement(17775..18263)
+                     /locus_tag="CJHFKP_00105"
+     CDS             complement(17775..18263)
+                     /db_xref="RefSeq:WP_020833808.1"
                      /db_xref="SO:0001217"
-                     /db_xref="UniRef:UniRef50_A0A0E2G7D5"
-                     /db_xref="UniRef:UniRef90_A0A3G4RJE8"
-                     /product="IS6 family transposase"
-                     /locus_tag="CJHFKP_00125"
-                     /translation="MLMELHMNPFKGRHFQRDIILWAVRWYCKYGISYRELQEMLAERG
-                     VNVDHSTIYRWVQRYAPEMEKRLRWYWRNPSDLCPWHMDETYVKVNGRWAYLYRAVDSR
-                     GRTVDFYLSSRRNSKAAYRFLGKILNNVKKWQIPRFINTDKAPAYGRALALLKREGRCP
-                     SDVEH"
+                     /db_xref="UniParc:UPI0003592238"
+                     /db_xref="UniRef:UniRef100_A0A377MSY1"
+                     /db_xref="UniRef:UniRef50_A0A064E4Z1"
+                     /db_xref="UniRef:UniRef90_A0A377MSY1"
+                     /product="TonB-dependent receptor"
+                     /locus_tag="CJHFKP_00105"
+                     /protein_id="gnl|Bakta|CJHFKP_00105"
+                     /translation="MNPFKGRHFQRDIILWAVRWYCKYGISYRELQEMLAERGVNVDHS
+                     TIYRWVQRYAPEMEKRLRWYWRNPSDLCPWHMDETYVKVNGRWAYLYRAVDSRGRTVDF
+                     YLSSRRNSKAAYRFLGKILNNVKKWQIPRFINTDKAPAYGRALALLKREGRCPSDVEH"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00125"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA
-                     sequence:UniRef:UniRef90_A0A3G4RJE8"
-                     /gene="tnp-IS6"
-     gene            complement(18310..18480)
-                     /locus_tag="CJHFKP_00130"
-     CDS             complement(18310..18480)
-                     /product="hypothetical protein"
-                     /locus_tag="CJHFKP_00130"
-                     /translation="MRQWVLSFPFQLRFLFGVVCGKGRNPTLRLWPAIFSGEIDVFPGD
-                     RRSRLIWHCCK"
+                     /inference="similar to AA sequence:RefSeq:WP_020833808.1"
+     gene            complement(18310..18711)
+                     /locus_tag="CJHFKP_00110"
+     CDS             complement(18310..18711)
+                     /db_xref="RefSeq:WP_001387387.1"
+                     /db_xref="SO:0001217"
+                     /db_xref="UniParc:UPI000011E3C8"
+                     /db_xref="UniRef:UniRef100_A0A161ILM9"
+                     /db_xref="UniRef:UniRef50_A0A6D1P739"
+                     /db_xref="UniRef:UniRef90_A0A756EIV8"
+                     /product="Zn-Tnp-IS91 domain-containing protein"
+                     /locus_tag="CJHFKP_00110"
+                     /protein_id="gnl|Bakta|CJHFKP_00110"
+                     /translation="MAEQGKELPGYVQREFEEFLQCGRLEHGFLRVRCESCHAEHLVAF
+                     SCKRRGFCPSCGARRMAESAALLVDEVLPEQPMRQWVLSFPFQLRFLFGVVCGKGRNPT
+                     LRLWPAIFSGEIDVFPGDRRSRLIWHCCK"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00130"
                      /inference="ab initio prediction:Prodigal:2.6"
-     gene            18729..18821
-                     /locus_tag="CJHFKP_00135"
-     CDS             18729..18821
-                     /product="hypothetical protein"
-                     /locus_tag="CJHFKP_00135"
-                     /translation="MERKLTLRDFGHEIIKKDLHLDPFKLKMKF"
-                     /codon_start=1
-                     /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00135"
-                     /inference="ab initio prediction:Prodigal:2.6"
+                     /inference="similar to AA sequence:RefSeq:WP_001387387.1"
      gene            complement(18861..19721)
-                     /locus_tag="CJHFKP_00140"
+                     /locus_tag="CJHFKP_00115"
                      /gene="blaTEM-1"
      CDS             complement(18861..19721)
                      /db_xref="EC:3.5.2.6"
@@ -584,7 +593,8 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef50_P62593"
                      /db_xref="UniRef:UniRef90_P62593"
                      /product="broad-spectrum class A beta-lactamase TEM-1"
-                     /locus_tag="CJHFKP_00140"
+                     /locus_tag="CJHFKP_00115"
+                     /protein_id="gnl|Bakta|CJHFKP_00115"
                      /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
                      ELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRVDAGQEQLGRRIHYSQNDLVEYS
                      PVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRW
@@ -593,215 +603,249 @@ FEATURES             Location/Qualifiers
                      LIKHW"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00140"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_000027057.1"
                      /gene="blaTEM-1"
-     gene            20286..21002
-                     /locus_tag="CJHFKP_00145"
-     CDS             20286..21002
+     gene            complement(19904..20239)
+                     /locus_tag="CJHFKP_00120"
+     CDS             complement(19904..20239)
+                     /db_xref="SO:0001217"
+                     /db_xref="UniRef:UniRef50_A0A0B1R8D0"
+                     /db_xref="UniRef:UniRef90_UPI001FFFC881"
+                     /product="recombinase family protein"
+                     /locus_tag="CJHFKP_00120"
+                     /protein_id="gnl|Bakta|CJHFKP_00120"
+                     /translation="MPIQLIKEFDAQGVAVRFIDDGISTDGDMGQMVVTILSAVAQAER
+                     RRILERTNEGRQEAKLKGIKFGRRRTVDRNVVLTLHQKGTGATEIAHQLSIARSTVYKI
+                     LEDERAS"
+                     /codon_start=1
+                     /transl_table=11
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /inference="similar to AA
+                     sequence:UniRef:UniRef90_UPI001FFFC881"
+     gene            20298..21002
+                     /locus_tag="CJHFKP_00125"
+                     /gene="tnp"
+     CDS             20298..21002
                      /db_xref="COG:COG3316"
                      /db_xref="COG:X"
-                     /db_xref="RefSeq:WP_001317540.1"
+                     /db_xref="IS:IS15DIV"
+                     /db_xref="RefSeq:WP_001067855.1"
                      /db_xref="SO:0001217"
-                     /db_xref="UniParc:UPI00001B29E2"
+                     /db_xref="UniParc:UPI0000003DD8"
                      /db_xref="UniRef:UniRef100_A0A6H1PZP7"
-                     /db_xref="UniRef:UniRef50_S6DCX2"
-                     /db_xref="UniRef:UniRef90_A0A6H1PZP7"
-                     /product="IS6-like element IS26 family transposase"
-                     /locus_tag="CJHFKP_00145"
-                     /translation="MELHMNPFKGRHFQRDIILWAVRWYCKYGISYRELQEMLAERGVN
-                     VDHSTIYRWVQRYAPEMEKRLRWYWRNPSDLCPWHMDETYVKVNGRWAYLYRAVDSRGR
-                     TVDFYLSSRRNSKAAYRFLGKILNNVKKWQIPRFINTDKAPAYGRALALLKREGRCPSD
-                     VEHRQIKYRNNVIECDHGKLKRIIGATLGFKSMKTAYATIKGIEVMRALRKGQASAFYY
-                     GDPLGEMRLVSRVFEM"
+                     /db_xref="UniRef:UniRef50_A0A0J3XVZ3"
+                     /db_xref="UniRef:UniRef90_A0A0J3XVZ3"
+                     /product="IS6 family IS15DIV transposase"
+                     /locus_tag="CJHFKP_00125"
+                     /protein_id="gnl|Bakta|CJHFKP_00125"
+                     /translation="MNPFKGRHFQRDIILWAVRWYCKYGISYRELQEMLAERGVNVDHS
+                     TIYRWVQRYAPEMEKRLRWYWRNPSDLCPWHMDETYVKVNGRWAYLYRAVDSRGRTVDF
+                     YLSSRRNSKAAYRFLGKILNNVKKWQIPRFINTDKAPAYGRALALLKREGRCPSDVEHR
+                     QIKYRNNVIECDHGKLKRIIGATLGFKSMKTAYATIKGIEVMRALRKGQASAFYYGDPL
+                     GEMRLVSRVFEM"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00145"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA sequence:RefSeq:WP_001317540.1"
-     gene            21008..21343
-                     /locus_tag="CJHFKP_00150"
-     CDS             21008..21343
+                     /inference="similar to AA sequence:RefSeq:WP_001067855.1"
+                     /gene="tnp"
+     gene            complement(20948..21307)
+                     /locus_tag="CJHFKP_00130"
+     CDS             complement(20948..21307)
                      /db_xref="SO:0001217"
-                     /db_xref="UniRef:UniRef50_A0A385AHV4"
-                     /db_xref="UniRef:UniRef90_A0A385AHV4"
-                     /product="Aldehyde dehydrogenase"
-                     /locus_tag="CJHFKP_00150"
-                     /translation="MNKTKGCLIANFATVPAALCQRLHDPAQIIEIARQAIHAMHHHGV
-                     AGAGEAYQRFQLRTLDILAGCLVAKSAINLDAFQLPFRVLVEGADPDIPNALSSHGIPC
-                     KMSGKTL"
+                     /db_xref="UniRef:UniRef50_A0A7R6ZCN0"
+                     /db_xref="UniRef:UniRef90_UPI001E2B273A"
+                     /product="recombinase family protein"
+                     /locus_tag="CJHFKP_00130"
+                     /protein_id="gnl|Bakta|CJHFKP_00130"
+                     /translation="MTGQRIGYIRVSTFDQNPERQLEGVKVDRAFSDKASGKDVKRPQL
+                     EALISFARTGDTVVVHSMDRLARNLDDLRRIVQTLTQRGGHCCKVSDEAAFCLIQRPYI
+                     SKTLLTRRISPRGSP"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00150"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA
-                     sequence:UniRef:UniRef90_A0A385AHV4"
-     gene            complement(21433..21783)
-                     /locus_tag="CJHFKP_00155"
-                     /gene="tnpM"
-     CDS             complement(21433..21783)
-                     /db_xref="RefSeq:WP_000454193.1"
+                     sequence:UniRef:UniRef90_UPI001E2B273A"
+     gene            complement(21433..21933)
+                     /locus_tag="CJHFKP_00135"
+                     /gene="eAL"
+     CDS             complement(21433..21933)
+                     /db_xref="COG:COG2200"
+                     /db_xref="COG:T"
+                     /db_xref="RefSeq:WP_015056581.1"
                      /db_xref="SO:0001217"
-                     /db_xref="UniParc:UPI0000000F42"
-                     /db_xref="UniRef:UniRef100_P04162"
-                     /db_xref="UniRef:UniRef50_P04162"
-                     /db_xref="UniRef:UniRef90_P04162"
-                     /product="Transposon Tn21 modulator protein"
-                     /locus_tag="CJHFKP_00155"
-                     /translation="MEVVAEGVETPDCLAWLRQAGCDTVQGFLFARPMPAAAFVGFVNQ
-                     WRNTTMNANEPSTSCCVCCKEIPLDAAFTPEGAEYVEHFCGLECYQRFQARASTATETS
-                     VKPDACDSPPSG"
+                     /db_xref="UniParc:UPI00005F12E9"
+                     /db_xref="UniRef:UniRef100_A0A075MCF7"
+                     /db_xref="UniRef:UniRef50_A0A5I7FUV6"
+                     /db_xref="UniRef:UniRef90_C7S9T2"
+                     /product="EAL domain, c-di-GMP-specific phosphodiesterase
+                     class I (or its enzymatically inactive variant)"
+                     /locus_tag="CJHFKP_00135"
+                     /protein_id="gnl|Bakta|CJHFKP_00135"
+                     /translation="MPHRTAGCGKSSLRPLMAGSSPSLPDGSNPSAAIVQSASDVQCSR
+                     LLKTTMEVVAEGVETPDCLAWLRQAGCDTVQGFLFARPMPAAAFVGFVNQWRNTTMNAN
+                     EPSTSCCVCCKEIPLDAAFTPEGAEYVEHFCGLECYQRFQARASTATETSVKPDACDSP
+                     PSG"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00155"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA sequence:RefSeq:WP_000454193.1"
-                     /gene="tnpM"
-     gene            complement(21986..22942)
-                     /locus_tag="CJHFKP_00160"
+                     /inference="similar to AA sequence:RefSeq:WP_015056581.1"
+                     /gene="eAL"
+     gene            complement(21986..22999)
+                     /locus_tag="CJHFKP_00140"
                      /gene="intI1"
-     CDS             complement(21986..22942)
+     CDS             complement(21986..22999)
+                     /db_xref="BlastRules:WP_000845054"
                      /db_xref="COG:COG4974"
                      /db_xref="COG:L"
+                     /db_xref="GO:0003677"
+                     /db_xref="GO:0006310"
+                     /db_xref="GO:0015074"
+                     /db_xref="GO:0044826"
+                     /db_xref="GO:0046718"
+                     /db_xref="GO:0075713"
+                     /db_xref="RefSeq:WP_000845054.1"
                      /db_xref="SO:0001217"
-                     /db_xref="UniParc:UPI00020C29C1"
-                     /db_xref="UniRef:UniRef100_A0A3G2CDC5"
+                     /db_xref="UniParc:UPI0000003DF9"
+                     /db_xref="UniRef:UniRef100_Q48337"
                      /db_xref="UniRef:UniRef50_P62590"
-                     /db_xref="UniRef:UniRef90_B7JCH8"
+                     /db_xref="UniRef:UniRef90_P62590"
                      /product="class 1 integron integrase IntI1"
-                     /locus_tag="CJHFKP_00160"
-                     /translation="MRERIRYLHYSLRTEQAYVNWVRAFIRFHGVRHPATLGSSEVEAF
-                     LSWLANERKVSVSTHRQALAALLFFYGKVLCTDLPWLQEIGRPRPSRRLPVVLTPDEVV
-                     RILGFLEGEHRLFAQLLYGTGMRISEGLQLRVKDLDFDHGTIIVREGKGSKDRALMLPE
-                     SLAPSLREQLSRARAWWLKDQAEGRSGVALPDALERKYPRAGHSWPWFWVFAQHTHSTD
-                     PRSGVVRRHHMYDQTFQRAFKRAVEQAGITKPATPHTLRHSFATALLRSGYDIRTVQDL
-                     LGHSDVSTTMIYTHVLKVGGAGVRSPLDALPPLTSER"
+                     /locus_tag="CJHFKP_00140"
+                     /protein_id="gnl|Bakta|CJHFKP_00140"
+                     /translation="MKTATAPLPPLRSVKVLDQLRERIRYLHYSLRTEQAYVNWVRAFI
+                     RFHGVRHPATLGSSEVEAFLSWLANERKVSVSTHRQALAALLFFYGKVLCTDLPWLQEI
+                     GRPRPSRRLPVVLTPDEVVRILGFLEGEHRLFAQLLYGTGMRISEGLQLRVKDLDFDHG
+                     TIIVREGKGSKDRALMLPESLAPSLREQLSRARAWWLKDQAEGRSGVALPDALERKYPR
+                     AGHSWPWFWVFAQHTHSTDPRSGVVRRHHMYDQTFQRAFKRAVEQAGITKPATPHTLRH
+                     SFATALLRSGYDIRTVQDLLGHSDVSTTMIYTHVLKVGGAGVRSPLDALPPLTSER"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00160"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA
-                     sequence:UniRef:UniRef100_A0A3G2CDC5"
+                     /inference="similar to AA sequence:RefSeq:WP_000845054.1"
                      /gene="intI1"
-     gene            23070..23969
-                     /locus_tag="CJHFKP_00165"
-                     /gene="blaVIM"
-     CDS             23070..23969
-                     /db_xref="NCBIProtein:WP_142836723.1"
-                     /db_xref="SO:0001217"
-                     /db_xref="UniRef:UniRef50_I6ZVA9"
-                     /db_xref="UniRef:UniRef90_A0A451F5F8"
-                     /product="subclass B1 metallo-beta-lactamase VIM-78"
-                     /locus_tag="CJHFKP_00165"
-                     /translation="MGRCLMLWSSNDVTQQGSRPKTKLCRTHPYGVLMLKVISSLLVYM
-                     TASVMAVASPLAHSGEPSGEYPTVNEIPVGEVRLYQIADGVWSHIATRSFDGAVYPSNG
-                     LIVRDGDELLLIDTAWGAKNTAALLAEIEKQIGLPVTRAVSTHFHDDRVGGVDVLRAAG
-                     VATYASPSTRRLAEAEGNEIPTHSLEGLSSSGDAVRFGPVELFYPGAAHSTDNLVVYVP
-                     SANVLYGGCAVHELSRTSAGNVADADLAEWPTSVERIQKHYPEAEVVIPGHGLPGGLDL
-                     LQHTANVVKAHKNRSVAE"
-                     /codon_start=1
-                     /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00165"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA
-                     sequence:UniRef:UniRef90_A0A451F5F8"
-                     /gene="blaVIM"
      regulatory      23092..23158
                      /note="putative aminoglycoside riboswitch / attI site"
                      /db_xref="RFAM:RF02912"
                      /db_xref="SO:0000035"
                      /inference="profile:Rfam:RF02912"
                      /regulatory_class="riboswitch"
-     gene            complement(24221..24397)
-                     /locus_tag="CJHFKP_00170"
-     CDS             complement(24221..24397)
+     gene            23169..23969
+                     /locus_tag="CJHFKP_00145"
+                     /gene="blaVIM-78"
+     CDS             23169..23969
+                     /db_xref="EC:3.5.2.6"
+                     /db_xref="KEGG:K18781"
+                     /db_xref="NCBIProtein:WP_142836723.1"
+                     /db_xref="RefSeq:WP_142836723.1"
                      /db_xref="SO:0001217"
-                     /db_xref="UniParc:UPI00042F3BAB"
-                     /db_xref="UniRef:UniRef100_A0A7D5KIK8"
-                     /db_xref="UniRef:UniRef50_A0A7D5KIK8"
-                     /db_xref="UniRef:UniRef90_A0A7D5KIK8"
-                     /product="hypothetical protein"
-                     /locus_tag="CJHFKP_00170"
-                     /translation="MKQPGNGCNYDDAESRPDCISNTDRDGFQNQRKKIKCDAITDYDN
-                     GGRGKLSKALARF"
+                     /db_xref="UniParc:UPI00115D083D"
+                     /db_xref="UniRef:UniRef100_UPI00115D083D"
+                     /db_xref="UniRef:UniRef50_I6ZVA9"
+                     /db_xref="UniRef:UniRef90_I6ZVA9"
+                     /product="subclass B1 metallo-beta-lactamase VIM-78"
+                     /locus_tag="CJHFKP_00145"
+                     /protein_id="gnl|Bakta|CJHFKP_00145"
+                     /translation="MLKVISSLLVYMTASVMAVASPLAHSGEPSGEYPTVNEIPVGEVR
+                     LYQIADGVWSHIATRSFDGAVYPSNGLIVRDGDELLLIDTAWGAKNTAALLAEIEKQIG
+                     LPVTRAVSTHFHDDRVGGVDVLRAAGVATYASPSTRRLAEAEGNEIPTHSLEGLSSSGD
+                     AVRFGPVELFYPGAAHSTDNLVVYVPSANVLYGGCAVHELSRTSAGNVADADLAEWPTS
+                     VERIQKHYPEAEVVIPGHGLPGGLDLLQHTANVVKAHKNRSVAE"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00170"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA
-                     sequence:UniRef:UniRef100_A0A7D5KIK8"
-     gene            24415..25341
-                     /locus_tag="CJHFKP_00175"
+                     /inference="similar to AA sequence:RefSeq:WP_142836723.1"
+                     /gene="blaVIM-78"
+     gene            24161..24508
+                     /locus_tag="CJHFKP_00150"
+                     /gene="qacEdelta1"
+     CDS             24161..24508
+                     /db_xref="GO:0005886"
+                     /db_xref="GO:0022857"
+                     /db_xref="GO:0042221"
+                     /db_xref="NCBIProtein:WP_000679427.1"
+                     /db_xref="RefSeq:WP_000679427.1"
+                     /db_xref="SO:0001217"
+                     /db_xref="UniParc:UPI0000000BEC"
+                     /db_xref="UniRef:UniRef100_P0AA22"
+                     /db_xref="UniRef:UniRef50_P0AA22"
+                     /db_xref="UniRef:UniRef90_P0AA22"
+                     /product="quaternary ammonium compound efflux SMR
+                     transporter QacE delta 1"
+                     /locus_tag="CJHFKP_00150"
+                     /protein_id="gnl|Bakta|CJHFKP_00150"
+                     /translation="MKGWLFLVIAIVGEVIATSALKSSEGFTKLAPSAVVIIGYGIAFY
+                     FLSLVLKSIPVGVAYAVWSGLGVVIITAIAWLLHGQKLDAWGFVGMGLIIAAFLLARSP
+                     SWKSLRRPTPW"
+                     /codon_start=1
+                     /transl_table=11
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /inference="similar to AA sequence:RefSeq:WP_000679427.1"
+                     /gene="qacEdelta1"
+     gene            24502..25341
+                     /locus_tag="CJHFKP_00155"
                      /gene="sul1"
-     CDS             24415..25341
+     CDS             24502..25341
+                     /db_xref="COG:COG0294"
+                     /db_xref="COG:H"
                      /db_xref="EC:2.5.1.15"
                      /db_xref="GO:0004156"
                      /db_xref="GO:0046654"
                      /db_xref="GO:0046656"
                      /db_xref="GO:0046872"
+                     /db_xref="KEGG:K18974"
                      /db_xref="NCBIProtein:WP_000259031.1"
+                     /db_xref="RefSeq:WP_000259031.1"
                      /db_xref="SO:0001217"
-                     /db_xref="UniParc:UPI000068875B"
-                     /db_xref="UniRef:UniRef100_B1VCG2"
+                     /db_xref="UniParc:UPI000000029B"
+                     /db_xref="UniRef:UniRef100_P0C002"
                      /db_xref="UniRef:UniRef50_P0C002"
                      /db_xref="UniRef:UniRef90_P0C002"
                      /product="sulfonamide-resistant dihydropteroate synthase
                      Sul1"
-                     /locus_tag="CJHFKP_00175"
-                     /translation="MGLCRYGAHNCCLFARPIPIVEVAAEADAMVTVFGILNLTEDSFF
-                     DESRRLDPAGAVTAAIEMLRVGSDVVDVGPAASHPDARPVSPADEIRRIAPLLDALSDQ
-                     MHRVSIDSFQPETQRYALKRGVGYLNDIQGFPDPALYPDIAEADCRLVVMHSAQRDGIA
-                     TRTGHLRPEDALDEIVRFFEARVSALRRSGVAADRLILDPGMGFFLSPAPETSLHVLSN
-                     LQKLKSALGLPLLVSVSRKSFLGATVGLPVKDLGPASLAAELHAIGNGADYVRTHAPGD
-                     LRSAITFSETLAKFRSRDARDRGLDHA"
+                     /locus_tag="CJHFKP_00155"
+                     /protein_id="gnl|Bakta|CJHFKP_00155"
+                     /translation="MVTVFGILNLTEDSFFDESRRLDPAGAVTAAIEMLRVGSDVVDVG
+                     PAASHPDARPVSPADEIRRIAPLLDALSDQMHRVSIDSFQPETQRYALKRGVGYLNDIQ
+                     GFPDPALYPDIAEADCRLVVMHSAQRDGIATRTGHLRPEDALDEIVRFFEARVSALRRS
+                     GVAADRLILDPGMGFFLSPAPETSLHVLSNLQKLKSALGLPLLVSVSRKSFLGATVGLP
+                     VKDLGPASLAAELHAIGNGADYVRTHAPGDLRSAITFSETLAKFRSRDARDRGLDHA"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00175"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA sequence:UniRef:UniRef100_B1VCG2"
+                     /inference="similar to AA sequence:RefSeq:WP_000259031.1"
                      /gene="sul1"
-     gene            25843..26079
-                     /locus_tag="CJHFKP_00180"
-     CDS             25843..26079
-                     /product="hypothetical protein"
-                     /locus_tag="CJHFKP_00180"
-                     /translation="MSSTTQPSKPHSKPKVNTCLATSNKNSTTSSNVAVWSMVSCGFAA
-                     RIVITSVWSPSAVNDAAFALAAVPAGWPRVRRC"
-                     /codon_start=1
-                     /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00180"
-                     /inference="ab initio prediction:Prodigal:2.6"
-     gene            26055..27287
-                     /locus_tag="CJHFKP_00185"
+     gene            25746..27287
+                     /locus_tag="CJHFKP_00160"
                      /gene="rPS27A"
-     CDS             26055..27287
+     CDS             25746..27287
                      /db_xref="COG:COG2051"
                      /db_xref="COG:J"
+                     /db_xref="RefSeq:WP_000050481.1"
                      /db_xref="SO:0001217"
-                     /db_xref="UniParc:UPI0000F34CFC"
-                     /db_xref="UniRef:UniRef100_A0A3P6X0Y3"
-                     /db_xref="UniRef:UniRef50_W8CTS8"
+                     /db_xref="UniParc:UPI0000001028"
+                     /db_xref="UniRef:UniRef100_A0A154CBX8"
+                     /db_xref="UniRef:UniRef50_C4NUT8"
                      /db_xref="UniRef:UniRef90_W8CTS8"
-                     /product="Zn-Tnp-IS91 domain-containing protein"
-                     /locus_tag="CJHFKP_00185"
-                     /translation="MAESAALLIDEVFPKEPIRQWVLSFPFQLRFLLARHPQLMGQVLS
-                     IVYRTLSTHLIKKAGYTKASAQTGSVTLIQRFGSALNLNVHYHMLFLDGVYAEDDYGKQ
-                     RFHRVKAPTYDELNTLAHTLSHRIARCMEKRGILERDAENTWLTLEEGEDDTLTQLHGA
-                     SVTYRIAVGPQQGRKVFTLQTLPGREDKADSSSRVANHAGFSLHAGVMAEAHQRDKLER
-                     LCRYISRPAVSEKRLALTANGQVRYELKTPYRNGTTHVIFEPLDFIAKLAALVPKPRVN
-                     LTRFHGVFAPNSKHRVQVTPAKRGKKPDKSEGLDTNWRDKSPAERHRAMTWMQRLKRVF
-                     NIDIEVCEHCGGHVKVIASIEDPKVIEQILKHLKQKTAKANAAKQRELPPERAPPLTPS
-                     LFDPSQSRLFD"
+                     /product="IS91 family transposase"
+                     /locus_tag="CJHFKP_00160"
+                     /protein_id="gnl|Bakta|CJHFKP_00160"
+                     /translation="MSLARNATASQSPTQTNGYERHQPDQTLLYQLVEQHYPAFKASLE
+                     AQGQHLPRYIQQEFNDLLQCGRLEYGFMRVRCEDCHHERLVAFSCKRRGFCPSCGARRM
+                     AESAALLIDEVFPKEPIRQWVLSFPFQLRFLLARHPQLMGQVLSIVYRTLSTHLIKKAG
+                     YTKASAQTGSVTLIQRFGSALNLNVHYHMLFLDGVYAEDDYGKQRFHRVKAPTYDELNT
+                     LAHTLSHRIARCMEKRGILERDAENTWLTLEEGEDDTLTQLHGASVTYRIAVGPQQGRK
+                     VFTLQTLPGREDKADSSSRVANHAGFSLHAGVMAEAHQRDKLERLCRYISRPAVSEKRL
+                     ALTANGQVRYELKTPYRNGTTHVIFEPLDFIAKLAALVPKPRVNLTRFHGVFAPNSKHR
+                     VQVTPAKRGKKPDKSEGLDTNWRDKSPAERHRAMTWMQRLKRVFNIDIEVCEHCGGHVK
+                     VIASIEDPKVIEQILKHLKQKTAKANAAKQRELPPERAPPLTPSLFDPSQSRLFD"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00185"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA
-                     sequence:UniRef:UniRef100_A0A3P6X0Y3"
+                     /inference="similar to AA sequence:RefSeq:WP_000050481.1"
                      /gene="rPS27A"
      gene            27551..28207
-                     /locus_tag="CJHFKP_00190"
+                     /locus_tag="CJHFKP_00165"
                      /gene="qnrA1"
      CDS             27551..28207
                      /db_xref="COG:COG1357"
@@ -815,142 +859,139 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef90_Q83U40"
                      /product="quinolone resistance pentapeptide repeat protein
                      QnrA1"
-                     /locus_tag="CJHFKP_00190"
+                     /locus_tag="CJHFKP_00165"
+                     /protein_id="gnl|Bakta|CJHFKP_00165"
                      /translation="MDIIDKVFQQEDFSRQDLSDSRFRRCRFYQCDFSHCQLQDASFED
                      CSFIESGAVEGCHFSYADLRDASFKACRLSLANFSGANCFGIEFRECDLKGANFSRARF
                      YNQVSHKMYFCSAYISGCNLAYTNLSGQCLEKCELFENNWSNANLSGASLMGSDLSRGT
                      FSRDCWQQVNLRGCDLTFADLDGLDPRRVNLEGVKICAWQQEQLLEPLGVIVLPD"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00190"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_012579084.1"
                      /gene="qnrA1"
-     gene            complement(28324..28584)
-                     /locus_tag="CJHFKP_00195"
-     CDS             complement(28324..28584)
-                     /product="hypothetical protein"
-                     /locus_tag="CJHFKP_00195"
-                     /translation="MGQHQPARDAGKQHTAELFFQRPDLLADGGMGDIQLNRRAGKTEM
-                     TGGGLKGAQRVKGEITSDHNPPVSFSLGQLSLHNASFEGKV"
-                     /codon_start=1
-                     /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00195"
-                     /inference="ab initio prediction:Prodigal:2.6"
-     gene            28688..28870
-                     /locus_tag="CJHFKP_00200"
-     CDS             28688..28870
-                     /product="hypothetical protein"
-                     /locus_tag="CJHFKP_00200"
-                     /translation="MRWEHLPQAGCCRVWPDSMTAIRILICISPPITIMWTRRRKGMII
-                     RSVSVTARGMSQMRN"
-                     /codon_start=1
-                     /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00200"
-                     /inference="ab initio prediction:Prodigal:2.6"
-     gene            29038..29268
-                     /locus_tag="CJHFKP_00205"
-                     /gene="lysR"
-     CDS             29038..29268
+     gene            28393..29268
+                     /locus_tag="CJHFKP_00170"
+                     /gene="ampR"
+     CDS             28393..29268
+                     /db_xref="BlastRules:WP_003839466"
+                     /db_xref="BlastRules:WP_004236384"
+                     /db_xref="BlastRules:WP_006816750"
+                     /db_xref="BlastRules:WP_008106104"
+                     /db_xref="BlastRules:WP_012440261"
+                     /db_xref="BlastRules:WP_015368072"
                      /db_xref="COG:COG0583"
                      /db_xref="COG:K"
+                     /db_xref="KEGG:K17850"
+                     /db_xref="RefSeq:WP_004193231.1"
                      /db_xref="SO:0001217"
-                     /db_xref="UniParc:UPI00079A909C"
+                     /db_xref="UniParc:UPI00001921DC"
                      /db_xref="UniRef:UniRef100_Q83TX2"
                      /db_xref="UniRef:UniRef50_P24734"
                      /db_xref="UniRef:UniRef90_Q83TX2"
-                     /product="AmpR"
-                     /locus_tag="CJHFKP_00205"
-                     /translation="MVFDTSLAMAEAAQLGAGVAIAPVCMFSRLLQSGALVQPFAAEIT
-                     LGGYWLTRLQSRTETPAMQQFARWLLNTAAA"
+                     /product="LysR family transcriptional regulator AmpR"
+                     /locus_tag="CJHFKP_00170"
+                     /protein_id="gnl|Bakta|CJHFKP_00170"
+                     /translation="MVRRYLPLNPLRAFEAAARHLSFTRAAIELNVTHAAVSQQVRALE
+                     EQLGCVLFTRVSRGLVLTHEGEGLLPVLNEAFDRIADTLECFSHGQFRERVKVGAVGTF
+                     AAGWLLPRLAGFYDSHPHIDLHISTHNNHVDPAAEGHDYTIRFGNGAWHESDAELIFSA
+                     PHAPLCSPAIAEQLQQPDDVHRFTLLRSFRRDEWSRWLDCAGGTPPSPSQPVMVFDTSL
+                     AMAEAAQLGAGVAIAPVCMFSRLLQSGALVQPFAAEITLGGYWLTRLQSRTETPAMQQF
+                     ARWLLNTAAA"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00205"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA sequence:UniRef:UniRef100_Q83TX2"
-                     /gene="lysR"
+                     /inference="similar to AA sequence:RefSeq:WP_004193231.1"
+                     /gene="ampR"
      gene            complement(29272..29754)
-                     /locus_tag="CJHFKP_00210"
+                     /locus_tag="CJHFKP_00175"
+                     /gene="hypA"
      CDS             complement(29272..29754)
-                     /db_xref="RefSeq:WP_015613268.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI000328A861"
                      /db_xref="UniRef:UniRef100_A0A0U3J261"
                      /db_xref="UniRef:UniRef50_P0A703"
                      /db_xref="UniRef:UniRef90_A0A0U3J261"
-                     /product="Hydrogenase maturation factor HypA"
-                     /locus_tag="CJHFKP_00210"
+                     /product="hydrogenase maturation nickel metallochaperone
+                     HypA"
+                     /locus_tag="CJHFKP_00175"
+                     /protein_id="gnl|Bakta|CJHFKP_00175"
                      /translation="MKQPGNGCNYDDAESRPDCISNTDRDGFQNQRKKIKCDAITDYDN
                      GGRGKLSKALGAADIIREQAEQHGIARVTDVWLEVGALADVEESALHFCFDIACRDTVA
                      QGCTLHIDVIPAQAWCWDCSREAEIMQHAGCCPHCGSERLRISEGDDLRVKSLEGE"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00210"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA sequence:RefSeq:WP_015613268.1"
-     gene            29772..30698
-                     /locus_tag="CJHFKP_00215"
+                     /inference="similar to AA
+                     sequence:UniRef:UniRef100_A0A0U3J261"
+                     /gene="hypA"
+     gene            29859..30698
+                     /locus_tag="CJHFKP_00180"
                      /gene="sul1"
-     CDS             29772..30698
+     CDS             29859..30698
+                     /db_xref="COG:COG0294"
+                     /db_xref="COG:H"
                      /db_xref="EC:2.5.1.15"
                      /db_xref="GO:0004156"
                      /db_xref="GO:0046654"
                      /db_xref="GO:0046656"
                      /db_xref="GO:0046872"
+                     /db_xref="KEGG:K18974"
                      /db_xref="NCBIProtein:WP_000259031.1"
+                     /db_xref="RefSeq:WP_000259031.1"
                      /db_xref="SO:0001217"
-                     /db_xref="UniParc:UPI000068875B"
-                     /db_xref="UniRef:UniRef100_B1VCG2"
+                     /db_xref="UniParc:UPI000000029B"
+                     /db_xref="UniRef:UniRef100_P0C002"
                      /db_xref="UniRef:UniRef50_P0C002"
                      /db_xref="UniRef:UniRef90_P0C002"
                      /product="sulfonamide-resistant dihydropteroate synthase
                      Sul1"
-                     /locus_tag="CJHFKP_00215"
-                     /translation="MGLCRYGAHNCCLFARPIPIVEVAAEADAMVTVFGILNLTEDSFF
-                     DESRRLDPAGAVTAAIEMLRVGSDVVDVGPAASHPDARPVSPADEIRRIAPLLDALSDQ
-                     MHRVSIDSFQPETQRYALKRGVGYLNDIQGFPDPALYPDIAEADCRLVVMHSAQRDGIA
-                     TRTGHLRPEDALDEIVRFFEARVSALRRSGVAADRLILDPGMGFFLSPAPETSLHVLSN
-                     LQKLKSALGLPLLVSVSRKSFLGATVGLPVKDLGPASLAAELHAIGNGADYVRTHAPGD
-                     LRSAITFSETLAKFRSRDARDRGLDHA"
+                     /locus_tag="CJHFKP_00180"
+                     /protein_id="gnl|Bakta|CJHFKP_00180"
+                     /translation="MVTVFGILNLTEDSFFDESRRLDPAGAVTAAIEMLRVGSDVVDVG
+                     PAASHPDARPVSPADEIRRIAPLLDALSDQMHRVSIDSFQPETQRYALKRGVGYLNDIQ
+                     GFPDPALYPDIAEADCRLVVMHSAQRDGIATRTGHLRPEDALDEIVRFFEARVSALRRS
+                     GVAADRLILDPGMGFFLSPAPETSLHVLSNLQKLKSALGLPLLVSVSRKSFLGATVGLP
+                     VKDLGPASLAAELHAIGNGADYVRTHAPGDLRSAITFSETLAKFRSRDARDRGLDHA"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00215"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA sequence:UniRef:UniRef100_B1VCG2"
+                     /inference="similar to AA sequence:RefSeq:WP_000259031.1"
                      /gene="sul1"
      gene            30826..31326
-                     /locus_tag="CJHFKP_00220"
+                     /locus_tag="CJHFKP_00185"
                      /gene="yhbS"
      CDS             30826..31326
                      /db_xref="COG:COG3153"
                      /db_xref="COG:R"
                      /db_xref="SO:0001217"
-                     /db_xref="UniRef:UniRef50_A0A142BVN8"
-                     /db_xref="UniRef:UniRef90_A0A854QMF3"
-                     /product="N-acetyltransferase"
-                     /locus_tag="CJHFKP_00220"
+                     /db_xref="UniRef:UniRef50_A0A899NBB6"
+                     /db_xref="UniRef:UniRef90_A0A1L2ZNQ8"
+                     /product="putative N-acetyltransferase YhbS"
+                     /locus_tag="CJHFKP_00185"
+                     /protein_id="gnl|Bakta|CJHFKP_00185"
                      /translation="MDSEEPPNVRVACSGDIDEVVRLMHDAAAWMSAKGTPAWDVARID
                      RTFAETFVLRSELLVASCSDGIVGCCTLSAEDPEFWPDALKGEAAYLHKLAVRRTHAGR
                      GVSSALIEACRHAARTQGCAKLRLDCHPNLRGLYERLGFTHVDTFNPGWDPTFIAERLE
                      LEI"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00220"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA
-                     sequence:UniRef:UniRef90_A0A854QMF3"
+                     sequence:UniRef:UniRef90_A0A1L2ZNQ8"
                      /gene="yhbS"
      gene            complement(31295..32287)
-                     /locus_tag="CJHFKP_00225"
+                     /locus_tag="CJHFKP_00190"
      CDS             complement(31295..32287)
                      /db_xref="RefSeq:WP_001381192.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI000049F142"
                      /db_xref="UniRef:UniRef100_A0A0B1M6S0"
-                     /db_xref="UniRef:UniRef50_A0A143QFU6"
-                     /db_xref="UniRef:UniRef90_A0A0B1M6S0"
-                     /product="AAA family ATPase"
-                     /locus_tag="CJHFKP_00225"
+                     /db_xref="UniRef:UniRef50_A0A899NCE5"
+                     /db_xref="UniRef:UniRef90_A0A2H4UF75"
+                     /product="Transposase"
+                     /locus_tag="CJHFKP_00190"
+                     /protein_id="gnl|Bakta|CJHFKP_00190"
                      /translation="MDEYPIIDLSHLLPAAQGLARLPADERIQRLRADRWIGYPRAVEA
                      LNRLEALYAWPNKQRMPNLLLVGPTNNGKSMIVEKFRRTHPASSDADQEHIPVLVVQMP
                      SEPSVIRFYVALLAAMGAPLRPRPRLPEMEQLALALLRKVGVRMLVIDELHNVLAGNSV
@@ -959,114 +1000,73 @@ FEATURES             Location/Qualifiers
                      LSMACRQPLAQPRHRGRTASDLEATGPSHPDMDLDARTDVRFRVLGVLR"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00225"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_001381192.1"
-     gene            complement(32290..33753)
-                     /locus_tag="CJHFKP_00230"
-     CDS             complement(32290..33753)
+     gene            complement(32290..33969)
+                     /locus_tag="CJHFKP_00195"
+                     /gene="tniA"
+     CDS             complement(32290..33969)
+                     /db_xref="RefSeq:WP_000179844.1"
                      /db_xref="SO:0001217"
+                     /db_xref="UniParc:UPI00000B5147"
+                     /db_xref="UniRef:UniRef100_A0A075MF25"
                      /db_xref="UniRef:UniRef50_K1JAR7"
-                     /db_xref="UniRef:UniRef90_A0A075MF25"
-                     /product="DDE-type integrase/transposase/recombinase"
-                     /locus_tag="CJHFKP_00230"
-                     /translation="MTDLVPGQSGGGKGKGRLPEPVERVIHELLQKRFLTKQKRSLAAF
-                     HREVTQVCKAQKLRVPARNTVALRIASLDPRKVIRRREGQDAARDLQGVGGEPPAVTAP
-                     LEQVQIDHTVIDLIVVDDRDRQPIGRPYLTLAIDVFTRCVLGMVVTLEAPSAVSVGLCL
-                     VHVACDKRPWLEGLNVEMDWQMSGKPLLLYLDNAAEFKSEALRRGCEQHGIRLDYRPLG
-                     QPHYGGIVERIIGTAMQMIHDELPGTTFSNPDQRGDYDSENKAALTLRELERWLTLAVG
-                     TYHGSVHNGLLQPPAARWAEAVARVGVPAVVTRATSFLVDFLPILRRTLTRTGFVIDHI
-                     HYYADALKPWIARRERWPSFLIRRDPRDISRIWVLEPEGQHYLEIPYRTLSHPAVTLWE
-                     QRQALAKLRQQGREQVDESALFRMIGQMREIVTSAQKATRKARRDADRRQHLKTSARPD
-                     KPVPPDTDIADPQADNLPPAKPFDQIEEW"
+                     /db_xref="UniRef:UniRef90_V7Z7B8"
+                     /product="TniA protein"
+                     /locus_tag="CJHFKP_00195"
+                     /protein_id="gnl|Bakta|CJHFKP_00195"
+                     /translation="MATDTPRIPEQGVATLPDEAWERARRRAEIISPLAQSETVGHEAA
+                     DMAAQALGLSRRQVYVLIRRARQGSGLVTDLVPGQSGGGKGKGRLPEPVERVIHELLQK
+                     RFLTKQKRSLAAFHREVTQVCKAQKLRVPARNTVALRIASLDPRKVIRRREGQDAARDL
+                     QGVGGEPPAVTAPLEQVQIDHTVIDLIVVDDRDRQPIGRPYLTLAIDVFTRCVLGMVVT
+                     LEAPSAVSVGLCLVHVACDKRPWLEGLNVEMDWQMSGKPLLLYLDNAAEFKSEALRRGC
+                     EQHGIRLDYRPLGQPHYGGIVERIIGTAMQMIHDELPGTTFSNPDQRGDYDSENKAALT
+                     LRELERWLTLAVGTYHGSVHNGLLQPPAARWAEAVARVGVPAVVTRATSFLVDFLPILR
+                     RTLTRTGFVIDHIHYYADALKPWIARRERWPSFLIRRDPRDISRIWVLEPEGQHYLEIP
+                     YRTLSHPAVTLWEQRQALAKLRQQGREQVDESALFRMIGQMREIVTSAQKATRKARRDA
+                     DRRQHLKTSARPDKPVPPDTDIADPQADNLPPAKPFDQIEEW"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00230"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /inference="similar to AA sequence:RefSeq:WP_000179844.1"
+                     /gene="tniA"
+     gene            complement(35028..36164)
+                     /locus_tag="CJHFKP_00200"
+                     /gene="tnp"
+     CDS             complement(35028..36164)
+                     /db_xref="SO:0001217"
+                     /db_xref="UniParc:UPI00061A43CA"
+                     /db_xref="UniRef:UniRef100_A0A2Z5VKG7"
+                     /db_xref="UniRef:UniRef50_A0A2Z6AHE1"
+                     /db_xref="UniRef:UniRef90_A0A2N3H1R4"
+                     /product="IS1182 family transposase"
+                     /locus_tag="CJHFKP_00200"
+                     /protein_id="gnl|Bakta|CJHFKP_00200"
+                     /translation="MCEEVHLNLAYRWFCRLGLEDEVPNHSTFSKNRHGRFRDSDLFRW
+                     LFNEVLRRCMAAGLVKGEGFAVDASIIKADASRQRGVAGDEVDWNDPKLSSRAVREYLE
+                     ALDEEALAEALPKKISLTDPQSRWTAAPGGPAFFAYSTNYLIDTEHGVIMDVEATPAHR
+                     TAEVDSTRTMVERVEAQFDLTPERLIGDTAYGTAPMLAWMVEEKDIEPHVPVWDKTERK
+                     DDSLSSNDFHWSQDANEYRCPAGKPLRSEWRAFTQQRSRVTKAKTVIYRSSQTDCATCP
+                     LKAKCCPNTPNRKIVRSIHEAARDVARRIAKTPEYLVSRCERKKVEMLFAHLKRIMKLD
+                     RLRLRGLTGATDEFTLAAMVQNLRRMAKLLPQGPPLTG"
+                     /codon_start=1
+                     /transl_table=11
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA
-                     sequence:UniRef:UniRef90_A0A075MF25"
-     gene            33766..34158
-                     /locus_tag="CJHFKP_00235"
-     CDS             33766..34158
-                     /product="hypothetical protein"
-                     /locus_tag="CJHFKP_00235"
-                     /translation="MPGTPDQNVYLAPRQAQRLSRHIGRFVPDRLRLRQRTDDLRTTAR
-                     TLPSLIRQSGHALFWNPWGVRRHAHLALVHTSIEHSRDWCRSLLILNCQELAAQQPLRP
-                     INWCSRLLKMTRSVAIPDIQLGYALN"
-                     /codon_start=1
-                     /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00235"
-                     /inference="ab initio prediction:Prodigal:2.6"
-     gene            34242..34415
-                     /locus_tag="CJHFKP_00240"
-     CDS             34242..34415
-                     /db_xref="RefSeq:WP_197086636.1"
-                     /db_xref="SO:0001217"
-                     /db_xref="UniParc:UPI000659A8C2"
-                     /db_xref="UniRef:UniRef100_A0A290FYX4"
-                     /db_xref="UniRef:UniRef50_A0A290FYX4"
-                     /db_xref="UniRef:UniRef90_A0A290FYX4"
-                     /product="Chromate resistance protein ChrB"
-                     /locus_tag="CJHFKP_00240"
-                     /translation="MSFLALFVSLPTKASTGRMRVWRSVKAQGCATLRDGVYLLPDSAD
-                     SAATLGEVVGGK"
-                     /codon_start=1
-                     /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00240"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA sequence:RefSeq:WP_197086636.1"
-     gene            complement(35028..36002)
-                     /locus_tag="CJHFKP_00245"
-                     /gene="tnp-IS1182"
-     CDS             complement(35028..36002)
-                     /db_xref="SO:0001217"
-                     /db_xref="UniParc:UPI00016C1968"
-                     /db_xref="UniRef:UniRef100_F1CNH9"
-                     /db_xref="UniRef:UniRef50_A0A2V5AII1"
-                     /db_xref="UniRef:UniRef90_A0A2N1WP24"
-                     /product="IS1182 family transposase"
-                     /locus_tag="CJHFKP_00245"
-                     /translation="MAAGLVKGEGFAVDASIIKADASRQRGVAGDEVDWNDPKLSSRAV
-                     REYLEALDEEALAEALPKKISLTDPQSRWTAAPGGPAFFAYSTNYLIDTEHGVIMDVEA
-                     TPAHRTAEVDSTRTMVERVEAQFDLTPERLIGDTAYGTAPMLAWMVEEKDIEPHVPVWD
-                     KTERKDDSLSSNDFHWSQDANEYRCPAGKPLRSEWRAFTQQRSRVTKAKTVIYRSSQTD
-                     CATCPLKAKCCPNTPNRKIVRSIHEAARDVARRIAKTPEYLVSRCERKKVEMLFAHLKR
-                     IMKLDRLRLRGLTGATDEFTLAAMVQNLRRMAKLLPQGPPLTG"
-                     /codon_start=1
-                     /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00245"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA sequence:UniRef:UniRef100_F1CNH9"
-                     /gene="tnp-IS1182"
-     gene            complement(36049..36399)
-                     /locus_tag="CJHFKP_00250"
-     CDS             complement(36049..36399)
-                     /db_xref="SO:0001217"
-                     /db_xref="UniParc:UPI00016C1969"
-                     /db_xref="UniRef:UniRef100_G3F9R4"
-                     /db_xref="UniRef:UniRef50_A0A6N3IM35"
-                     /db_xref="UniRef:UniRef90_G3F9R4"
-                     /product="ISCfr1 truncated transposase TnpA"
-                     /locus_tag="CJHFKP_00250"
-                     /translation="MMGQLPGGQQRLFYSFNLEDHVPAQHLLRSIDQCLDLSDLRAYLA
-                     DFYSPIGRPSIDPELMVRMLVVGYLLWHSFRAAIVRRGAPEPGLSLVLPVGSGRRSPQS
-                     LDLLEESPWAFS"
-                     /codon_start=1
-                     /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00250"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA sequence:UniRef:UniRef100_G3F9R4"
+                     sequence:UniRef:UniRef100_A0A2Z5VKG7"
+                     /gene="tnp"
      gene            complement(36514..37671)
-                     /locus_tag="CJHFKP_00255"
+                     /locus_tag="CJHFKP_00205"
      CDS             complement(36514..37671)
                      /db_xref="RefSeq:WP_001330847.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI0001FB4526"
                      /db_xref="UniRef:UniRef100_A0A6F8QKQ8"
-                     /db_xref="UniRef:UniRef50_C5CL21"
-                     /db_xref="UniRef:UniRef90_A0A2P9EH77"
-                     /product="DUF3883 domain-containing protein"
-                     /locus_tag="CJHFKP_00255"
+                     /db_xref="UniRef:UniRef50_A0A0V9MWK7"
+                     /db_xref="UniRef:UniRef90_A0A0V9MWK7"
+                     /product="NOV-C domain-containing protein"
+                     /locus_tag="CJHFKP_00205"
+                     /protein_id="gnl|Bakta|CJHFKP_00205"
                      /translation="MTVRKDPVSQLSQLRSPAAVQAAIDEFVQLGRTKFLARHGYGKSR
                      DFLVRDPKTGTDCDSKAIAGVAFGKQFPEQGPLTADSFSGGEATVVPALTRLGFRIIRI
                      GEDWSEEEVLATVEDYFDMLRAEAAGEPYNKSEHNQALRQLLNGRSKSSVELKHQNISA
@@ -1076,62 +1076,62 @@ FEATURES             Location/Qualifiers
                      GDQFHLYRVFQFRDGPRLFTLPGDLSQHVHLKPTDYRASFRSLVG"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00255"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_001330847.1"
      gene            complement(37701..37946)
-                     /locus_tag="CJHFKP_00260"
+                     /locus_tag="CJHFKP_00210"
      CDS             complement(37701..37946)
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI0001FB4525"
                      /db_xref="UniRef:UniRef100_A0A0K2YSX9"
                      /db_xref="UniRef:UniRef50_A0A0K2YSX9"
                      /db_xref="UniRef:UniRef90_A0A0K2YSX9"
-                     /product="hypothetical protein"
-                     /locus_tag="CJHFKP_00260"
+                     /product="Ammonium-transp domain-containing protein"
+                     /locus_tag="CJHFKP_00210"
+                     /protein_id="gnl|Bakta|CJHFKP_00210"
                      /translation="MQAYRAMVNSYSLSDDSGVMAAAAITHFLFGQAVFSYLNGWSVLI
                      GPGTGLDSTGCKYARDLMGLVAFTAFIVTFLFRGYS"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00260"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA
                      sequence:UniRef:UniRef100_A0A0K2YSX9"
      gene            38461..38531
-                     /locus_tag="CJHFKP_00265"
-                     /gene="Thr_trna"
+                     /locus_tag="CJHFKP_00215"
+                     /gene="trnT"
      tRNA            38461..38531
                      /db_xref="SO:0000270"
-                     /product="(pseudo) tRNA-Thr"
-                     /locus_tag="CJHFKP_00265"
+                     /product="tRNA-Thr(tgt)"
+                     /locus_tag="CJHFKP_00215"
                      /anticodon=(pos:38495..38497,aa:Thr,seq:tgt)
                      /inference="profile:tRNAscan:2.0"
                      /pseudo
-                     /gene="Thr_trna"
+                     /gene="trnT"
      gene            complement(38625..39167)
-                     /locus_tag="CJHFKP_00270"
+                     /locus_tag="CJHFKP_00220"
      CDS             complement(38625..39167)
                      /db_xref="RefSeq:WP_000587837.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00000BFEB6"
                      /db_xref="UniRef:UniRef100_F1CNI2"
-                     /db_xref="UniRef:UniRef50_Q6SJ67"
-                     /db_xref="UniRef:UniRef90_Q6SJ67"
-                     /product="AAA family ATPase"
-                     /locus_tag="CJHFKP_00270"
+                     /db_xref="UniRef:UniRef50_A0A0T6YC18"
+                     /db_xref="UniRef:UniRef90_M5JSY0"
+                     /product="Tunicamycin resistance protein"
+                     /locus_tag="CJHFKP_00220"
+                     /protein_id="gnl|Bakta|CJHFKP_00220"
                      /translation="MIIWINGPFGAGKTTLAKRLRDRRSKSLIFDPEEIGFVVKETVPM
                      PASGDYQDLPLWRGLTIAAVREIRRNYSQDIIIPMTLVHPDYLTEILDGVRRIDDQLLH
                      IFLTLNEDLLRHRIANQTMHPDPNRNAEIREWRLANVARCLAARERLPCTTRVLDSGAH
                      TSDELAAMVLDGIDGRT"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00270"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_000587837.1"
      gene            complement(39180..40040)
-                     /locus_tag="CJHFKP_00275"
+                     /locus_tag="CJHFKP_00225"
                      /gene="aac(3)-IId"
      CDS             complement(39180..40040)
+                     /db_xref="BlastRules:WP_063840265"
                      /db_xref="NCBIProtein:WP_000557454.1"
                      /db_xref="RefSeq:WP_000557454.1"
                      /db_xref="SO:0001217"
@@ -1139,7 +1139,8 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef100_A7LI78"
                      /db_xref="UniRef:UniRef90_P0A256"
                      /product="aminoglycoside N-acetyltransferase AAC(3)-IId"
-                     /locus_tag="CJHFKP_00275"
+                     /locus_tag="CJHFKP_00225"
+                     /protein_id="gnl|Bakta|CJHFKP_00225"
                      /translation="MHTRKAITEALQKLGVQTGDLLMVHASLKAIGPVEGGAETVVAAL
                      RSAVGPTGTVMGYASWDRSPYEETLNGARLDDEARRTWLPFDPATAGTYRGFGLLNQFL
                      VQAPGARRSAHPDASMVAVGPLAETLTEPHELGHALGEGSPVERFVRLGGKALLLGAPL
@@ -1148,184 +1149,146 @@ FEATURES             Location/Qualifiers
                      CEPSG"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00275"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_000557454.1"
                      /gene="aac(3)-IId"
-     gene            40079..40243
-                     /locus_tag="CJHFKP_00280"
-     CDS             40079..40243
-                     /product="hypothetical protein"
-                     /locus_tag="CJHFKP_00280"
-                     /translation="MNPLMILVKIIKLRWIHILSYDQMVSRKINNQTTRCANSIFYTTL
-                     FTNSTPNYT"
-                     /codon_start=1
-                     /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00280"
-                     /inference="ab initio prediction:Prodigal:2.6"
      gene            complement(40121..40190)
-                     /locus_tag="CJHFKP_00285"
+                     /locus_tag="CJHFKP_00230"
                      /gene="RNA-OUT"
      ncRNA           complement(40121..40190)
                      /db_xref="RFAM:RF00240"
                      /db_xref="SO:0000655"
                      /product="RNA-OUT"
-                     /locus_tag="CJHFKP_00285"
+                     /locus_tag="CJHFKP_00230"
                      /inference="profile:Rfam:RF00240"
                      /ncRNA_class="other"
                      /gene="RNA-OUT"
-     gene            40283..40378
-                     /locus_tag="CJHFKP_00290"
-     CDS             40283..40378
-                     /product="hypothetical protein"
-                     /locus_tag="CJHFKP_00290"
-                     /translation="MTVKLSLLPNLAVTCQPKREQNITSNESTDC"
-                     /codon_start=1
-                     /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00290"
-                     /inference="ab initio prediction:Prodigal:2.6"
-     gene            40424..40612
-                     /locus_tag="CJHFKP_00295"
-     CDS             40424..40612
-                     /product="hypothetical protein"
-                     /locus_tag="CJHFKP_00295"
-                     /translation="MLALSVRAIRCPLYLLTGLISVSKNGLWYCELQSHYTVVLLLFMR
-                     KRSRFQSNVQRKLMTNF"
-                     /codon_start=1
-                     /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00295"
-                     /inference="ab initio prediction:Prodigal:2.6"
-     gene            40678..41151
-                     /locus_tag="CJHFKP_00300"
-     CDS             40678..41151
+     gene            40183..41151
+                     /locus_tag="CJHFKP_00235"
+                     /gene="tnp"
+     CDS             40183..41151
                      /db_xref="SO:0001217"
-                     /db_xref="UniRef:UniRef50_A0A812FEA4"
-                     /db_xref="UniRef:UniRef90_UPI001412FB8B"
-                     /product="transposase"
-                     /locus_tag="CJHFKP_00300"
-                     /translation="MPWYKSVEKLGWYWLSRVRGKVQYADLGAENWKPISNLHDMSSSH
-                     SKTLGYKRLTKSNPISCQILLYKSRSKGRKNQRSTRTHCHHPSPKIYSASAKEPWVLAT
-                     NLPVEIRTPKQLVNIYSKRMQIEETFRDLKSPAYGLGLRHSRTSSSERFDIML"
+                     /db_xref="UniParc:UPI000BB4BEE4"
+                     /db_xref="UniRef:UniRef100_A0A0B5EEU6"
+                     /db_xref="UniRef:UniRef50_Q53371"
+                     /db_xref="UniRef:UniRef90_Q53371"
+                     /product="IS4 family IS10R transposase"
+                     /locus_tag="CJHFKP_00235"
+                     /protein_id="gnl|Bakta|CJHFKP_00235"
+                     /translation="MCELDILHDSLYQFYPELHLKRLNSLTLACHALLDCKTLTLTELG
+                     RNLPTKARTKHNIKRIDRLLGNRHLHKERLAVYRWHASFICSGNTMPIVLVDWSDIREQ
+                     KRLMVLRASVALHGRSVTLYEKAFPLSEQCSKKAHDQFLADLASILPSNTTPLIVSDAG
+                     FKVPWYKSVEKLGWYWLSRVRGKVQYADLGAENWKPISNLHDMSSSHSKTLGYKRLTKS
+                     NPISCQILLYKSRSKGRKNQRSTRTHCHHPSPKIYSASAKEPWVLATNLPVEIRTPKQL
+                     VNIYSKRMQIEETFRDLKSPAYGLGLRHSRTSSSERFDIML"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00300"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA
-                     sequence:UniRef:UniRef90_UPI001412FB8B"
+                     sequence:UniRef:UniRef100_A0A0B5EEU6"
+                     /gene="tnp"
      gene            41151..41315
-                     /locus_tag="CJHFKP_00305"
+                     /locus_tag="CJHFKP_00240"
+                     /gene="rfaY"
      CDS             41151..41315
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI0002A85E5B"
                      /db_xref="UniRef:UniRef100_A0A2H4WWK9"
-                     /db_xref="UniRef:UniRef50_A0A198FHS4"
+                     /db_xref="UniRef:UniRef50_A0A2X2BIG4"
                      /db_xref="UniRef:UniRef90_A0A2H4WWK9"
                      /product="Lipopolysaccharide core heptose(II) kinase RfaY"
-                     /locus_tag="CJHFKP_00305"
+                     /locus_tag="CJHFKP_00240"
+                     /protein_id="gnl|Bakta|CJHFKP_00240"
                      /translation="MNPLMILVKIIKLRWIHILSYDQMVSRKINNQTTRCANSIFYTTL
                      FTNSAPNYT"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00305"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA
                      sequence:UniRef:UniRef100_A0A2H4WWK9"
+                     /gene="rfaY"
      gene            complement(41193..41262)
-                     /locus_tag="CJHFKP_00310"
+                     /locus_tag="CJHFKP_00245"
                      /gene="RNA-OUT"
      ncRNA           complement(41193..41262)
                      /db_xref="RFAM:RF00240"
                      /db_xref="SO:0000655"
                      /product="RNA-OUT"
-                     /locus_tag="CJHFKP_00310"
+                     /locus_tag="CJHFKP_00245"
                      /inference="profile:Rfam:RF00240"
                      /ncRNA_class="other"
                      /gene="RNA-OUT"
-     gene            41355..41450
-                     /locus_tag="CJHFKP_00315"
-     CDS             41355..41450
-                     /product="hypothetical protein"
-                     /locus_tag="CJHFKP_00315"
-                     /translation="MTVKLSLLPNLAVTCQPKREQNITSNESTDC"
-                     /codon_start=1
-                     /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00315"
-                     /inference="ab initio prediction:Prodigal:2.6"
-     gene            41496..41684
-                     /locus_tag="CJHFKP_00320"
-     CDS             41496..41684
-                     /product="hypothetical protein"
-                     /locus_tag="CJHFKP_00320"
-                     /translation="MLALSVRAIRCPLYLLTGLIFVSKNGLWYCELQSHYTVVLLLFMR
-                     KRSRFQSNVQRKLMTNF"
-                     /codon_start=1
-                     /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00320"
-                     /inference="ab initio prediction:Prodigal:2.6"
-     gene            41750..42463
-                     /locus_tag="CJHFKP_00325"
-     CDS             41750..42463
+     gene            41255..42463
+                     /locus_tag="CJHFKP_00250"
+                     /gene="tnp"
+     CDS             41255..42463
+                     /db_xref="IS:IS10R"
                      /db_xref="SO:0001217"
-                     /db_xref="UniRef:UniRef50_A0A6J4D0S4"
-                     /db_xref="UniRef:UniRef90_B7L3U2"
-                     /product="Transposase"
-                     /locus_tag="CJHFKP_00325"
-                     /translation="MPWYKSVEKLGWYWLSRVRGKVQYADLGAENWKPISNLHDMSSSH
-                     SKTLGYKRLTKSNPISCQILLYKSRSKGRKNQRSTRTHCHHPSPKIYSASAKEPWVLAT
-                     NLPVEIRTPKQLVNIYSKRMQIEETFRDLKSPAYGLGLRHSRTSSSERFDIMLLIALML
-                     QLTCWLAGVHAQKQGWDKHFQANTVRNRNVLSTVRLGMEVLRHSGYTITREDLLVAATL
-                     LAQNLFTHGYALGKL"
+                     /db_xref="UniRef:UniRef50_Q53371"
+                     /db_xref="UniRef:UniRef90_Q53371"
+                     /product="IS4 family IS10R transposase"
+                     /locus_tag="CJHFKP_00250"
+                     /protein_id="gnl|Bakta|CJHFKP_00250"
+                     /translation="MCELDILHDSLYQFCPELHLKRLNSLTLACHALLDCKTLTLTELG
+                     RNLPTKARTKHNIKRIDRLLGNRHLHKERLAVYRWHASFICSGNTMPIVLVDWSDIREQ
+                     KRLMVLRASVALHGRSVTLYEKAFPLSEQCSKKAHDQFLADLASILPSNTTPLIVSDAG
+                     FKVPWYKSVEKLGWYWLSRVRGKVQYADLGAENWKPISNLHDMSSSHSKTLGYKRLTKS
+                     NPISCQILLYKSRSKGRKNQRSTRTHCHHPSPKIYSASAKEPWVLATNLPVEIRTPKQL
+                     VNIYSKRMQIEETFRDLKSPAYGLGLRHSRTSSSERFDIMLLIALMLQLTCWLAGVHAQ
+                     KQGWDKHFQANTVRNRNVLSTVRLGMEVLRHSGYTITREDLLVAATLLAQNLFTHGYAL
+                     GKL"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00325"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA sequence:UniRef:UniRef90_B7L3U2"
+                     /inference="similar to AA sequence:UniRef:UniRef90_Q53371"
+                     /gene="tnp"
      gene            complement(42525..43001)
-                     /locus_tag="CJHFKP_00330"
+                     /locus_tag="CJHFKP_00255"
      CDS             complement(42525..43001)
                      /db_xref="RefSeq:WP_028697649.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00048CB0E7"
                      /db_xref="UniRef:UniRef100_A0A372HYS7"
                      /db_xref="UniRef:UniRef50_A0A0P9ZY56"
-                     /db_xref="UniRef:UniRef90_D3VWY3"
-                     /product="TnpR resolvase"
-                     /locus_tag="CJHFKP_00330"
+                     /db_xref="UniRef:UniRef90_Q936T4"
+                     /product="Resolvase"
+                     /locus_tag="CJHFKP_00255"
+                     /protein_id="gnl|Bakta|CJHFKP_00255"
                      /translation="MAAETLYREGRLSVSAIGEKLHISKSTLYSYLRHRGVEIGAYQKS
                      ARSRDQQPSAASPAEPPAAERVATVTLRLAVVNNSKFVRGRKRATENIERYCLEPYGMK
                      RLDAGHYELTIPYRSDDELDKSVHDLLTEISQEADMRNCFVEMGAWEEDTEKRW"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00330"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_028697649.1"
-     gene            complement(43108..43947)
-                     /locus_tag="CJHFKP_00335"
+     gene            complement(43108..43944)
+                     /locus_tag="CJHFKP_00260"
                      /gene="aph(6)-Id"
-     CDS             complement(43108..43947)
+     CDS             complement(43108..43944)
                      /db_xref="COG:COG3570"
                      /db_xref="COG:V"
                      /db_xref="NCBIProtein:WP_000480968.1"
+                     /db_xref="RefSeq:WP_000480968.1"
                      /db_xref="SO:0001217"
-                     /db_xref="UniParc:UPI0003E35420"
-                     /db_xref="UniRef:UniRef100_V5KBE1"
+                     /db_xref="UniParc:UPI0000061CB7"
+                     /db_xref="UniRef:UniRef100_Q7ATJ6"
                      /db_xref="UniRef:UniRef50_A0A250MFS9"
-                     /db_xref="UniRef:UniRef90_V5KBE1"
+                     /db_xref="UniRef:UniRef90_C5IWK8"
                      /product="aminoglycoside O-phosphotransferase APH(6)-Id"
-                     /locus_tag="CJHFKP_00335"
-                     /translation="MMFMPPVFPAHWHVSQPVLIADTFSSLVWKVSLPDGTPAIVKGLK
-                     PIEDIADELRGADYLVWRNGRGAVRLLGRENNLMLLEYAGERMLSHIVAEHGDYQATEI
-                     AAELMAKLYAASEEPLPSALLPIRDRFAALFQRARDDQNAGCQTDYVHAAIIADQMMSN
-                     ASELRGLHGDLHHENIMFSSRGWLVIDPVGLVGEVGFGAANMFYDPADRDDLCLDPRRI
-                     AQMADAFSRALDVDPRRLLDQAYAYGCLSAAWNADGEEEQRDLAIAAAIKQVRQTSY"
+                     /locus_tag="CJHFKP_00260"
+                     /protein_id="gnl|Bakta|CJHFKP_00260"
+                     /translation="MFMPPVFPAHWHVSQPVLIADTFSSLVWKVSLPDGTPAIVKGLKP
+                     IEDIADELRGADYLVWRNGRGAVRLLGRENNLMLLEYAGERMLSHIVAEHGDYQATEIA
+                     AELMAKLYAASEEPLPSALLPIRDRFAALFQRARDDQNAGCQTDYVHAAIIADQMMSNA
+                     SELRGLHGDLHHENIMFSSRGWLVIDPVGLVGEVGFGAANMFYDPADRDDLCLDPRRIA
+                     QMADAFSRALDVDPRRLLDQAYAYGCLSAAWNADGEEEQRDLAIAAAIKQVRQTSY"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00335"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA sequence:UniRef:UniRef100_V5KBE1"
+                     /inference="similar to AA sequence:RefSeq:WP_000480968.1"
                      /gene="aph(6)-Id"
      gene            complement(43944..44747)
-                     /locus_tag="CJHFKP_00340"
+                     /locus_tag="CJHFKP_00265"
                      /gene="aph(3'')-Ib"
      CDS             complement(43944..44747)
                      /db_xref="COG:COG3231"
@@ -1335,7 +1298,8 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef50_Q8GJ11"
                      /db_xref="UniRef:UniRef90_Q8GJ11"
                      /product="aminoglycoside O-phosphotransferase APH(3'')-Ib"
-                     /locus_tag="CJHFKP_00340"
+                     /locus_tag="CJHFKP_00265"
+                     /protein_id="gnl|Bakta|CJHFKP_00265"
                      /translation="MNRTNIFFGESHSDWLPVRGGESGDFVFRRGDGHAFAKIAPASRR
                      GELAGERDRLIWLKGRGVSCPEVINWQEEQEGACLVITAIPGVPAADLSGADLLKAWPS
                      MGQQLGAVHSLSVDQCPFERRLSRMFGRAVDVVSRNAVNPDFLPDEDKSTPQLDLLARV
@@ -1343,72 +1307,48 @@ FEATURES             Location/Qualifiers
                      NAEENWAAPDEAERAFAVLFNVLGIEAPDRERLAFYLRLDPLTWG"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00340"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:UniRef:UniRef90_Q8GJ11"
                      /gene="aph(3'')-Ib"
-     gene            complement(44808..45338)
-                     /locus_tag="CJHFKP_00345"
+     gene            complement(44808..45623)
+                     /locus_tag="CJHFKP_00270"
                      /gene="sul2"
-     CDS             complement(44808..45338)
-                     /db_xref="NCBIProtein:WP_001043260.1"
+     CDS             complement(44808..45623)
+                     /db_xref="COG:COG0294"
+                     /db_xref="COG:H"
+                     /db_xref="NCBIProtein:WP_001043265.1"
+                     /db_xref="RefSeq:WP_001043265.1"
                      /db_xref="SO:0001217"
-                     /db_xref="UniRef:UniRef50_A0A127STD0"
-                     /db_xref="UniRef:UniRef90_A0A486S4A0"
+                     /db_xref="UniParc:UPI00000D1397"
+                     /db_xref="UniRef:UniRef100_B7JCH4"
+                     /db_xref="UniRef:UniRef50_B7JCH4"
+                     /db_xref="UniRef:UniRef90_B7JCH4"
                      /product="sulfonamide-resistant dihydropteroate synthase
                      Sul2"
-                     /locus_tag="CJHFKP_00345"
-                     /translation="MSRGVAYLNDIRGFPDAAFYPQLAKSSAKLVVMHSVQDGQADRRE
-                     APAGDIMDHIAAFFDARIAALTGAGIKRNRLVLDPGMGFFLGAAPETSLSVLARFDELR
-                     LRFDLPVLLSVSRKSFLRALTGRGPGDVGAATLAAELAAAAGGADFIRTHEPRPLRDGL
-                     AVLAALKETARIR"
+                     /locus_tag="CJHFKP_00270"
+                     /protein_id="gnl|Bakta|CJHFKP_00270"
+                     /translation="MNKSLIIFGIVNITSDSFSDGGRYLAPDAAIAQARKLMAEGADVI
+                     DLGPASSNPDAAPVSSDTEIERIAPVLDALKADGIPVSLDSYQPATQAYALSRGVAYLN
+                     DIRGFPDAAFYPQLAKSSAKLVVMHSVQDGQADRREAPAGDIMDHIAAFFDARIAALTG
+                     AGIKRNRLVLDPGMGFFLGAAPETSLSVLARFDELRLRFDLPVLLSVSRKSFLRALTGR
+                     GPGDVGAATLAAELAAAAGGADFIRTHEPRPLRDGLAVLAALKETARIR"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00345"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA
-                     sequence:UniRef:UniRef90_A0A486S4A0"
+                     /inference="similar to AA sequence:RefSeq:WP_001043265.1"
                      /gene="sul2"
-     gene            45360..45656
-                     /locus_tag="CJHFKP_00350"
-     CDS             45360..45656
-                     /product="hypothetical protein"
-                     /locus_tag="CJHFKP_00350"
-                     /translation="MITVERDGNAICLERVQHRRDTLDFCVGRNRRGVGVAGCRTEVDH
-                     ICPLGHQLTRLRNGCVWRQIPASIGETVRGYVDDAENDERFIHGGFYNNNNRA"
-                     /codon_start=1
-                     /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00350"
-                     /inference="ab initio prediction:Prodigal:2.6"
-     gene            complement(45632..45814)
-                     /locus_tag="CJHFKP_00355"
-     CDS             complement(45632..45814)
-                     /db_xref="RefSeq:WP_001322699.1"
-                     /db_xref="SO:0001217"
-                     /db_xref="UniParc:UPI0000E8AFCC"
-                     /db_xref="UniRef:UniRef100_E1JF77"
-                     /db_xref="UniRef:UniRef50_D0CEY8"
-                     /db_xref="UniRef:UniRef90_D0CEY8"
-                     /product="hypothetical protein"
-                     /locus_tag="CJHFKP_00355"
-                     /translation="MKNCLLSAAAQLHRPLSWLCFQMYAILLLQLMDHRKQVTRLGIPF
-                     RPEHPYETHARLLLL"
-                     /codon_start=1
-                     /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00355"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA sequence:RefSeq:WP_001322699.1"
      gene            complement(45931..46782)
-                     /locus_tag="CJHFKP_00360"
+                     /locus_tag="CJHFKP_00275"
      CDS             complement(45931..46782)
                      /db_xref="RefSeq:WP_000240536.1"
                      /db_xref="SO:0001217"
                      /db_xref="UniParc:UPI00000D1396"
-                     /db_xref="UniRef:UniRef100_V5KBS4"
-                     /db_xref="UniRef:UniRef50_S4VGY6"
-                     /db_xref="UniRef:UniRef90_V5KBS4"
-                     /product="Plasmid replication protein C"
-                     /locus_tag="CJHFKP_00360"
+                     /db_xref="UniRef:UniRef100_A0A2T3UTQ2"
+                     /db_xref="UniRef:UniRef50_A0A839P9M8"
+                     /db_xref="UniRef:UniRef90_A0A3G2CAJ7"
+                     /product="Replication protein C"
+                     /locus_tag="CJHFKP_00275"
+                     /protein_id="gnl|Bakta|CJHFKP_00275"
                      /translation="MVKPKNKHSLSHVRHDPAHCLAPGLFRALKRGERKRSKLDVTYDY
                      GDGKRIEFSGPEPLGADDLRILQGLVAMAGPNGLVLGPEPKTEGGRQLRLFLEPKWEAV
                      TADAMVVKGSYRALAKEIGAEVDSGGALKHIQDCIERLWKVSIIAQNGRKRQGFRLLSE
@@ -1417,11 +1357,10 @@ FEATURES             Location/Qualifiers
                      AG"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00360"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_000240536.1"
      gene            complement(46769..47476)
-                     /locus_tag="CJHFKP_00365"
+                     /locus_tag="CJHFKP_00280"
                      /gene="repA"
      CDS             complement(46769..47476)
                      /db_xref="GO:0005524"
@@ -1433,7 +1372,8 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef50_P20356"
                      /db_xref="UniRef:UniRef90_P20356"
                      /product="Regulatory protein RepA"
-                     /locus_tag="CJHFKP_00365"
+                     /locus_tag="CJHFKP_00280"
+                     /protein_id="gnl|Bakta|CJHFKP_00280"
                      /translation="MLALQLAAQIAGGPDLLEVGELPTGPVIYLPAEDPPTAIHHRLHA
                      LGAHLSAEERQAVADGLLIQPLIGSLPNIMAPEWFDGLKRAAEGRRLMVLDTLRRFHIE
                      EENASGPMAQVIGRMEAIAADTGCSIVFLHHASKGAAMMGAGDQQQASRGSSVLVDNIR
@@ -1441,81 +1381,104 @@ FEATURES             Location/Qualifiers
                      RQRKSKGVPRGEA"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00365"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_000880559.1"
                      /gene="repA"
-     gene            complement(47538..48254)
-                     /locus_tag="CJHFKP_00370"
-     CDS             complement(47538..48254)
+     gene            complement(47538..48242)
+                     /locus_tag="CJHFKP_00285"
+                     /gene="tnp"
+     CDS             complement(47538..48242)
                      /db_xref="COG:COG3316"
                      /db_xref="COG:X"
-                     /db_xref="RefSeq:WP_001317540.1"
+                     /db_xref="IS:IS15DIV"
+                     /db_xref="RefSeq:WP_001067855.1"
                      /db_xref="SO:0001217"
-                     /db_xref="UniParc:UPI00001B29E2"
+                     /db_xref="UniParc:UPI0000003DD8"
                      /db_xref="UniRef:UniRef100_A0A6H1PZP7"
-                     /db_xref="UniRef:UniRef50_S6DCX2"
-                     /db_xref="UniRef:UniRef90_A0A6H1PZP7"
-                     /product="IS6-like element IS26 family transposase"
-                     /locus_tag="CJHFKP_00370"
-                     /translation="MELHMNPFKGRHFQRDIILWAVRWYCKYGISYRELQEMLAERGVN
-                     VDHSTIYRWVQRYAPEMEKRLRWYWRNPSDLCPWHMDETYVKVNGRWAYLYRAVDSRGR
-                     TVDFYLSSRRNSKAAYRFLGKILNNVKKWQIPRFINTDKAPAYGRALALLKREGRCPSD
-                     VEHRQIKYRNNVIECDHGKLKRIIGATLGFKSMKTAYATIKGIEVMRALRKGQASAFYY
-                     GDPLGEMRLVSRVFEM"
+                     /db_xref="UniRef:UniRef50_A0A0J3XVZ3"
+                     /db_xref="UniRef:UniRef90_A0A0J3XVZ3"
+                     /product="IS6 family IS15DIV transposase"
+                     /locus_tag="CJHFKP_00285"
+                     /protein_id="gnl|Bakta|CJHFKP_00285"
+                     /translation="MNPFKGRHFQRDIILWAVRWYCKYGISYRELQEMLAERGVNVDHS
+                     TIYRWVQRYAPEMEKRLRWYWRNPSDLCPWHMDETYVKVNGRWAYLYRAVDSRGRTVDF
+                     YLSSRRNSKAAYRFLGKILNNVKKWQIPRFINTDKAPAYGRALALLKREGRCPSDVEHR
+                     QIKYRNNVIECDHGKLKRIIGATLGFKSMKTAYATIKGIEVMRALRKGQASAFYYGDPL
+                     GEMRLVSRVFEM"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00370"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA sequence:RefSeq:WP_001317540.1"
-     gene            48519..49208
-                     /locus_tag="CJHFKP_00375"
+                     /inference="similar to AA sequence:RefSeq:WP_001067855.1"
+                     /gene="tnp"
+     gene            48393..49208
+                     /locus_tag="CJHFKP_00290"
                      /gene="aph(3')-Ia"
-     CDS             48519..49208
-                     /db_xref="COG:COG3231"
-                     /db_xref="COG:J"
-                     /db_xref="NCBIProtein:WP_063842098.1"
+     CDS             48393..49208
+                     /db_xref="NCBIProtein:WP_000018329.1"
+                     /db_xref="RefSeq:WP_000018329.1"
                      /db_xref="SO:0001217"
-                     /db_xref="UniRef:UniRef50_P00551"
-                     /db_xref="UniRef:UniRef90_H3JSZ1"
+                     /db_xref="UniParc:UPI0000000444"
+                     /db_xref="UniRef:UniRef100_Q79DX9"
+                     /db_xref="UniRef:UniRef50_Q79DX9"
+                     /db_xref="UniRef:UniRef90_Q79DX9"
                      /product="aminoglycoside O-phosphotransferase APH(3')-Ia"
-                     /locus_tag="CJHFKP_00375"
-                     /translation="MYGKPDAPELFLKHGKGSVANDVTDEMVRLNWLTEFMPLPTIKHF
-                     IRTPDDAWLLTTAIPGKTAFQVLEEYPDSGENIVDALAVFLRRLHSIPVCNCPFNSDRV
-                     FRLAQAQSRMNNGLVDASDFDDERNGWPVEQVWKEMHKLLPFSPDSVVTHGDFSLDNLI
-                     FDEGKLIGCIDVGRVGIADRYQDLAILWNCLGEFSPSLQKRLFQKYGIDNPDMNKLQFH
-                     LMLDEFF"
+                     /locus_tag="CJHFKP_00290"
+                     /protein_id="gnl|Bakta|CJHFKP_00290"
+                     /translation="MSHIQRETSCSRPRLNSNMDADLYGYKWARDNVGQSGATIYRLYG
+                     KPDAPELFLKHGKGSVANDVTDEMVRLNWLTEFMPLPTIKHFIRTPDDAWLLTTAIPGK
+                     TAFQVLEEYPDSGENIVDALAVFLRRLHSIPVCNCPFNSDRVFRLAQAQSRMNNGLVDA
+                     SDFDDERNGWPVEQVWKEMHKLLPFSPDSVVTHGDFSLDNLIFDEGKLIGCIDVGRVGI
+                     ADRYQDLAILWNCLGEFSPSLQKRLFQKYGIDNPDMNKLQFHLMLDEFF"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00375"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA sequence:UniRef:UniRef90_H3JSZ1"
+                     /inference="similar to AA sequence:RefSeq:WP_000018329.1"
                      /gene="aph(3')-Ia"
-     gene            complement(49398..50114)
-                     /locus_tag="CJHFKP_00380"
-     CDS             complement(49398..50114)
+     gene            complement(49398..50102)
+                     /locus_tag="CJHFKP_00295"
+                     /gene="tnp"
+     CDS             complement(49398..50102)
                      /db_xref="COG:COG3316"
                      /db_xref="COG:X"
-                     /db_xref="RefSeq:WP_001317540.1"
+                     /db_xref="IS:IS15DIV"
+                     /db_xref="RefSeq:WP_001067855.1"
                      /db_xref="SO:0001217"
-                     /db_xref="UniParc:UPI00001B29E2"
+                     /db_xref="UniParc:UPI0000003DD8"
                      /db_xref="UniRef:UniRef100_A0A6H1PZP7"
-                     /db_xref="UniRef:UniRef50_S6DCX2"
-                     /db_xref="UniRef:UniRef90_A0A6H1PZP7"
-                     /product="IS6-like element IS26 family transposase"
-                     /locus_tag="CJHFKP_00380"
-                     /translation="MELHMNPFKGRHFQRDIILWAVRWYCKYGISYRELQEMLAERGVN
-                     VDHSTIYRWVQRYAPEMEKRLRWYWRNPSDLCPWHMDETYVKVNGRWAYLYRAVDSRGR
-                     TVDFYLSSRRNSKAAYRFLGKILNNVKKWQIPRFINTDKAPAYGRALALLKREGRCPSD
-                     VEHRQIKYRNNVIECDHGKLKRIIGATLGFKSMKTAYATIKGIEVMRALRKGQASAFYY
-                     GDPLGEMRLVSRVFEM"
+                     /db_xref="UniRef:UniRef50_A0A0J3XVZ3"
+                     /db_xref="UniRef:UniRef90_A0A0J3XVZ3"
+                     /product="IS6 family IS15DIV transposase"
+                     /locus_tag="CJHFKP_00295"
+                     /protein_id="gnl|Bakta|CJHFKP_00295"
+                     /translation="MNPFKGRHFQRDIILWAVRWYCKYGISYRELQEMLAERGVNVDHS
+                     TIYRWVQRYAPEMEKRLRWYWRNPSDLCPWHMDETYVKVNGRWAYLYRAVDSRGRTVDF
+                     YLSSRRNSKAAYRFLGKILNNVKKWQIPRFINTDKAPAYGRALALLKREGRCPSDVEHR
+                     QIKYRNNVIECDHGKLKRIIGATLGFKSMKTAYATIKGIEVMRALRKGQASAFYYGDPL
+                     GEMRLVSRVFEM"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00380"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /inference="similar to AA sequence:RefSeq:WP_001317540.1"
+                     /inference="similar to AA sequence:RefSeq:WP_001067855.1"
+                     /gene="tnp"
+     gene            50161..50496
+                     /locus_tag="CJHFKP_00300"
+     CDS             50161..50496
+                     /db_xref="SO:0001217"
+                     /db_xref="UniRef:UniRef50_A0A0B1R8D0"
+                     /db_xref="UniRef:UniRef90_UPI001FFFC881"
+                     /product="recombinase family protein"
+                     /locus_tag="CJHFKP_00300"
+                     /protein_id="gnl|Bakta|CJHFKP_00300"
+                     /translation="MPIQLIKEFDAQGVAVRFIDDGISTDGDMGQMVVTILSAVAQAER
+                     RRILERTNEGRQEAKLKGIKFGRRRTVDRNVVLTLHQKGTGATEIAHQLSIARSTVYKI
+                     LEDERAS"
+                     /codon_start=1
+                     /transl_table=11
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /inference="similar to AA
+                     sequence:UniRef:UniRef90_UPI001FFFC881"
      gene            50679..51539
-                     /locus_tag="CJHFKP_00385"
+                     /locus_tag="CJHFKP_00305"
                      /gene="blaTEM-1"
      CDS             50679..51539
                      /db_xref="EC:3.5.2.6"
@@ -1530,7 +1493,8 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef50_P62593"
                      /db_xref="UniRef:UniRef90_P62593"
                      /product="broad-spectrum class A beta-lactamase TEM-1"
-                     /locus_tag="CJHFKP_00385"
+                     /locus_tag="CJHFKP_00305"
+                     /protein_id="gnl|Bakta|CJHFKP_00305"
                      /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
                      ELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRVDAGQEQLGRRIHYSQNDLVEYS
                      PVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRW
@@ -1539,7 +1503,6 @@ FEATURES             Location/Qualifiers
                      LIKHW"
                      /codon_start=1
                      /transl_table=11
-                     /protein_id="gnl|Bakta|CJHFKP_00385"
                      /inference="ab initio prediction:Prodigal:2.6"
                      /inference="similar to AA sequence:RefSeq:WP_000027057.1"
                      /gene="blaTEM-1"
