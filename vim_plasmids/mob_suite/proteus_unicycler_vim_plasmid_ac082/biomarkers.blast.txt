@@ -1,2 +1,2 @@
 qseqid	sseqid	qlen	slen	qstart	qend	sstart	send	length	mismatch	pident	qcovhsp	qcovs	sstrand	evalue	bitscore	biomarker
-000195__NC_013728_00014|IncQ1	5 length=51686 depth=5.03x circular=true	885	51686	1	885	46763	47647	885	0	100.0	100.0	100.0	plus	0.0	1635	replicon
+000195__NC_013728_00014|IncQ1	proteus_vim_ac082	885	51686	1	885	46763	47647	885	0	100.0	100.0	100.0	plus	0.0	1635	replicon
