@@ -1,5 +1,7 @@
 # VIM Beta-Lactamase Linkage Analysis
 
+[![DOI](https://zenodo.org/badge/708121251.svg)](https://zenodo.org/doi/10.5281/zenodo.10032194)
+
 Hybrid sequencing study investigating whether 3 isolates from 2 patients that tested PCR positive for Verona integron-encoded metallo-β-lactamase (VIM) were likely to be linked via mobilisation of VIM.
 Each sample was sequenced via Nanopore with plasmid miniprep and general easyMAG libraries and via MiSeq before quality control with 
 
