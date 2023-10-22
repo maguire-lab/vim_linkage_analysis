@@ -1,3 +1,0 @@
-# cmd: integron_finder --circ --local-max --cpu 3 --promoter-attI --outdir . --path-func-annot ../../HMM --gbk --pdf ../vim_plasmids/enterobacter_unicycler_vim_plasmid_aa919.fna
-ID_replicon	CALIN	complete	In0	topology	size
-enterobacter_unicycler_vim_plasmid_aa919	0	1	0	circ	61540
