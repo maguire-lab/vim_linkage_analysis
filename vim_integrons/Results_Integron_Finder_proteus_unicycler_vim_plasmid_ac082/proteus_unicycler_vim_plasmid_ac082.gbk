@@ -1,7 +1,7 @@
-LOCUS       5                      51686 bp    DNA              UNK 01-JAN-1980
-DEFINITION  5 length=51686 depth=5.03x circular=true.
-ACCESSION   5
-VERSION     5
+LOCUS       im_plasmid_ac082       51686 bp    DNA              UNK 01-JAN-1980
+DEFINITION  proteus_unicycler_vim_plasmid_ac082.
+ACCESSION   proteus_unicycler_vim_plasmid_ac082
+VERSION     proteus_unicycler_vim_plasmid_ac082
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
@@ -11,7 +11,7 @@ FEATURES             Location/Qualifiers
                      /integron_id="integron_01"
                      /integron_type="CALIN"
      CDS             complement(10303..10650)
-                     /protein_id="5_11"
+                     /protein_id="proteus_unicycler_vim_plasmid_ac082_11"
                      /gene="SMR_qac_E-NCBIFAM"
                      /model="NF000276.2"
                      /translation="MKGWLFLVIAIVGEVIATSALKSSEGFTKLAPSAVVIIGYGIAFY
@@ -21,7 +21,7 @@ FEATURES             Location/Qualifiers
                      /attC="attc_001"
                      /model="attc_4"
      CDS             complement(10814..11629)
-                     /protein_id="5_12"
+                     /protein_id="proteus_unicycler_vim_plasmid_ac082_12"
                      /gene="ANT_3pp_AadA1-NCBIFAM"
                      /model="NF033126.1"
                      /translation="MAKTKLNIMREVVIAEVSTQLSEVVGVIERHLEPTLLAVHLYGSA
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      PVPEQDLFEALNETLTLWNSPPDWAGDERNVVLTLSRIWYSAVTGKIAPKDVAADWAME
                      RLPAQYQPVILEARQAYLGQEEDRLASRADQLEEFVHYVKGEITKVVGK*"
      CDS             complement(11622..12422)
-                     /protein_id="5_13"
+                     /protein_id="proteus_unicycler_vim_plasmid_ac082_13"
                      /gene="blaOXA-10_like-NCBIFAM"
                      /model="NF000386.2"
                      /translation="MKTFAAYVIIACLSSTALAGSITENTSWNKEFSAEAVNGVFVLCK
@@ -42,7 +42,7 @@ FEATURES             Location/Qualifiers
                      /attC="attc_002"
                      /model="attc_4"
      CDS             complement(12687..13946)
-                     /protein_id="5_14"
+                     /protein_id="proteus_unicycler_vim_plasmid_ac082_14"
                      /gene="efflux_CmlA-NCBIFAM"
                      /model="NF000509.1"
                      /translation="MRSKNFSWRYSLAATVLLLSPFDLLASLGMDMYLPAVPFMPNALG
@@ -57,7 +57,7 @@ FEATURES             Location/Qualifiers
                      /attC="attc_003"
                      /model="attc_4"
      CDS             complement(14267..14719)
-                     /protein_id="5_15"
+                     /protein_id="proteus_unicycler_vim_plasmid_ac082_15"
                      /gene="rifampin_ARR-NCBIFAM"
                      /model="NF033144.1"
                      /translation="MVKDWIPISHDNYKQVQGPFYHGTKANLAIGDLLTTGFISHFEDG
@@ -67,7 +67,7 @@ FEATURES             Location/Qualifiers
                      /attC="attc_004"
                      /model="attc_4"
      CDS             complement(14804..15337)
-                     /protein_id="5_16"
+                     /protein_id="proteus_unicycler_vim_plasmid_ac082_16"
                      /gene="ANT_2pp_Ia-NCBIFAM"
                      /model="NF000064.3"
                      /translation="MDTTQVTLIHKILAAADERNLPLWIGGGWAIDARLGRVTRKHDDI
@@ -78,7 +78,7 @@ FEATURES             Location/Qualifiers
                      /integron_id="integron_02"
                      /integron_type="complete"
      integrase       complement(21986..22999)
-                     /protein_id="5_26"
+                     /protein_id="proteus_unicycler_vim_plasmid_ac082_26"
                      /gene="intI"
                      /model="intersection_tyr_intI"
                      /translation="MKTATAPLPPLRSVKVLDQLRERIRYLHYSLRTEQAYVNWVRAFI
@@ -94,7 +94,7 @@ FEATURES             Location/Qualifiers
                      /attI="attI1"
                      /model="NA"
      CDS             23169..23969
-                     /protein_id="5_27"
+                     /protein_id="proteus_unicycler_vim_plasmid_ac082_27"
                      /gene="blaVIM-NCBIFAM"
                      /model="NF012100.0"
                      /translation="MLKVISSLLVYMTASVMAVASPLAHSGEPSGEYPTVNEIPVGEVR
@@ -106,7 +106,7 @@ FEATURES             Location/Qualifiers
                      /attC="attc_001"
                      /model="attc_4"
      CDS             24161..24508
-                     /protein_id="5_28"
+                     /protein_id="proteus_unicycler_vim_plasmid_ac082_28"
                      /gene="SMR_qac_E-NCBIFAM"
                      /model="NF000276.2"
                      /translation="MKGWLFLVIAIVGEVIATSALKSSEGFTKLAPSAVVIIGYGIAFY

@@ -1,7 +1,7 @@
-LOCUS       ensus_polypolish      279019 bp    DNA              UNK 01-JAN-1980
-DEFINITION  cluster_005_consensus_polypolish.
-ACCESSION   cluster_005_consensus_polypolish
-VERSION     cluster_005_consensus_polypolish
+LOCUS       _trycycler_ac907      279019 bp    DNA              UNK 01-JAN-1980
+DEFINITION  pputida_trycycler_ac907.
+ACCESSION   pputida_trycycler_ac907
+VERSION     pputida_trycycler_ac907
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
@@ -11,7 +11,7 @@ FEATURES             Location/Qualifiers
                      /integron_id="integron_01"
                      /integron_type="complete"
      integrase       complement(147217..148230)
-                     /protein_id="cluster_005_consensus_polypolish_200"
+                     /protein_id="pputida_trycycler_ac907_200"
                      /gene="intI"
                      /model="intersection_tyr_intI"
                      /translation="MKTATAPLPPLRSVKVLDQLRERIRYLHYSLRTEQAYVHWVRAFI
@@ -30,7 +30,7 @@ FEATURES             Location/Qualifiers
                      /attI="attI1"
                      /model="NA"
      CDS             148397..149197
-                     /protein_id="cluster_005_consensus_polypolish_201"
+                     /protein_id="pputida_trycycler_ac907_201"
                      /gene="blaVIM-NCBIFAM"
                      /model="NF012100.0"
                      /translation="MLKVISSLLVYMTASVMAVASPLAHSGEPSGEYPTVNEIPVGEVR
@@ -42,7 +42,7 @@ FEATURES             Location/Qualifiers
                      /attC="attc_001"
                      /model="attc_4"
      CDS             149485..149943
-                     /protein_id="cluster_005_consensus_polypolish_202"
+                     /protein_id="pputida_trycycler_ac907_202"
                      /gene="trim_DfrA1_like-NCBIFAM"
                      /model="NF000330.1"
                      /translation="MAAKAKNGVIGCGPHIPWSAKGEQLLFKALTYNQWLLVGRKTFES
@@ -52,7 +52,7 @@ FEATURES             Location/Qualifiers
                      /attC="attc_002"
                      /model="attc_4"
      CDS             150094..151320
-                     /protein_id="cluster_005_consensus_polypolish_203"
+                     /protein_id="pputida_trycycler_ac907_203"
                      /gene="EreA-NCBIFAM"
                      /model="NF000208.1"
                      /translation="MTWRTTRTLLQPQKLEFNEFEILNPVVEGARIVGIGEGAHFVAEF

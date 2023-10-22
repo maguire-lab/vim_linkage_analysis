@@ -1,7 +1,7 @@
-LOCUS       4                      61540 bp    DNA              UNK 01-JAN-1980
-DEFINITION  4 length=61540 depth=4.80x circular=true.
-ACCESSION   4
-VERSION     4
+LOCUS       im_plasmid_aa919       61540 bp    DNA              UNK 01-JAN-1980
+DEFINITION  enterobacter_unicycler_vim_plasmid_aa919.
+ACCESSION   enterobacter_unicycler_vim_plasmid_aa919
+VERSION     enterobacter_unicycler_vim_plasmid_aa919
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
@@ -11,7 +11,7 @@ FEATURES             Location/Qualifiers
                      /integron_id="integron_01"
                      /integron_type="complete"
      CDS             complement(52156..52503)
-                     /protein_id="4_55"
+                     /protein_id="enterobacter_unicycler_vim_plasmid_aa919_55"
                      /gene="SMR_qac_E-NCBIFAM"
                      /model="NF000276.2"
                      /translation="MKGWLFLVIAIVGEVIATSALKSSEGFTKLAPSAVVIIGYGIAFY
@@ -21,7 +21,7 @@ FEATURES             Location/Qualifiers
                      /attC="attc_001"
                      /model="attc_4"
      CDS             complement(52667..53446)
-                     /protein_id="4_56"
+                     /protein_id="enterobacter_unicycler_vim_plasmid_aa919_56"
                      /gene="ANT_3pp_AadA1-NCBIFAM"
                      /model="NF033126.1"
                      /translation="MIAEVSTQLSEVVGVIERHLEPTLLAVHLYGSAVDGGLKPHSDID
@@ -33,7 +33,7 @@ FEATURES             Location/Qualifiers
                      /attC="attc_002"
                      /model="attc_4"
      CDS             complement(53495..54322)
-                     /protein_id="4_57"
+                     /protein_id="enterobacter_unicycler_vim_plasmid_aa919_57"
                      /gene="blaOXA-2_like-NCBIFAM"
                      /model="NF000267.2"
                      /translation="MAIRIFAILFSIFSLATFAHAQEGTLERSDWRKFFSEFQAKGTIV
@@ -45,7 +45,7 @@ FEATURES             Location/Qualifiers
                      /attC="attc_003"
                      /model="attc_4"
      CDS             complement(54404..55030)
-                     /protein_id="4_58"
+                     /protein_id="enterobacter_unicycler_vim_plasmid_aa919_58"
                      /gene="AAC_6p_Ib-NCBIFAM"
                      /model="NF033074.0"
                      /translation="MLRRLRLLRKSPSTQALGITKYSIVTNSNDSVTLRLMTEHDLAML
@@ -56,7 +56,7 @@ FEATURES             Location/Qualifiers
                      /attC="attc_004"
                      /model="attc_4"
      CDS             complement(55236..56036)
-                     /protein_id="4_59"
+                     /protein_id="enterobacter_unicycler_vim_plasmid_aa919_59"
                      /gene="blaVIM-NCBIFAM"
                      /model="NF012100.0"
                      /translation="MLKVISSLLVYMTASVMAVASPLAHSGEPSGEYPTVNEIPVGEVR
@@ -71,7 +71,7 @@ FEATURES             Location/Qualifiers
                      /Promoter="Pc_int1"
                      /model="NA"
      integrase       56206..57165
-                     /protein_id="4_60"
+                     /protein_id="enterobacter_unicycler_vim_plasmid_aa919_60"
                      /gene="intI"
                      /model="intersection_tyr_intI"
                      /translation="MKTATAPLPPLRSVKVLDQLRERIRYLHYSLRTEQAYVHWVRAFI

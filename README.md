@@ -19,8 +19,8 @@ Each sample was sequenced via Nanopore with plasmid miniprep and general easyMAG
     - VIM genes sequences extracted and aligned (mafft v7.515): `vim_genes/`
     - Integron-finder (integron_finder v2.0.2 w/ HMMs from AMRFinderPlus DB v2023-08-08.2): `vim_integrons/`
 
-- Plasmids were visualised with pycirclize, integrons with clinker, and the VIM alignment via aliview before combining in inkscape.
-- Overview figure was created in inkscape
+- Plasmids were visualised with pycirclize, integrons with clinker v0.0.26, and the VIM alignment via aliview before combining in inkscape: `plots`
+- Overview figure was also created in inkscape
 
 ## Sample Data
 
