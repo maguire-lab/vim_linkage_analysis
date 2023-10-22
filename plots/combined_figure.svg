@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="pt"
-     inkscape:zoom="0.64534049"
-     inkscape:cx="519.8806"
-     inkscape:cy="406.76202"
+     inkscape:zoom="1.8473714"
+     inkscape:cx="754.31502"
+     inkscape:cy="702.8906"
      inkscape:window-width="1700"
      inkscape:window-height="1037"
      inkscape:window-x="216"
@@ -1785,7 +1785,9 @@
            id="tspan582"
            x="880.81384"
            y="381.39389"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:1.03939">Patient B: Enterobacter </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:1.03939">Patient B: <tspan
+   style="font-style:italic"
+   id="tspan605">Enterobacter</tspan> </tspan><tspan
            sodipodi:role="line"
            id="tspan583"
            x="880.81384"
@@ -2697,7 +2699,9 @@
                id="tspan586"
                x="453.2287"
                y="737.72961"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:1.02015">Patient B: Pseudomonas</tspan><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:1.02015">Patient B: <tspan
+   style="font-style:italic"
+   id="tspan606">Pseudomonas</tspan></tspan><tspan
                sodipodi:role="line"
                x="453.2287"
                y="752.72961"
