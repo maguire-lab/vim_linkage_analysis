@@ -54,28 +54,28 @@ If not, see <http://www.gnu.org/licenses/>.
 
                      =======================
 
-command used: integron_finder --circ --local-max --cpu 6 --promoter-attI --outdir . --path-func-annot ../../HMM --gbk --pdf ../vim_plasmids/enterobacter_unicycler_vim_plasmid_aa919.fna
+command used: integron_finder --circ --local-max --cpu 3 --promoter-attI --outdir . --path-func-annot ../../HMM --gbk --pdf ../vim_plasmids/enterobacter_unicycler_vim_plasmid_aa919.fna
 
                      =======================
 
 [0m
-INFO     : ############ Processing replicon enterobacter_vim_aa919 (1/1) ############
+INFO     : ############ Processing replicon enterobacter_unicycler_vim_plasmid_aa919 (1/1) ############
 
 INFO     : Starting Default search ... :
 INFO     : Default search done... : 
-INFO     : In replicon enterobacter_vim_aa919, there are:
+INFO     : In replicon enterobacter_unicycler_vim_plasmid_aa919, there are:
 INFO     : - 1 complete integron(s) found with a total 3 attC site(s)
 INFO     : - 0 CALIN element(s) found with a total of 0 attC site(s)
 INFO     : - 0 In0 element(s) found with a total of 0 attC site
 INFO     : Starting search with local_max...:
 INFO     : Search with local_max done... :
-INFO     : In replicon enterobacter_vim_aa919, there are:
+INFO     : In replicon enterobacter_unicycler_vim_plasmid_aa919, there are:
 INFO     : - 1 complete integron(s) found with a total 4 attC site(s)
 INFO     : - 0 CALIN element(s) found with a total of 0 attC site(s)
 INFO     : - 0 In0 element(s) found with a total of 0 attC site
 INFO     : Adding proteins ... :
 INFO     : Adding promoters and attI ... :
 INFO     : Starting functional annotation ...:
-INFO     : Writing out results for replicon enterobacter_vim_aa919
+INFO     : Writing out results for replicon enterobacter_unicycler_vim_plasmid_aa919
 INFO     : Merging integrons results.
 

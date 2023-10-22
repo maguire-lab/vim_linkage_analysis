@@ -1,251 +1,250 @@
-12:46:24.891 - INFO - UTILS - version=1.8.2
-12:46:24.891 - INFO - UTILS - developer: Oliver Schwengers, github.com/oschwengers
-12:46:24.891 - INFO - UTILS - command: /bioinf/anaconda3/envs/bakta/bin/bakta --force --db ../../../bakta_db/db --output bakta/proteus_unicycler_vim_plasmid_ac082 --complete --threads 12 --prodigal-tf bakta/prodigal_training_file proteus_unicycler_vim_plasmid_ac082.fna
-12:46:24.891 - INFO - UTILS - local time: 2023-10-22 12:46:24
-12:46:24.892 - INFO - UTILS - machine: type=, cores=12
-12:46:24.893 - INFO - UTILS - system: type=Linux, release=6.3.5-arch1-1
-12:46:24.893 - INFO - UTILS - python: version=3.10.8, implementation=CPython
-12:46:24.893 - INFO - CONFIG - threads=12
-12:46:24.893 - INFO - CONFIG - verbose=False
-12:46:24.893 - INFO - CONFIG - debug=False
-12:46:24.893 - INFO - CONFIG - database: type=parameter, path=/workspace/fin/SHL/bacteria/bakta_db/db
-12:46:24.893 - INFO - CONFIG - tmp-path=/tmp/tmpxpb7j555
-12:46:24.894 - INFO - CONFIG - genome-path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/proteus_unicycler_vim_plasmid_ac082.fna
-12:46:24.894 - INFO - CONFIG - min_contig_length=1
-12:46:24.894 - INFO - CONFIG - prefix=proteus_unicycler_vim_plasmid_ac082
-12:46:24.894 - INFO - CONFIG - output-path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/proteus_unicycler_vim_plasmid_ac082
-12:46:24.894 - INFO - CONFIG - force=True
-12:46:24.894 - INFO - CONFIG - genus=None
-12:46:24.894 - INFO - CONFIG - species=None
-12:46:24.894 - INFO - CONFIG - strain=None
-12:46:24.894 - INFO - CONFIG - plasmid=None
-12:46:24.894 - INFO - CONFIG - complete=True
-12:46:24.894 - INFO - CONFIG - prodigal_tf=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/prodigal_training_file
-12:46:24.894 - INFO - CONFIG - translation_table=11
-12:46:24.894 - INFO - CONFIG - gram=?
-12:46:24.894 - INFO - CONFIG - compliant=False
-12:46:24.894 - INFO - CONFIG - meta=False
-12:46:24.894 - INFO - CONFIG - locus=None
-12:46:24.894 - INFO - CONFIG - locus-tag=None
-12:46:24.894 - INFO - CONFIG - keep_contig_headers=False
-12:46:24.894 - INFO - CONFIG - replicon-table=None
-12:46:24.894 - INFO - CONFIG - skip-tRNA=False
-12:46:24.894 - INFO - CONFIG - skip-tmRNA=False
-12:46:24.894 - INFO - CONFIG - skip-rRNA=False
-12:46:24.895 - INFO - CONFIG - skip-ncRNA=False
-12:46:24.895 - INFO - CONFIG - skip-ncRNA-region=False
-12:46:24.895 - INFO - CONFIG - skip-CRISPR=False
-12:46:24.895 - INFO - CONFIG - skip-CDS=False
-12:46:24.895 - INFO - CONFIG - skip-pseudo=False
-12:46:24.895 - INFO - CONFIG - skip-sORF=False
-12:46:24.895 - INFO - CONFIG - skip-gap=False
-12:46:24.895 - INFO - CONFIG - skip-ori=False
-12:46:24.895 - INFO - CONFIG - skip-plot=False
-12:46:24.895 - INFO - DB - detected: major=5, minor=0, type=full, date=2023-02-20
-12:46:24.995 - INFO - UTILS - dependency: tool=tRNAscan-SE, version=v2.0.11, path=/bioinf/anaconda3/envs/bakta/bin/tRNAscan-SE
-12:46:24.996 - INFO - UTILS - dependency: tool=Aragorn, version=v1.2.41, path=/bioinf/anaconda3/envs/bakta/bin/aragorn
-12:46:25.000 - INFO - UTILS - dependency: tool=CMscan, version=v1.1.4, path=/bioinf/anaconda3/envs/bakta/bin/cmscan
-12:46:25.002 - INFO - UTILS - dependency: tool=PilerCR, version=v1.6.0, path=/bioinf/anaconda3/envs/bakta/bin/pilercr
-12:46:25.055 - INFO - UTILS - dependency: tool=Pyrodigal, version=v2.3.0, path=/bioinf/anaconda3/envs/bakta/bin/python
-12:46:25.057 - INFO - UTILS - dependency: tool=AMRFinderPlus, version=v3.11.20, path=/bioinf/anaconda3/envs/bakta/bin/amrfinder
-12:46:25.123 - INFO - UTILS - dependency: tool=Pyhmmer, version=v0.10.2, path=/bioinf/anaconda3/envs/bakta/bin/python
-12:46:25.126 - INFO - UTILS - dependency: tool=Diamond, version=v2.0.15, path=/bioinf/anaconda3/envs/bakta/bin/diamond
-12:46:25.207 - INFO - UTILS - dependency: tool=Blastn, version=v2.14.1, path=/bioinf/anaconda3/envs/bakta/bin/blastn
-12:46:25.636 - INFO - UTILS - dependency: tool=Circos, version=v0.69.8, path=/bioinf/anaconda3/envs/bakta/bin/circos
-12:46:25.651 - INFO - FASTA - imported: id=proteus_unicycler_vim_plasmid_ac082, length=51686, description=, genomic=True, dna=True
-12:46:25.651 - INFO - MAIN - imported sequences=1
-12:46:25.652 - INFO - UTILS - qc: revised sequence: id=contig_1, orig-id=proteus_unicycler_vim_plasmid_ac082, type=plasmid, complete=True, topology=circular, name=unnamed1, description='[gcode=11] [completeness=complete] [topology=circular] [plasmid-name=unnamed1]', orig-description=''
-12:46:25.652 - INFO - FASTA - write genome sequences: path=/tmp/tmpxpb7j555/contigs.fna, description=False, wrap=False
-12:46:26.661 - INFO - T_RNA - contig=contig_1, start=38461, stop=38531, strand=+, gene=trnT, product=tRNA-Thr(tgt), score=22.1, nt=[GCGAAAGTCG..GTCCGCACCA]
-12:46:26.662 - INFO - T_RNA - predicted=1
-12:46:26.681 - INFO - TM_RNA - predicted=0
-12:46:26.755 - INFO - R_RNA - predicted=0
-12:46:27.421 - INFO - NC_RNA - contig=contig_1, start=40121, stop=40190, strand=-, gene=RNA-OUT, product=RNA-OUT, length=70, truncated=None, score=98.7, evalue=5.4e-16, nt=[TCGCACATCT..TGTGTATCCA]
-12:46:27.422 - INFO - NC_RNA - contig=contig_1, start=41193, stop=41262, strand=-, gene=RNA-OUT, product=RNA-OUT, length=70, truncated=None, score=98.7, evalue=5.4e-16, nt=[TCGCACATCT..TGTGTATCCA]
-12:46:27.422 - INFO - NC_RNA - contig=contig_1, start=16496, stop=16564, strand=-, gene=RNA-OUT, product=RNA-OUT, length=69, truncated=None, score=79.3, evalue=4.9e-12, nt=[TCGCGCATCT..TGCGCTTCCA]
-12:46:27.422 - INFO - NC_RNA - predicted=3
-12:46:27.824 - INFO - NC_RNA_REGION - contig=contig_1, start=23092, stop=23158, strand=+, label=AAC_AAD_leader, product=putative aminoglycoside riboswitch / attI site, length=67, truncated=None, score=76.1, evalue=1.1e-12
-12:46:27.824 - INFO - NC_RNA_REGION - predicted=1
-12:46:27.840 - INFO - CRISPR - predicted=0
-12:46:27.841 - INFO - CDS - use provided prodigal training info: file=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/prodigal_training_file, meta mode=False
-12:46:27.953 - INFO - CDS - contig=contig_1, start=23, stop=778, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=AGGAG
-12:46:27.953 - INFO - CDS - contig=contig_1, start=859, stop=1407, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=None
-12:46:27.953 - INFO - CDS - contig=contig_1, start=1523, stop=2725, strand=+, frame=2, truncated=no, start-type=GTG, RBS-motif=None
-12:46:27.953 - INFO - CDS - contig=contig_1, start=2755, stop=3132, strand=+, frame=1, truncated=no, start-type=GTG, RBS-motif=None
-12:46:27.953 - INFO - CDS - contig=contig_1, start=3359, stop=4891, strand=+, frame=2, truncated=no, start-type=GTG, RBS-motif=GGAG/GAGG
-12:46:27.953 - INFO - CDS - contig=contig_1, start=4983, stop=5705, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
-12:46:27.953 - INFO - CDS - contig=contig_1, start=5795, stop=6970, strand=-, frame=2, truncated=no, start-type=GTG, RBS-motif=GGAG/GAGG
-12:46:27.953 - INFO - CDS - contig=contig_1, start=7074, stop=7700, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=AGGA
-12:46:27.953 - INFO - CDS - contig=contig_1, start=7907, stop=9121, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=3Base/5BMM
-12:46:27.954 - INFO - CDS - contig=contig_1, start=9338, stop=10309, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=GGAGG
-12:46:27.954 - INFO - CDS - contig=contig_1, start=10303, stop=10650, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
-12:46:27.954 - INFO - CDS - contig=contig_1, start=10814, stop=11629, strand=-, frame=2, truncated=no, start-type=GTG, RBS-motif=GGAG/GAGG
-12:46:27.954 - INFO - CDS - contig=contig_1, start=11622, stop=12422, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=AGxAG
-12:46:27.954 - INFO - CDS - contig=contig_1, start=12687, stop=13946, strand=-, frame=1, truncated=no, start-type=GTG, RBS-motif=AGGAG
-12:46:27.954 - INFO - CDS - contig=contig_1, start=14267, stop=14719, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
-12:46:27.954 - INFO - CDS - contig=contig_1, start=14804, stop=15337, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=None
-12:46:27.954 - INFO - CDS - contig=contig_1, start=15482, stop=16381, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=AGGAG
-12:46:27.954 - INFO - CDS - contig=contig_1, start=16557, stop=17765, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
-12:46:27.954 - INFO - CDS - contig=contig_1, start=17775, stop=18263, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
-12:46:27.954 - INFO - CDS - contig=contig_1, start=18310, stop=18711, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=3Base/5BMM
-12:46:27.954 - INFO - CDS - contig=contig_1, start=18861, stop=19721, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=AGGA
-12:46:27.955 - INFO - CDS - contig=contig_1, start=19904, stop=20239, strand=-, frame=2, truncated=no, start-type=GTG, RBS-motif=None
-12:46:27.955 - INFO - CDS - contig=contig_1, start=20298, stop=21002, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
-12:46:27.955 - INFO - CDS - contig=contig_1, start=20948, stop=21307, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
-12:46:27.955 - INFO - CDS - contig=contig_1, start=21433, stop=21933, strand=-, frame=3, truncated=no, start-type=GTG, RBS-motif=GGA/GAG/AGG
-12:46:27.955 - INFO - CDS - contig=contig_1, start=21986, stop=22999, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=None
-12:46:27.955 - INFO - CDS - contig=contig_1, start=23169, stop=23969, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
-12:46:27.955 - INFO - CDS - contig=contig_1, start=24161, stop=24508, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
-12:46:27.955 - INFO - CDS - contig=contig_1, start=24502, stop=25341, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAGG
-12:46:27.955 - INFO - CDS - contig=contig_1, start=25746, stop=27287, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=GGAGG
-12:46:27.955 - INFO - CDS - contig=contig_1, start=27551, stop=28207, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=AGGA
-12:46:27.955 - INFO - CDS - contig=contig_1, start=28393, stop=29268, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
-12:46:27.955 - INFO - CDS - contig=contig_1, start=29272, stop=29754, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=None
-12:46:27.956 - INFO - CDS - contig=contig_1, start=29859, stop=30698, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=GGAGG
-12:46:27.956 - INFO - CDS - contig=contig_1, start=30826, stop=31326, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
-12:46:27.956 - INFO - CDS - contig=contig_1, start=31295, stop=32287, strand=-, frame=2, truncated=no, start-type=GTG, RBS-motif=AGGAG
-12:46:27.956 - INFO - CDS - contig=contig_1, start=32290, stop=33969, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
-12:46:27.956 - INFO - CDS - contig=contig_1, start=35028, stop=36164, strand=-, frame=1, truncated=no, start-type=TTG, RBS-motif=GGA/GAG/AGG
-12:46:27.956 - INFO - CDS - contig=contig_1, start=36514, stop=37671, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=3Base/5BMM
-12:46:27.956 - INFO - CDS - contig=contig_1, start=37701, stop=37946, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=None
-12:46:27.956 - INFO - CDS - contig=contig_1, start=38625, stop=39167, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
-12:46:27.956 - INFO - CDS - contig=contig_1, start=39180, stop=40040, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=AGGAG
-12:46:27.956 - INFO - CDS - contig=contig_1, start=40183, stop=41151, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=None
-12:46:27.956 - INFO - CDS - contig=contig_1, start=41151, stop=41315, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=None
-12:46:27.956 - INFO - CDS - contig=contig_1, start=41255, stop=42463, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=None
-12:46:27.957 - INFO - CDS - contig=contig_1, start=42525, stop=43001, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=None
-12:46:27.957 - INFO - CDS - contig=contig_1, start=43108, stop=43944, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=None
-12:46:27.957 - INFO - CDS - contig=contig_1, start=43944, stop=44747, strand=-, frame=1, truncated=no, start-type=TTG, RBS-motif=AGGA
-12:46:27.957 - INFO - CDS - contig=contig_1, start=44808, stop=45623, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=AGxAG
-12:46:27.957 - INFO - CDS - contig=contig_1, start=45931, stop=46782, strand=-, frame=3, truncated=no, start-type=GTG, RBS-motif=AGxAGG/AGGxGG
-12:46:27.957 - INFO - CDS - contig=contig_1, start=46769, stop=47476, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=None
-12:46:27.957 - INFO - CDS - contig=contig_1, start=47538, stop=48242, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
-12:46:27.957 - INFO - CDS - contig=contig_1, start=48393, stop=49208, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
-12:46:27.957 - INFO - CDS - contig=contig_1, start=49398, stop=50102, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
-12:46:27.957 - INFO - CDS - contig=contig_1, start=50161, stop=50496, strand=+, frame=1, truncated=no, start-type=GTG, RBS-motif=None
-12:46:27.957 - INFO - CDS - contig=contig_1, start=50679, stop=51539, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=AGGA
-12:46:27.957 - INFO - CDS - contig=contig_1, start=23, stop=778, strand=+, nt=[ATGAACATCA..GAATGGATAA]
-12:46:27.957 - INFO - CDS - contig=contig_1, start=859, stop=1407, strand=-, nt=[ATGCGTGATA..GCAGTCGTAG]
-12:46:27.957 - INFO - CDS - contig=contig_1, start=1523, stop=2725, strand=+, nt=[GTGCATCATA..GCCGCGATGA]
-12:46:27.957 - INFO - CDS - contig=contig_1, start=2755, stop=3132, strand=+, nt=[GTGCTGTGCA..GGATTTCTGA]
-12:46:27.957 - INFO - CDS - contig=contig_1, start=3359, stop=4891, strand=+, nt=[GTGCCGCGCC..AGCCGCGTGA]
-12:46:27.957 - INFO - CDS - contig=contig_1, start=4983, stop=5705, strand=-, nt=[ATGATGACCT..GCTTCGCTGA]
-12:46:27.958 - INFO - CDS - contig=contig_1, start=5795, stop=6970, strand=-, nt=[GTGCGCAGCT..TTCATTGTGA]
-12:46:27.958 - INFO - CDS - contig=contig_1, start=7074, stop=7700, strand=+, nt=[ATGACCAAAC..AACAGATTAG]
-12:46:27.958 - INFO - CDS - contig=contig_1, start=7907, stop=9121, strand=-, nt=[ATGACCACCA..AGTCGTCTAG]
-12:46:27.958 - INFO - CDS - contig=contig_1, start=9338, stop=10309, strand=-, nt=[ATGGTGACGG..GGGGCTATAG]
-12:46:27.958 - INFO - CDS - contig=contig_1, start=10303, stop=10650, strand=-, nt=[ATGAAAGGCT..GCCATGGTGA]
-12:46:27.958 - INFO - CDS - contig=contig_1, start=10814, stop=11629, strand=-, nt=[GTGGCTAAAA..CGGCAAATAA]
-12:46:27.958 - INFO - CDS - contig=contig_1, start=11622, stop=12422, strand=-, nt=[ATGAAAACAT..TGGTGGCTAA]
-12:46:27.958 - INFO - CDS - contig=contig_1, start=12687, stop=13946, strand=-, nt=[GTGCGCTCAA..CAATCGTTGA]
-12:46:27.958 - INFO - CDS - contig=contig_1, start=14267, stop=14719, strand=-, nt=[ATGGTAAAAG..TGAAGACTAG]
-12:46:27.958 - INFO - CDS - contig=contig_1, start=14804, stop=15337, strand=-, nt=[ATGGACACAA..TGCGGCCTAA]
-12:46:27.958 - INFO - CDS - contig=contig_1, start=15482, stop=16381, strand=-, nt=[ATGAAAATCG..GAATAAATAA]
-12:46:27.958 - INFO - CDS - contig=contig_1, start=16557, stop=17765, strand=+, nt=[ATGCGCGAAG..TGATTTATGA]
-12:46:27.958 - INFO - CDS - contig=contig_1, start=17775, stop=18263, strand=-, nt=[ATGAACCCAT..TGAACACTGA]
-12:46:27.958 - INFO - CDS - contig=contig_1, start=18310, stop=18711, strand=-, nt=[ATGGCAGAGC..TTGCAAATAG]
-12:46:27.958 - INFO - CDS - contig=contig_1, start=18861, stop=19721, strand=-, nt=[ATGAGTATTC..GCATTGGTAA]
-12:46:27.958 - INFO - CDS - contig=contig_1, start=19904, stop=20239, strand=-, nt=[GTGCCGATCC..GGCCTCGTGA]
-12:46:27.958 - INFO - CDS - contig=contig_1, start=20298, stop=21002, strand=+, nt=[ATGAACCCAT..TGAAATGTAA]
-12:46:27.958 - INFO - CDS - contig=contig_1, start=20948, stop=21307, strand=-, nt=[ATGACTGGAC..ATCACCATAA]
-12:46:27.958 - INFO - CDS - contig=contig_1, start=21433, stop=21933, strand=-, nt=[GTGCCGCATC..GTCAGGTTGA]
-12:46:27.958 - INFO - CDS - contig=contig_1, start=21986, stop=22999, strand=-, nt=[ATGAAAACCG..TGAGAGGTAG]
-12:46:27.958 - INFO - CDS - contig=contig_1, start=23169, stop=23969, strand=+, nt=[ATGTTAAAAG..CGCCGAGTAG]
-12:46:27.958 - INFO - CDS - contig=contig_1, start=24161, stop=24508, strand=+, nt=[ATGAAAGGCT..GCCATGGTGA]
-12:46:27.959 - INFO - CDS - contig=contig_1, start=24502, stop=25341, strand=+, nt=[ATGGTGACGG..TCATGCCTAG]
-12:46:27.959 - INFO - CDS - contig=contig_1, start=25746, stop=27287, strand=+, nt=[ATGTCGCTGG..CTTTGACTGA]
-12:46:27.959 - INFO - CDS - contig=contig_1, start=27551, stop=28207, strand=+, nt=[ATGGATATTA..GCCGGATTAG]
-12:46:27.959 - INFO - CDS - contig=contig_1, start=28393, stop=29268, strand=+, nt=[ATGGTCAGAC..GGCGGCGTAA]
-12:46:27.959 - INFO - CDS - contig=contig_1, start=29272, stop=29754, strand=-, nt=[ATGAAGCAAC..AGGTGAGTGA]
-12:46:27.959 - INFO - CDS - contig=contig_1, start=29859, stop=30698, strand=+, nt=[ATGGTGACGG..TCATGCCTAG]
-12:46:27.959 - INFO - CDS - contig=contig_1, start=30826, stop=31326, strand=+, nt=[ATGGACAGCG..CGAAATCTAA]
-12:46:27.959 - INFO - CDS - contig=contig_1, start=31295, stop=32287, strand=-, nt=[GTGGACGAAT..TCTGCGATGA]
-12:46:27.959 - INFO - CDS - contig=contig_1, start=32290, stop=33969, strand=-, nt=[ATGGCGACGG..GGAGTGGTAG]
-12:46:27.959 - INFO - CDS - contig=contig_1, start=35028, stop=36164, strand=-, nt=[TTGTGCGAAG..GACGGGATAG]
-12:46:27.959 - INFO - CDS - contig=contig_1, start=36514, stop=37671, strand=-, nt=[ATGACAGTAA..GGTGGGGTAA]
-12:46:27.959 - INFO - CDS - contig=contig_1, start=37701, stop=37946, strand=-, nt=[ATGCAGGCGT..CTACTCATAA]
-12:46:27.959 - INFO - CDS - contig=contig_1, start=38625, stop=39167, strand=-, nt=[ATGATAATCT..GCGCACCTGA]
-12:46:27.959 - INFO - CDS - contig=contig_1, start=39180, stop=40040, strand=-, nt=[ATGCATACGC..TTCAGGTTAG]
-12:46:27.959 - INFO - CDS - contig=contig_1, start=40183, stop=41151, strand=+, nt=[ATGTGCGAAC..CATGCTCTGA]
-12:46:27.959 - INFO - CDS - contig=contig_1, start=41151, stop=41315, strand=+, nt=[ATGAATCCCC..TTACACTTAA]
-12:46:27.959 - INFO - CDS - contig=contig_1, start=41255, stop=42463, strand=+, nt=[ATGTGCGAAC..GAAATTATGA]
-12:46:27.959 - INFO - CDS - contig=contig_1, start=42525, stop=43001, strand=-, nt=[ATGGCGGCCG..GCGTTGGTAG]
-12:46:27.959 - INFO - CDS - contig=contig_1, start=43108, stop=43944, strand=-, nt=[ATGTTCATGC..GTCATACTAG]
-12:46:27.959 - INFO - CDS - contig=contig_1, start=43944, stop=44747, strand=-, nt=[TTGAATCGAA..TTGGGGTTGA]
-12:46:27.959 - INFO - CDS - contig=contig_1, start=44808, stop=45623, strand=-, nt=[ATGAATAAAT..AATTCGTTAA]
-12:46:27.959 - INFO - CDS - contig=contig_1, start=45931, stop=46782, strand=-, nt=[GTGGTGAAGC..GGCAGGCTGA]
-12:46:27.959 - INFO - CDS - contig=contig_1, start=46769, stop=47476, strand=-, nt=[ATGCTGGCCC..TGAAGCCTAA]
-12:46:27.960 - INFO - CDS - contig=contig_1, start=47538, stop=48242, strand=-, nt=[ATGAACCCAT..TGAAATGTAA]
-12:46:27.960 - INFO - CDS - contig=contig_1, start=48393, stop=49208, strand=+, nt=[ATGAGCCATA..GTTTTTCTAA]
-12:46:27.960 - INFO - CDS - contig=contig_1, start=49398, stop=50102, strand=-, nt=[ATGAACCCAT..TGAAATGTAA]
-12:46:27.960 - INFO - CDS - contig=contig_1, start=50161, stop=50496, strand=+, nt=[GTGCCGATCC..GGCCTCGTGA]
-12:46:27.960 - INFO - CDS - contig=contig_1, start=50679, stop=51539, strand=+, nt=[ATGAGTATTC..GCATTGGTAA]
-12:46:27.985 - INFO - CDS - predicted=56
-12:46:28.022 - INFO - ORF - discarded=0
-12:46:28.030 - INFO - UPS - looked-up=50
-12:46:28.036 - INFO - IPS - looked-up=50
-12:46:28.036 - INFO - ORF - write internal aa seqs: # seqs=6, path=/tmp/tmpxpb7j555/cds.psc.faa
-12:47:52.289 - INFO - PSC - found: PSC=6, PSCC=0
-12:47:52.636 - INFO - PSC - looked-up=55
-12:47:52.870 - INFO - PSCC - looked-up=54
-12:47:52.871 - INFO - ORF - write internal aa seqs: # seqs=56, path=/tmp/tmpxpb7j555/cds.expert.faa
-12:47:55.284 - INFO - EXPERT-AMRFINDER - found=23
-12:47:56.290 - INFO - EXPERT_AA_SEQ - found=10
-12:47:56.290 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=rmtB1
-12:47:56.291 - INFO - ANNOTATION - fix product: replace domain name underscores. new=Zn-Tnp-IS91 domain-containing protein, old=Zn_Tnp_IS91 domain-containing protein
-12:47:56.291 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=floR2
-12:47:56.291 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=qacE
-12:47:56.291 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=aadA1
-12:47:56.291 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=cmlA5
-12:47:56.291 - INFO - ANNOTATION - fix product: replace domain name underscores. new=Zn-Tnp-IS91 domain-containing protein, old=Zn_Tnp_IS91 domain-containing protein
-12:47:56.292 - INFO - ANNOTATION - fix gene: lowercase first char. new=eAL, old=EAL
-12:47:56.292 - INFO - ANNOTATION - fix gene: lowercase first char. new=eAL, old=EAL
-12:47:56.292 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=intI1
-12:47:56.292 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=qacE
-12:47:56.292 - INFO - ANNOTATION - fix gene: lowercase first char. new=rPS27A, old=RPS27A
-12:47:56.292 - INFO - ANNOTATION - fix gene: lowercase first char. new=rPS27A, old=RPS27A
-12:47:56.292 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=qnrA1
-12:47:56.292 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=lysR
-12:47:56.292 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=ampR
-12:47:56.292 - INFO - ANNOTATION - fix gene: lowercase first char. new=lysR, old=LysR
-12:47:56.292 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=hypA
-12:47:56.293 - INFO - ANNOTATION - fix product: replace putative synonyms. new=putative N-acetyltransferase YhbS, old=Predicted N-acetyltransferase YhbS
-12:47:56.293 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=yhbS
-12:47:56.293 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=tniA
-12:47:56.293 - INFO - ANNOTATION - fix product: replace domain name underscores. new=NOV-C domain-containing protein, old=NOV_C domain-containing protein
-12:47:56.293 - INFO - ANNOTATION - fix product: replace domain name underscores. new=Ammonium-transp domain-containing protein, old=Ammonium_transp domain-containing protein
-12:47:56.293 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=rfaY
-12:47:56.294 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=repA
-12:47:56.338 - INFO - S_ORF - predicted=640
-12:47:56.374 - INFO - S_ORF - sORF filter: # valid=160, # discarded=480
-12:47:56.406 - INFO - ORF - discarded=0
-12:47:58.187 - INFO - UPS - looked-up=1
-12:47:58.204 - INFO - IPS - looked-up=1
-12:47:58.204 - INFO - ORF - write internal aa seqs: # seqs=159, path=/tmp/tmpxpb7j555/sorf.faa
-12:47:58.368 - INFO - S_ORF - found=0
-12:47:58.369 - INFO - PSC - looked-up=0
-12:47:58.369 - INFO - PSCC - looked-up=0
-12:47:58.369 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=cmlA1
-12:47:59.631 - INFO - ORI - predicted=0
-12:47:59.782 - INFO - ORI - predicted=0
-12:47:59.783 - INFO - UTILS - generated sequence tag prefix: prefix=CJHFKPHKKN, length=10, MD5=C31F491447FA2053491761785DF64A1A
-12:47:59.783 - INFO - MAIN - selected features=62
-12:47:59.784 - INFO - UTILS - generated sequence tag prefix: prefix=CJHFKP, length=6, MD5=C31F491447FA2053491761785DF64A1A
-12:47:59.784 - INFO - MAIN - locus tag prefix=CJHFKP
-12:47:59.785 - INFO - UTILS - genome-size=51686
-12:47:59.786 - INFO - UTILS - GC=0.555
-12:47:59.786 - INFO - UTILS - N=0.000
-12:47:59.787 - INFO - UTILS - N50=51686
-12:47:59.787 - INFO - UTILS - coding-ratio=0.856
-12:47:59.788 - INFO - TSV - write tsv: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/proteus_unicycler_vim_plasmid_ac082/proteus_unicycler_vim_plasmid_ac082.tsv
-12:47:59.789 - INFO - GFF - write GFF3: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/proteus_unicycler_vim_plasmid_ac082/proteus_unicycler_vim_plasmid_ac082.gff3
-12:47:59.795 - INFO - INSDC - write GenBank: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/proteus_unicycler_vim_plasmid_ac082/proteus_unicycler_vim_plasmid_ac082.gbff
-12:47:59.813 - INFO - INSDC - write EMBL: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/proteus_unicycler_vim_plasmid_ac082/proteus_unicycler_vim_plasmid_ac082.embl
-12:47:59.831 - INFO - FASTA - write genome sequences: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/proteus_unicycler_vim_plasmid_ac082/proteus_unicycler_vim_plasmid_ac082.fna, description=True, wrap=True
-12:47:59.832 - INFO - FASTA - write feature nucleotide sequences: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/proteus_unicycler_vim_plasmid_ac082/proteus_unicycler_vim_plasmid_ac082.ffn
-12:47:59.832 - INFO - FASTA - write translated CDS/sORF: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/proteus_unicycler_vim_plasmid_ac082/proteus_unicycler_vim_plasmid_ac082.faa
-12:47:59.904 - INFO - PLOT - write circular genome plot: file-name=proteus_unicycler_vim_plasmid_ac082, output-dir=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/proteus_unicycler_vim_plasmid_ac082
-12:48:09.575 - INFO - TSV - write hypothetical tsv: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/proteus_unicycler_vim_plasmid_ac082/proteus_unicycler_vim_plasmid_ac082.hypotheticals.tsv
-12:48:09.575 - INFO - FASTA - write translated CDS/sORF: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/proteus_unicycler_vim_plasmid_ac082/proteus_unicycler_vim_plasmid_ac082.hypotheticals.faa
-12:48:09.575 - INFO - JSON - write JSON: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/proteus_unicycler_vim_plasmid_ac082/proteus_unicycler_vim_plasmid_ac082.json
-12:48:09.588 - INFO - MAIN - removed tmp dir: /tmp/tmpxpb7j555
+13:22:06.435 - INFO - UTILS - version=1.8.2
+13:22:06.435 - INFO - UTILS - developer: Oliver Schwengers, github.com/oschwengers
+13:22:06.435 - INFO - UTILS - command: /bioinf/anaconda3/envs/bakta/bin/bakta --skip-plot --genus Proteus --species mirabilis --strain patient A --plasmid p.AC082 --force --keep-contig-headers --compliant --db ../../../bakta_db/db --output bakta/proteus_unicycler_vim_plasmid_ac082 --complete --threads 12 --prodigal-tf bakta/prodigal_training_file proteus_unicycler_vim_plasmid_ac082.fna
+13:22:06.435 - INFO - UTILS - local time: 2023-10-22 13:22:06
+13:22:06.436 - INFO - UTILS - machine: type=, cores=12
+13:22:06.436 - INFO - UTILS - system: type=Linux, release=6.3.5-arch1-1
+13:22:06.436 - INFO - UTILS - python: version=3.10.8, implementation=CPython
+13:22:06.437 - INFO - CONFIG - threads=12
+13:22:06.437 - INFO - CONFIG - verbose=False
+13:22:06.437 - INFO - CONFIG - debug=False
+13:22:06.437 - INFO - CONFIG - database: type=parameter, path=/workspace/fin/SHL/bacteria/bakta_db/db
+13:22:06.437 - INFO - CONFIG - tmp-path=/tmp/tmpcdww3z5i
+13:22:06.437 - INFO - CONFIG - genome-path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/proteus_unicycler_vim_plasmid_ac082.fna
+13:22:06.437 - INFO - CONFIG - min_contig_length=1
+13:22:06.437 - INFO - CONFIG - prefix=proteus_unicycler_vim_plasmid_ac082
+13:22:06.438 - INFO - CONFIG - output-path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/proteus_unicycler_vim_plasmid_ac082
+13:22:06.438 - INFO - CONFIG - force=True
+13:22:06.438 - INFO - CONFIG - genus=Proteus
+13:22:06.438 - INFO - CONFIG - species=mirabilis
+13:22:06.438 - INFO - CONFIG - strain=patient A
+13:22:06.438 - INFO - CONFIG - plasmid=p.AC082
+13:22:06.438 - INFO - CONFIG - complete=True
+13:22:06.438 - INFO - CONFIG - prodigal_tf=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/prodigal_training_file
+13:22:06.438 - INFO - CONFIG - translation_table=11
+13:22:06.438 - INFO - CONFIG - gram=?
+13:22:06.438 - INFO - CONFIG - compliant=True
+13:22:06.438 - INFO - CONFIG - compliant mode! min_contig_length=200
+13:22:06.438 - INFO - CONFIG - meta=False
+13:22:06.438 - INFO - CONFIG - locus=None
+13:22:06.438 - INFO - CONFIG - locus-tag=None
+13:22:06.438 - INFO - CONFIG - keep_contig_headers=True
+13:22:06.438 - INFO - CONFIG - replicon-table=None
+13:22:06.438 - INFO - CONFIG - skip-tRNA=False
+13:22:06.438 - INFO - CONFIG - skip-tmRNA=False
+13:22:06.438 - INFO - CONFIG - skip-rRNA=False
+13:22:06.438 - INFO - CONFIG - skip-ncRNA=False
+13:22:06.438 - INFO - CONFIG - skip-ncRNA-region=False
+13:22:06.439 - INFO - CONFIG - skip-CRISPR=False
+13:22:06.439 - INFO - CONFIG - skip-CDS=False
+13:22:06.439 - INFO - CONFIG - skip-pseudo=False
+13:22:06.439 - INFO - CONFIG - skip-sORF=False
+13:22:06.439 - INFO - CONFIG - skip-gap=False
+13:22:06.439 - INFO - CONFIG - skip-ori=False
+13:22:06.439 - INFO - CONFIG - skip-plot=True
+13:22:06.439 - INFO - DB - detected: major=5, minor=0, type=full, date=2023-02-20
+13:22:06.538 - INFO - UTILS - dependency: tool=tRNAscan-SE, version=v2.0.11, path=/bioinf/anaconda3/envs/bakta/bin/tRNAscan-SE
+13:22:06.539 - INFO - UTILS - dependency: tool=Aragorn, version=v1.2.41, path=/bioinf/anaconda3/envs/bakta/bin/aragorn
+13:22:06.545 - INFO - UTILS - dependency: tool=CMscan, version=v1.1.4, path=/bioinf/anaconda3/envs/bakta/bin/cmscan
+13:22:06.547 - INFO - UTILS - dependency: tool=PilerCR, version=v1.6.0, path=/bioinf/anaconda3/envs/bakta/bin/pilercr
+13:22:06.601 - INFO - UTILS - dependency: tool=Pyrodigal, version=v2.3.0, path=/bioinf/anaconda3/envs/bakta/bin/python
+13:22:06.603 - INFO - UTILS - dependency: tool=AMRFinderPlus, version=v3.11.20, path=/bioinf/anaconda3/envs/bakta/bin/amrfinder
+13:22:06.670 - INFO - UTILS - dependency: tool=Pyhmmer, version=v0.10.2, path=/bioinf/anaconda3/envs/bakta/bin/python
+13:22:06.674 - INFO - UTILS - dependency: tool=Diamond, version=v2.0.15, path=/bioinf/anaconda3/envs/bakta/bin/diamond
+13:22:06.758 - INFO - UTILS - dependency: tool=Blastn, version=v2.14.1, path=/bioinf/anaconda3/envs/bakta/bin/blastn
+13:22:06.765 - INFO - FASTA - imported: id=proteus_vim_ac082, length=51686, description=, genomic=True, dna=True
+13:22:06.765 - INFO - MAIN - imported sequences=1
+13:22:06.765 - INFO - UTILS - qc: revised sequence: id=proteus_vim_ac082, orig-id=, type=plasmid, complete=True, topology=circular, name=p.AC082, description='', orig-description=''
+13:22:06.765 - INFO - FASTA - write genome sequences: path=/tmp/tmpcdww3z5i/contigs.fna, description=False, wrap=False
+13:22:07.795 - INFO - T_RNA - contig=proteus_vim_ac082, start=38461, stop=38531, strand=+, gene=trnT, product=tRNA-Thr(tgt), score=22.1, nt=[GCGAAAGTCG..GTCCGCACCA]
+13:22:07.795 - INFO - T_RNA - predicted=1
+13:22:07.818 - INFO - TM_RNA - predicted=0
+13:22:07.885 - INFO - R_RNA - predicted=0
+13:22:08.568 - INFO - NC_RNA - contig=proteus_vim_ac082, start=40121, stop=40190, strand=-, gene=RNA-OUT, product=RNA-OUT, length=70, truncated=None, score=98.7, evalue=5.4e-16, nt=[TCGCACATCT..TGTGTATCCA]
+13:22:08.568 - INFO - NC_RNA - contig=proteus_vim_ac082, start=41193, stop=41262, strand=-, gene=RNA-OUT, product=RNA-OUT, length=70, truncated=None, score=98.7, evalue=5.4e-16, nt=[TCGCACATCT..TGTGTATCCA]
+13:22:08.568 - INFO - NC_RNA - contig=proteus_vim_ac082, start=16496, stop=16564, strand=-, gene=RNA-OUT, product=RNA-OUT, length=69, truncated=None, score=79.3, evalue=4.9e-12, nt=[TCGCGCATCT..TGCGCTTCCA]
+13:22:08.568 - INFO - NC_RNA - predicted=3
+13:22:08.989 - INFO - NC_RNA_REGION - contig=proteus_vim_ac082, start=23092, stop=23158, strand=+, label=AAC_AAD_leader, product=putative aminoglycoside riboswitch / attI site, length=67, truncated=None, score=76.1, evalue=1.1e-12
+13:22:08.989 - INFO - NC_RNA_REGION - predicted=1
+13:22:09.007 - INFO - CRISPR - predicted=0
+13:22:09.008 - INFO - CDS - use provided prodigal training info: file=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/prodigal_training_file, meta mode=False
+13:22:09.157 - INFO - CDS - contig=proteus_vim_ac082, start=23, stop=778, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=AGGAG
+13:22:09.157 - INFO - CDS - contig=proteus_vim_ac082, start=859, stop=1407, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=None
+13:22:09.157 - INFO - CDS - contig=proteus_vim_ac082, start=1523, stop=2725, strand=+, frame=2, truncated=no, start-type=GTG, RBS-motif=None
+13:22:09.157 - INFO - CDS - contig=proteus_vim_ac082, start=2755, stop=3132, strand=+, frame=1, truncated=no, start-type=GTG, RBS-motif=None
+13:22:09.157 - INFO - CDS - contig=proteus_vim_ac082, start=3359, stop=4891, strand=+, frame=2, truncated=no, start-type=GTG, RBS-motif=GGAG/GAGG
+13:22:09.157 - INFO - CDS - contig=proteus_vim_ac082, start=4983, stop=5705, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+13:22:09.158 - INFO - CDS - contig=proteus_vim_ac082, start=5795, stop=6970, strand=-, frame=2, truncated=no, start-type=GTG, RBS-motif=GGAG/GAGG
+13:22:09.158 - INFO - CDS - contig=proteus_vim_ac082, start=7074, stop=7700, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=AGGA
+13:22:09.158 - INFO - CDS - contig=proteus_vim_ac082, start=7907, stop=9121, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=3Base/5BMM
+13:22:09.158 - INFO - CDS - contig=proteus_vim_ac082, start=9338, stop=10309, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=GGAGG
+13:22:09.158 - INFO - CDS - contig=proteus_vim_ac082, start=10303, stop=10650, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+13:22:09.158 - INFO - CDS - contig=proteus_vim_ac082, start=10814, stop=11629, strand=-, frame=2, truncated=no, start-type=GTG, RBS-motif=GGAG/GAGG
+13:22:09.158 - INFO - CDS - contig=proteus_vim_ac082, start=11622, stop=12422, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=AGxAG
+13:22:09.158 - INFO - CDS - contig=proteus_vim_ac082, start=12687, stop=13946, strand=-, frame=1, truncated=no, start-type=GTG, RBS-motif=AGGAG
+13:22:09.158 - INFO - CDS - contig=proteus_vim_ac082, start=14267, stop=14719, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+13:22:09.158 - INFO - CDS - contig=proteus_vim_ac082, start=14804, stop=15337, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=None
+13:22:09.159 - INFO - CDS - contig=proteus_vim_ac082, start=15482, stop=16381, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=AGGAG
+13:22:09.159 - INFO - CDS - contig=proteus_vim_ac082, start=16557, stop=17765, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+13:22:09.159 - INFO - CDS - contig=proteus_vim_ac082, start=17775, stop=18263, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+13:22:09.159 - INFO - CDS - contig=proteus_vim_ac082, start=18310, stop=18711, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=3Base/5BMM
+13:22:09.159 - INFO - CDS - contig=proteus_vim_ac082, start=18861, stop=19721, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=AGGA
+13:22:09.159 - INFO - CDS - contig=proteus_vim_ac082, start=19904, stop=20239, strand=-, frame=2, truncated=no, start-type=GTG, RBS-motif=None
+13:22:09.159 - INFO - CDS - contig=proteus_vim_ac082, start=20298, stop=21002, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+13:22:09.159 - INFO - CDS - contig=proteus_vim_ac082, start=20948, stop=21307, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+13:22:09.159 - INFO - CDS - contig=proteus_vim_ac082, start=21433, stop=21933, strand=-, frame=3, truncated=no, start-type=GTG, RBS-motif=GGA/GAG/AGG
+13:22:09.159 - INFO - CDS - contig=proteus_vim_ac082, start=21986, stop=22999, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=None
+13:22:09.159 - INFO - CDS - contig=proteus_vim_ac082, start=23169, stop=23969, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+13:22:09.160 - INFO - CDS - contig=proteus_vim_ac082, start=24161, stop=24508, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+13:22:09.160 - INFO - CDS - contig=proteus_vim_ac082, start=24502, stop=25341, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAGG
+13:22:09.160 - INFO - CDS - contig=proteus_vim_ac082, start=25746, stop=27287, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=GGAGG
+13:22:09.160 - INFO - CDS - contig=proteus_vim_ac082, start=27551, stop=28207, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=AGGA
+13:22:09.160 - INFO - CDS - contig=proteus_vim_ac082, start=28393, stop=29268, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+13:22:09.160 - INFO - CDS - contig=proteus_vim_ac082, start=29272, stop=29754, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=None
+13:22:09.160 - INFO - CDS - contig=proteus_vim_ac082, start=29859, stop=30698, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=GGAGG
+13:22:09.160 - INFO - CDS - contig=proteus_vim_ac082, start=30826, stop=31326, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+13:22:09.160 - INFO - CDS - contig=proteus_vim_ac082, start=31295, stop=32287, strand=-, frame=2, truncated=no, start-type=GTG, RBS-motif=AGGAG
+13:22:09.160 - INFO - CDS - contig=proteus_vim_ac082, start=32290, stop=33969, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+13:22:09.161 - INFO - CDS - contig=proteus_vim_ac082, start=35028, stop=36164, strand=-, frame=1, truncated=no, start-type=TTG, RBS-motif=GGA/GAG/AGG
+13:22:09.161 - INFO - CDS - contig=proteus_vim_ac082, start=36514, stop=37671, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=3Base/5BMM
+13:22:09.161 - INFO - CDS - contig=proteus_vim_ac082, start=37701, stop=37946, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=None
+13:22:09.161 - INFO - CDS - contig=proteus_vim_ac082, start=38625, stop=39167, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+13:22:09.161 - INFO - CDS - contig=proteus_vim_ac082, start=39180, stop=40040, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=AGGAG
+13:22:09.161 - INFO - CDS - contig=proteus_vim_ac082, start=40183, stop=41151, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=None
+13:22:09.161 - INFO - CDS - contig=proteus_vim_ac082, start=41151, stop=41315, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=None
+13:22:09.161 - INFO - CDS - contig=proteus_vim_ac082, start=41255, stop=42463, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=None
+13:22:09.161 - INFO - CDS - contig=proteus_vim_ac082, start=42525, stop=43001, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=None
+13:22:09.161 - INFO - CDS - contig=proteus_vim_ac082, start=43108, stop=43944, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=None
+13:22:09.161 - INFO - CDS - contig=proteus_vim_ac082, start=43944, stop=44747, strand=-, frame=1, truncated=no, start-type=TTG, RBS-motif=AGGA
+13:22:09.162 - INFO - CDS - contig=proteus_vim_ac082, start=44808, stop=45623, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=AGxAG
+13:22:09.162 - INFO - CDS - contig=proteus_vim_ac082, start=45931, stop=46782, strand=-, frame=3, truncated=no, start-type=GTG, RBS-motif=AGxAGG/AGGxGG
+13:22:09.162 - INFO - CDS - contig=proteus_vim_ac082, start=46769, stop=47476, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=None
+13:22:09.162 - INFO - CDS - contig=proteus_vim_ac082, start=47538, stop=48242, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+13:22:09.162 - INFO - CDS - contig=proteus_vim_ac082, start=48393, stop=49208, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+13:22:09.162 - INFO - CDS - contig=proteus_vim_ac082, start=49398, stop=50102, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+13:22:09.162 - INFO - CDS - contig=proteus_vim_ac082, start=50161, stop=50496, strand=+, frame=1, truncated=no, start-type=GTG, RBS-motif=None
+13:22:09.162 - INFO - CDS - contig=proteus_vim_ac082, start=50679, stop=51539, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=AGGA
+13:22:09.162 - INFO - CDS - contig=proteus_vim_ac082, start=23, stop=778, strand=+, nt=[ATGAACATCA..GAATGGATAA]
+13:22:09.162 - INFO - CDS - contig=proteus_vim_ac082, start=859, stop=1407, strand=-, nt=[ATGCGTGATA..GCAGTCGTAG]
+13:22:09.163 - INFO - CDS - contig=proteus_vim_ac082, start=1523, stop=2725, strand=+, nt=[GTGCATCATA..GCCGCGATGA]
+13:22:09.163 - INFO - CDS - contig=proteus_vim_ac082, start=2755, stop=3132, strand=+, nt=[GTGCTGTGCA..GGATTTCTGA]
+13:22:09.163 - INFO - CDS - contig=proteus_vim_ac082, start=3359, stop=4891, strand=+, nt=[GTGCCGCGCC..AGCCGCGTGA]
+13:22:09.163 - INFO - CDS - contig=proteus_vim_ac082, start=4983, stop=5705, strand=-, nt=[ATGATGACCT..GCTTCGCTGA]
+13:22:09.163 - INFO - CDS - contig=proteus_vim_ac082, start=5795, stop=6970, strand=-, nt=[GTGCGCAGCT..TTCATTGTGA]
+13:22:09.163 - INFO - CDS - contig=proteus_vim_ac082, start=7074, stop=7700, strand=+, nt=[ATGACCAAAC..AACAGATTAG]
+13:22:09.163 - INFO - CDS - contig=proteus_vim_ac082, start=7907, stop=9121, strand=-, nt=[ATGACCACCA..AGTCGTCTAG]
+13:22:09.163 - INFO - CDS - contig=proteus_vim_ac082, start=9338, stop=10309, strand=-, nt=[ATGGTGACGG..GGGGCTATAG]
+13:22:09.163 - INFO - CDS - contig=proteus_vim_ac082, start=10303, stop=10650, strand=-, nt=[ATGAAAGGCT..GCCATGGTGA]
+13:22:09.163 - INFO - CDS - contig=proteus_vim_ac082, start=10814, stop=11629, strand=-, nt=[GTGGCTAAAA..CGGCAAATAA]
+13:22:09.163 - INFO - CDS - contig=proteus_vim_ac082, start=11622, stop=12422, strand=-, nt=[ATGAAAACAT..TGGTGGCTAA]
+13:22:09.163 - INFO - CDS - contig=proteus_vim_ac082, start=12687, stop=13946, strand=-, nt=[GTGCGCTCAA..CAATCGTTGA]
+13:22:09.163 - INFO - CDS - contig=proteus_vim_ac082, start=14267, stop=14719, strand=-, nt=[ATGGTAAAAG..TGAAGACTAG]
+13:22:09.164 - INFO - CDS - contig=proteus_vim_ac082, start=14804, stop=15337, strand=-, nt=[ATGGACACAA..TGCGGCCTAA]
+13:22:09.164 - INFO - CDS - contig=proteus_vim_ac082, start=15482, stop=16381, strand=-, nt=[ATGAAAATCG..GAATAAATAA]
+13:22:09.164 - INFO - CDS - contig=proteus_vim_ac082, start=16557, stop=17765, strand=+, nt=[ATGCGCGAAG..TGATTTATGA]
+13:22:09.164 - INFO - CDS - contig=proteus_vim_ac082, start=17775, stop=18263, strand=-, nt=[ATGAACCCAT..TGAACACTGA]
+13:22:09.164 - INFO - CDS - contig=proteus_vim_ac082, start=18310, stop=18711, strand=-, nt=[ATGGCAGAGC..TTGCAAATAG]
+13:22:09.164 - INFO - CDS - contig=proteus_vim_ac082, start=18861, stop=19721, strand=-, nt=[ATGAGTATTC..GCATTGGTAA]
+13:22:09.164 - INFO - CDS - contig=proteus_vim_ac082, start=19904, stop=20239, strand=-, nt=[GTGCCGATCC..GGCCTCGTGA]
+13:22:09.164 - INFO - CDS - contig=proteus_vim_ac082, start=20298, stop=21002, strand=+, nt=[ATGAACCCAT..TGAAATGTAA]
+13:22:09.164 - INFO - CDS - contig=proteus_vim_ac082, start=20948, stop=21307, strand=-, nt=[ATGACTGGAC..ATCACCATAA]
+13:22:09.164 - INFO - CDS - contig=proteus_vim_ac082, start=21433, stop=21933, strand=-, nt=[GTGCCGCATC..GTCAGGTTGA]
+13:22:09.164 - INFO - CDS - contig=proteus_vim_ac082, start=21986, stop=22999, strand=-, nt=[ATGAAAACCG..TGAGAGGTAG]
+13:22:09.164 - INFO - CDS - contig=proteus_vim_ac082, start=23169, stop=23969, strand=+, nt=[ATGTTAAAAG..CGCCGAGTAG]
+13:22:09.164 - INFO - CDS - contig=proteus_vim_ac082, start=24161, stop=24508, strand=+, nt=[ATGAAAGGCT..GCCATGGTGA]
+13:22:09.164 - INFO - CDS - contig=proteus_vim_ac082, start=24502, stop=25341, strand=+, nt=[ATGGTGACGG..TCATGCCTAG]
+13:22:09.165 - INFO - CDS - contig=proteus_vim_ac082, start=25746, stop=27287, strand=+, nt=[ATGTCGCTGG..CTTTGACTGA]
+13:22:09.165 - INFO - CDS - contig=proteus_vim_ac082, start=27551, stop=28207, strand=+, nt=[ATGGATATTA..GCCGGATTAG]
+13:22:09.165 - INFO - CDS - contig=proteus_vim_ac082, start=28393, stop=29268, strand=+, nt=[ATGGTCAGAC..GGCGGCGTAA]
+13:22:09.165 - INFO - CDS - contig=proteus_vim_ac082, start=29272, stop=29754, strand=-, nt=[ATGAAGCAAC..AGGTGAGTGA]
+13:22:09.165 - INFO - CDS - contig=proteus_vim_ac082, start=29859, stop=30698, strand=+, nt=[ATGGTGACGG..TCATGCCTAG]
+13:22:09.165 - INFO - CDS - contig=proteus_vim_ac082, start=30826, stop=31326, strand=+, nt=[ATGGACAGCG..CGAAATCTAA]
+13:22:09.165 - INFO - CDS - contig=proteus_vim_ac082, start=31295, stop=32287, strand=-, nt=[GTGGACGAAT..TCTGCGATGA]
+13:22:09.165 - INFO - CDS - contig=proteus_vim_ac082, start=32290, stop=33969, strand=-, nt=[ATGGCGACGG..GGAGTGGTAG]
+13:22:09.165 - INFO - CDS - contig=proteus_vim_ac082, start=35028, stop=36164, strand=-, nt=[TTGTGCGAAG..GACGGGATAG]
+13:22:09.165 - INFO - CDS - contig=proteus_vim_ac082, start=36514, stop=37671, strand=-, nt=[ATGACAGTAA..GGTGGGGTAA]
+13:22:09.165 - INFO - CDS - contig=proteus_vim_ac082, start=37701, stop=37946, strand=-, nt=[ATGCAGGCGT..CTACTCATAA]
+13:22:09.165 - INFO - CDS - contig=proteus_vim_ac082, start=38625, stop=39167, strand=-, nt=[ATGATAATCT..GCGCACCTGA]
+13:22:09.165 - INFO - CDS - contig=proteus_vim_ac082, start=39180, stop=40040, strand=-, nt=[ATGCATACGC..TTCAGGTTAG]
+13:22:09.165 - INFO - CDS - contig=proteus_vim_ac082, start=40183, stop=41151, strand=+, nt=[ATGTGCGAAC..CATGCTCTGA]
+13:22:09.166 - INFO - CDS - contig=proteus_vim_ac082, start=41151, stop=41315, strand=+, nt=[ATGAATCCCC..TTACACTTAA]
+13:22:09.166 - INFO - CDS - contig=proteus_vim_ac082, start=41255, stop=42463, strand=+, nt=[ATGTGCGAAC..GAAATTATGA]
+13:22:09.166 - INFO - CDS - contig=proteus_vim_ac082, start=42525, stop=43001, strand=-, nt=[ATGGCGGCCG..GCGTTGGTAG]
+13:22:09.166 - INFO - CDS - contig=proteus_vim_ac082, start=43108, stop=43944, strand=-, nt=[ATGTTCATGC..GTCATACTAG]
+13:22:09.166 - INFO - CDS - contig=proteus_vim_ac082, start=43944, stop=44747, strand=-, nt=[TTGAATCGAA..TTGGGGTTGA]
+13:22:09.166 - INFO - CDS - contig=proteus_vim_ac082, start=44808, stop=45623, strand=-, nt=[ATGAATAAAT..AATTCGTTAA]
+13:22:09.166 - INFO - CDS - contig=proteus_vim_ac082, start=45931, stop=46782, strand=-, nt=[GTGGTGAAGC..GGCAGGCTGA]
+13:22:09.166 - INFO - CDS - contig=proteus_vim_ac082, start=46769, stop=47476, strand=-, nt=[ATGCTGGCCC..TGAAGCCTAA]
+13:22:09.166 - INFO - CDS - contig=proteus_vim_ac082, start=47538, stop=48242, strand=-, nt=[ATGAACCCAT..TGAAATGTAA]
+13:22:09.166 - INFO - CDS - contig=proteus_vim_ac082, start=48393, stop=49208, strand=+, nt=[ATGAGCCATA..GTTTTTCTAA]
+13:22:09.166 - INFO - CDS - contig=proteus_vim_ac082, start=49398, stop=50102, strand=-, nt=[ATGAACCCAT..TGAAATGTAA]
+13:22:09.166 - INFO - CDS - contig=proteus_vim_ac082, start=50161, stop=50496, strand=+, nt=[GTGCCGATCC..GGCCTCGTGA]
+13:22:09.166 - INFO - CDS - contig=proteus_vim_ac082, start=50679, stop=51539, strand=+, nt=[ATGAGTATTC..GCATTGGTAA]
+13:22:09.193 - INFO - CDS - predicted=56
+13:22:09.230 - INFO - ORF - discarded=0
+13:22:09.238 - INFO - UPS - looked-up=50
+13:22:09.244 - INFO - IPS - looked-up=50
+13:22:09.245 - INFO - ORF - write internal aa seqs: # seqs=6, path=/tmp/tmpcdww3z5i/cds.psc.faa
+13:23:33.659 - INFO - PSC - found: PSC=6, PSCC=0
+13:23:33.667 - INFO - PSC - looked-up=55
+13:23:33.673 - INFO - PSCC - looked-up=54
+13:23:33.673 - INFO - ORF - write internal aa seqs: # seqs=56, path=/tmp/tmpcdww3z5i/cds.expert.faa
+13:23:35.997 - INFO - EXPERT-AMRFINDER - found=23
+13:23:36.995 - INFO - EXPERT_AA_SEQ - found=10
+13:23:36.996 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=rmtB1
+13:23:36.996 - INFO - ANNOTATION - fix product: replace domain name underscores. new=Zn-Tnp-IS91 domain-containing protein, old=Zn_Tnp_IS91 domain-containing protein
+13:23:36.996 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=floR2
+13:23:36.997 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=qacE
+13:23:36.997 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=aadA1
+13:23:36.997 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=cmlA5
+13:23:36.997 - INFO - ANNOTATION - fix product: replace domain name underscores. new=Zn-Tnp-IS91 domain-containing protein, old=Zn_Tnp_IS91 domain-containing protein
+13:23:36.997 - INFO - ANNOTATION - fix gene: lowercase first char. new=eAL, old=EAL
+13:23:36.997 - INFO - ANNOTATION - fix gene: lowercase first char. new=eAL, old=EAL
+13:23:36.997 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=intI1
+13:23:36.998 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=qacE
+13:23:36.998 - INFO - ANNOTATION - fix gene: lowercase first char. new=rPS27A, old=RPS27A
+13:23:36.998 - INFO - ANNOTATION - fix gene: lowercase first char. new=rPS27A, old=RPS27A
+13:23:36.998 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=qnrA1
+13:23:36.998 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=lysR
+13:23:36.998 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=ampR
+13:23:36.998 - INFO - ANNOTATION - fix gene: lowercase first char. new=lysR, old=LysR
+13:23:36.998 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=hypA
+13:23:36.998 - INFO - ANNOTATION - fix product: replace putative synonyms. new=putative N-acetyltransferase YhbS, old=Predicted N-acetyltransferase YhbS
+13:23:36.998 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=yhbS
+13:23:36.998 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=tniA
+13:23:36.999 - INFO - ANNOTATION - fix product: replace domain name underscores. new=NOV-C domain-containing protein, old=NOV_C domain-containing protein
+13:23:36.999 - INFO - ANNOTATION - fix product: replace domain name underscores. new=Ammonium-transp domain-containing protein, old=Ammonium_transp domain-containing protein
+13:23:36.999 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=rfaY
+13:23:36.999 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=repA
+13:23:37.043 - INFO - S_ORF - predicted=640
+13:23:37.080 - INFO - S_ORF - sORF filter: # valid=160, # discarded=480
+13:23:37.111 - INFO - ORF - discarded=0
+13:23:37.125 - INFO - UPS - looked-up=1
+13:23:37.126 - INFO - IPS - looked-up=1
+13:23:37.126 - INFO - ORF - write internal aa seqs: # seqs=159, path=/tmp/tmpcdww3z5i/sorf.faa
+13:23:37.275 - INFO - S_ORF - found=0
+13:23:37.276 - INFO - PSC - looked-up=0
+13:23:37.276 - INFO - PSCC - looked-up=0
+13:23:37.276 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=cmlA1
+13:23:38.394 - INFO - ORI - predicted=0
+13:23:38.534 - INFO - ORI - predicted=0
+13:23:38.535 - INFO - UTILS - generated sequence tag prefix: prefix=CJHFKPHKKN, length=10, MD5=C31F491447FA2053491761785DF64A1A
+13:23:38.536 - INFO - MAIN - selected features=62
+13:23:38.536 - INFO - UTILS - generated sequence tag prefix: prefix=CJHFKP, length=6, MD5=C31F491447FA2053491761785DF64A1A
+13:23:38.536 - INFO - MAIN - locus tag prefix=CJHFKP
+13:23:38.537 - INFO - UTILS - genome-size=51686
+13:23:38.538 - INFO - UTILS - GC=0.555
+13:23:38.539 - INFO - UTILS - N=0.000
+13:23:38.539 - INFO - UTILS - N50=51686
+13:23:38.539 - INFO - UTILS - coding-ratio=0.856
+13:23:38.540 - INFO - TSV - write tsv: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/proteus_unicycler_vim_plasmid_ac082/proteus_unicycler_vim_plasmid_ac082.tsv
+13:23:38.541 - INFO - GFF - write GFF3: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/proteus_unicycler_vim_plasmid_ac082/proteus_unicycler_vim_plasmid_ac082.gff3
+13:23:38.545 - INFO - INSDC - write GenBank: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/proteus_unicycler_vim_plasmid_ac082/proteus_unicycler_vim_plasmid_ac082.gbff
+13:23:38.551 - INFO - INSDC - write EMBL: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/proteus_unicycler_vim_plasmid_ac082/proteus_unicycler_vim_plasmid_ac082.embl
+13:23:38.558 - INFO - FASTA - write genome sequences: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/proteus_unicycler_vim_plasmid_ac082/proteus_unicycler_vim_plasmid_ac082.fna, description=True, wrap=True
+13:23:38.559 - INFO - FASTA - write feature nucleotide sequences: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/proteus_unicycler_vim_plasmid_ac082/proteus_unicycler_vim_plasmid_ac082.ffn
+13:23:38.559 - INFO - FASTA - write translated CDS/sORF: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/proteus_unicycler_vim_plasmid_ac082/proteus_unicycler_vim_plasmid_ac082.faa
+13:23:38.559 - INFO - TSV - write hypothetical tsv: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/proteus_unicycler_vim_plasmid_ac082/proteus_unicycler_vim_plasmid_ac082.hypotheticals.tsv
+13:23:38.560 - INFO - FASTA - write translated CDS/sORF: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/proteus_unicycler_vim_plasmid_ac082/proteus_unicycler_vim_plasmid_ac082.hypotheticals.faa
+13:23:38.560 - INFO - JSON - write JSON: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/proteus_unicycler_vim_plasmid_ac082/proteus_unicycler_vim_plasmid_ac082.json
+13:23:38.566 - INFO - MAIN - removed tmp dir: /tmp/tmpcdww3z5i

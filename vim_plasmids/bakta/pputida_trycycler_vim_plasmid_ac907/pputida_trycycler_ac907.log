@@ -1,0 +1,14 @@
+13:18:05.149 - INFO - UTILS - version=1.8.2
+13:18:05.149 - INFO - UTILS - developer: Oliver Schwengers, github.com/oschwengers
+13:18:05.149 - INFO - UTILS - command: /bioinf/anaconda3/envs/bakta/bin/bakta --skip-plot --genus Pseudomonas --species putida --strain patient B --plasmid p.AC907 --force --keep-contig-headers --compliant --db ../../../bakta_db/db --output bakta/pputida_trycycler_vim_plasmid_ac907 --complete --threads 12 --prodigal-tf bakta/prodigal_training_file pputida_trycycler_ac907.fna
+13:18:05.149 - INFO - UTILS - local time: 2023-10-22 13:18:05
+13:18:05.150 - INFO - UTILS - machine: type=, cores=12
+13:18:05.150 - INFO - UTILS - system: type=Linux, release=6.3.5-arch1-1
+13:18:05.150 - INFO - UTILS - python: version=3.10.8, implementation=CPython
+13:18:05.150 - INFO - CONFIG - threads=12
+13:18:05.151 - INFO - CONFIG - verbose=False
+13:18:05.151 - INFO - CONFIG - debug=False
+13:18:05.151 - INFO - CONFIG - database: type=parameter, path=/workspace/fin/SHL/bacteria/bakta_db/db
+13:18:05.151 - INFO - CONFIG - tmp-path=/tmp/tmptqcgxm64
+13:18:05.151 - ERROR - CONFIG - genome file not readable! path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/pputida_trycycler_ac907.fna
+13:18:05.151 - ERROR - CONFIG - provided genome file not valid! path=pputida_trycycler_ac907.fna

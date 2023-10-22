@@ -1,305 +1,304 @@
-12:39:45.323 - INFO - UTILS - version=1.8.2
-12:39:45.323 - INFO - UTILS - developer: Oliver Schwengers, github.com/oschwengers
-12:39:45.323 - INFO - UTILS - command: /bioinf/anaconda3/envs/bakta/bin/bakta --force --db ../../../bakta_db/db --output bakta/enterobacter_unicycler_vim_plasmid_aa919 --complete --threads 12 --prodigal-tf bakta/prodigal_training_file enterobacter_unicycler_vim_plasmid_aa919.fna
-12:39:45.323 - INFO - UTILS - local time: 2023-10-22 12:39:45
-12:39:45.324 - INFO - UTILS - machine: type=, cores=12
-12:39:45.324 - INFO - UTILS - system: type=Linux, release=6.3.5-arch1-1
-12:39:45.324 - INFO - UTILS - python: version=3.10.8, implementation=CPython
-12:39:45.324 - INFO - CONFIG - threads=12
-12:39:45.325 - INFO - CONFIG - verbose=False
-12:39:45.325 - INFO - CONFIG - debug=False
-12:39:45.325 - INFO - CONFIG - database: type=parameter, path=/workspace/fin/SHL/bacteria/bakta_db/db
-12:39:45.325 - INFO - CONFIG - tmp-path=/tmp/tmpdilrwres
-12:39:45.325 - INFO - CONFIG - genome-path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/enterobacter_unicycler_vim_plasmid_aa919.fna
-12:39:45.325 - INFO - CONFIG - min_contig_length=1
-12:39:45.325 - INFO - CONFIG - prefix=enterobacter_unicycler_vim_plasmid_aa919
-12:39:45.325 - INFO - CONFIG - output-path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/enterobacter_unicycler_vim_plasmid_aa919
-12:39:45.325 - INFO - CONFIG - force=True
-12:39:45.325 - INFO - CONFIG - genus=None
-12:39:45.326 - INFO - CONFIG - species=None
-12:39:45.326 - INFO - CONFIG - strain=None
-12:39:45.326 - INFO - CONFIG - plasmid=None
-12:39:45.326 - INFO - CONFIG - complete=True
-12:39:45.326 - INFO - CONFIG - prodigal_tf=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/prodigal_training_file
-12:39:45.326 - INFO - CONFIG - translation_table=11
-12:39:45.326 - INFO - CONFIG - gram=?
-12:39:45.326 - INFO - CONFIG - compliant=False
-12:39:45.326 - INFO - CONFIG - meta=False
-12:39:45.326 - INFO - CONFIG - locus=None
-12:39:45.326 - INFO - CONFIG - locus-tag=None
-12:39:45.326 - INFO - CONFIG - keep_contig_headers=False
-12:39:45.326 - INFO - CONFIG - replicon-table=None
-12:39:45.326 - INFO - CONFIG - skip-tRNA=False
-12:39:45.326 - INFO - CONFIG - skip-tmRNA=False
-12:39:45.326 - INFO - CONFIG - skip-rRNA=False
-12:39:45.326 - INFO - CONFIG - skip-ncRNA=False
-12:39:45.326 - INFO - CONFIG - skip-ncRNA-region=False
-12:39:45.326 - INFO - CONFIG - skip-CRISPR=False
-12:39:45.326 - INFO - CONFIG - skip-CDS=False
-12:39:45.326 - INFO - CONFIG - skip-pseudo=False
-12:39:45.326 - INFO - CONFIG - skip-sORF=False
-12:39:45.326 - INFO - CONFIG - skip-gap=False
-12:39:45.326 - INFO - CONFIG - skip-ori=False
-12:39:45.327 - INFO - CONFIG - skip-plot=False
-12:39:45.327 - INFO - DB - detected: major=5, minor=0, type=full, date=2023-02-20
-12:39:45.425 - INFO - UTILS - dependency: tool=tRNAscan-SE, version=v2.0.11, path=/bioinf/anaconda3/envs/bakta/bin/tRNAscan-SE
-12:39:45.427 - INFO - UTILS - dependency: tool=Aragorn, version=v1.2.41, path=/bioinf/anaconda3/envs/bakta/bin/aragorn
-12:39:45.432 - INFO - UTILS - dependency: tool=CMscan, version=v1.1.4, path=/bioinf/anaconda3/envs/bakta/bin/cmscan
-12:39:45.434 - INFO - UTILS - dependency: tool=PilerCR, version=v1.6.0, path=/bioinf/anaconda3/envs/bakta/bin/pilercr
-12:39:45.484 - INFO - UTILS - dependency: tool=Pyrodigal, version=v2.3.0, path=/bioinf/anaconda3/envs/bakta/bin/python
-12:39:45.486 - INFO - UTILS - dependency: tool=AMRFinderPlus, version=v3.11.20, path=/bioinf/anaconda3/envs/bakta/bin/amrfinder
-12:39:45.558 - INFO - UTILS - dependency: tool=Pyhmmer, version=v0.10.2, path=/bioinf/anaconda3/envs/bakta/bin/python
-12:39:45.562 - INFO - UTILS - dependency: tool=Diamond, version=v2.0.15, path=/bioinf/anaconda3/envs/bakta/bin/diamond
-12:39:45.643 - INFO - UTILS - dependency: tool=Blastn, version=v2.14.1, path=/bioinf/anaconda3/envs/bakta/bin/blastn
-12:39:46.073 - INFO - UTILS - dependency: tool=Circos, version=v0.69.8, path=/bioinf/anaconda3/envs/bakta/bin/circos
-12:39:46.080 - INFO - FASTA - imported: id=enterobacter_unicycler_vim_plasmid_aa919, length=61540, description=, genomic=True, dna=True
-12:39:46.080 - INFO - MAIN - imported sequences=1
-12:39:46.080 - INFO - UTILS - qc: revised sequence: id=contig_1, orig-id=enterobacter_unicycler_vim_plasmid_aa919, type=plasmid, complete=True, topology=circular, name=unnamed1, description='[gcode=11] [completeness=complete] [topology=circular] [plasmid-name=unnamed1]', orig-description=''
-12:39:46.080 - INFO - FASTA - write genome sequences: path=/tmp/tmpdilrwres/contigs.fna, description=False, wrap=False
-12:39:46.608 - INFO - T_RNA - predicted=0
-12:39:46.643 - INFO - TM_RNA - predicted=0
-12:39:46.712 - INFO - R_RNA - predicted=0
-12:39:47.581 - INFO - NC_RNA - predicted=0
-12:39:47.880 - INFO - NC_RNA_REGION - contig=contig_1, start=31138, stop=31242, strand=+, label=traJ-II, product=traJ-II RNA, length=105, truncated=None, score=107.3, evalue=1.4e-17
-12:39:47.880 - INFO - NC_RNA_REGION - contig=contig_1, start=56047, stop=56113, strand=-, label=AAC_AAD_leader, product=putative aminoglycoside riboswitch / attI site, length=67, truncated=None, score=76.1, evalue=1.4e-12
-12:39:47.881 - INFO - NC_RNA_REGION - predicted=2
-12:39:47.901 - INFO - CRISPR - predicted=0
-12:39:47.902 - INFO - CDS - use provided prodigal training info: file=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/prodigal_training_file, meta mode=False
-12:39:48.027 - INFO - CDS - contig=contig_1, start=159, stop=782, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
-12:39:48.027 - INFO - CDS - contig=contig_1, start=877, stop=1659, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=None
-12:39:48.027 - INFO - CDS - contig=contig_1, start=1917, stop=2768, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=GGAGG
-12:39:48.027 - INFO - CDS - contig=contig_1, start=2770, stop=3444, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=AGGA
-12:39:48.027 - INFO - CDS - contig=contig_1, start=3599, stop=4030, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
-12:39:48.027 - INFO - CDS - contig=contig_1, start=4046, stop=4744, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=GGxGG
-12:39:48.027 - INFO - CDS - contig=contig_1, start=4744, stop=5010, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=None
-12:39:48.027 - INFO - CDS - contig=contig_1, start=5039, stop=5674, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAGG
-12:39:48.028 - INFO - CDS - contig=contig_1, start=5688, stop=6275, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=AGGAG
-12:39:48.028 - INFO - CDS - contig=contig_1, start=6293, stop=8023, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
-12:39:48.028 - INFO - CDS - contig=contig_1, start=8034, stop=8261, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
-12:39:48.028 - INFO - CDS - contig=contig_1, start=8271, stop=9035, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=AGGAG
-12:39:48.028 - INFO - CDS - contig=contig_1, start=9056, stop=10477, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=AGGAG
-12:39:48.028 - INFO - CDS - contig=contig_1, start=10482, stop=10970, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=GGAGG
-12:39:48.028 - INFO - CDS - contig=contig_1, start=10973, stop=11872, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
-12:39:48.028 - INFO - CDS - contig=contig_1, start=11890, stop=12672, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=GGAGG
-12:39:48.028 - INFO - CDS - contig=contig_1, start=12669, stop=15227, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
-12:39:48.028 - INFO - CDS - contig=contig_1, start=15224, stop=15535, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=None
-12:39:48.028 - INFO - CDS - contig=contig_1, start=15539, stop=16003, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=AGGAG
-12:39:48.028 - INFO - CDS - contig=contig_1, start=16017, stop=16982, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
-12:39:48.028 - INFO - CDS - contig=contig_1, start=17290, stop=17652, strand=-, frame=2, truncated=no, start-type=TTG, RBS-motif=AGxAGG/AGGxGG
-12:39:48.028 - INFO - CDS - contig=contig_1, start=17766, stop=18107, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=AGGAG
-12:39:48.028 - INFO - CDS - contig=contig_1, start=18155, stop=19375, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=AGGAG
-12:39:48.028 - INFO - CDS - contig=contig_1, start=19376, stop=19570, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
-12:39:48.028 - INFO - CDS - contig=contig_1, start=20867, stop=21295, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
-12:39:48.029 - INFO - CDS - contig=contig_1, start=21347, stop=22555, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=AGGAG/GGAGG
-12:39:48.029 - INFO - CDS - contig=contig_1, start=22572, stop=22829, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=AGGAG
-12:39:48.029 - INFO - CDS - contig=contig_1, start=22987, stop=23223, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
-12:39:48.029 - INFO - CDS - contig=contig_1, start=23282, stop=23497, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
-12:39:48.029 - INFO - CDS - contig=contig_1, start=23642, stop=23971, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=GGAGG
-12:39:48.029 - INFO - CDS - contig=contig_1, start=23973, stop=24503, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
-12:39:48.029 - INFO - CDS - contig=contig_1, start=24608, stop=24919, strand=+, frame=2, truncated=no, start-type=GTG, RBS-motif=GGAG/GAGG
-12:39:48.029 - INFO - CDS - contig=contig_1, start=24916, stop=25680, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=AGGA
-12:39:48.029 - INFO - CDS - contig=contig_1, start=25677, stop=26726, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
-12:39:48.029 - INFO - CDS - contig=contig_1, start=26905, stop=27936, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=AGGAG
-12:39:48.029 - INFO - CDS - contig=contig_1, start=28108, stop=28455, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=AGGAG
-12:39:48.029 - INFO - CDS - contig=contig_1, start=28484, stop=29137, strand=+, frame=2, truncated=no, start-type=TTG, RBS-motif=AGGAG
-12:39:48.029 - INFO - CDS - contig=contig_1, start=29340, stop=29780, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=GGxGG
-12:39:48.029 - INFO - CDS - contig=contig_1, start=29780, stop=30505, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
-12:39:48.029 - INFO - CDS - contig=contig_1, start=30505, stop=30903, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
-12:39:48.029 - INFO - CDS - contig=contig_1, start=31278, stop=31652, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
-12:39:48.029 - INFO - CDS - contig=contig_1, start=31687, stop=33927, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAGG
-12:39:48.029 - INFO - CDS - contig=contig_1, start=33924, stop=35837, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=AGGA
-12:39:48.030 - INFO - CDS - contig=contig_1, start=35834, stop=36370, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=GGAGG
-12:39:48.030 - INFO - CDS - contig=contig_1, start=36383, stop=38446, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
-12:39:48.030 - INFO - CDS - contig=contig_1, start=38468, stop=38857, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=AGGAG
-12:39:48.030 - INFO - CDS - contig=contig_1, start=38861, stop=43207, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=GGAGG
-12:39:48.030 - INFO - CDS - contig=contig_1, start=43590, stop=45167, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
-12:39:48.030 - INFO - CDS - contig=contig_1, start=45477, stop=46037, strand=+, frame=3, truncated=no, start-type=GTG, RBS-motif=AGGAG
-12:39:48.030 - INFO - CDS - contig=contig_1, start=46041, stop=49007, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
-12:39:48.030 - INFO - CDS - contig=contig_1, start=49004, stop=49348, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=None
-12:39:48.030 - INFO - CDS - contig=contig_1, start=49422, stop=50186, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
-12:39:48.030 - INFO - CDS - contig=contig_1, start=50573, stop=50710, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
-12:39:48.030 - INFO - CDS - contig=contig_1, start=50693, stop=51124, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=AGGA/GGAG/GAGG
-12:39:48.030 - INFO - CDS - contig=contig_1, start=51323, stop=52162, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAGG
-12:39:48.031 - INFO - CDS - contig=contig_1, start=52156, stop=52503, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
-12:39:48.031 - INFO - CDS - contig=contig_1, start=52667, stop=53446, strand=-, frame=1, truncated=no, start-type=GTG, RBS-motif=GGAG/GAGG
-12:39:48.031 - INFO - CDS - contig=contig_1, start=53495, stop=54322, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=AGGA
-12:39:48.031 - INFO - CDS - contig=contig_1, start=54404, stop=55030, strand=-, frame=1, truncated=no, start-type=TTG, RBS-motif=GGAG/GAGG
-12:39:48.031 - INFO - CDS - contig=contig_1, start=55236, stop=56036, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
-12:39:48.031 - INFO - CDS - contig=contig_1, start=56206, stop=57165, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=None
-12:39:48.031 - INFO - CDS - contig=contig_1, start=57056, stop=57760, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
-12:39:48.031 - INFO - CDS - contig=contig_1, start=57844, stop=58728, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=AGGA
-12:39:48.031 - INFO - CDS - contig=contig_1, start=58784, stop=60259, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=AGGAG
-12:39:48.032 - INFO - CDS - contig=contig_1, start=60346, stop=61050, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
-12:39:48.032 - INFO - CDS - contig=contig_1, start=61062, stop=61232, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
-12:39:48.032 - INFO - CDS - contig=contig_1, start=159, stop=782, strand=+, nt=[ATGTTGATCG..AGCCGCATAG]
-12:39:48.032 - INFO - CDS - contig=contig_1, start=877, stop=1659, strand=-, nt=[ATGCCAAAAC..ATCAAGCTAA]
-12:39:48.032 - INFO - CDS - contig=contig_1, start=1917, stop=2768, strand=+, nt=[ATGACCAGCC..GCAGGCGTGA]
-12:39:48.032 - INFO - CDS - contig=contig_1, start=2770, stop=3444, strand=-, nt=[ATGAGATACC..GGCCGAGTAG]
-12:39:48.032 - INFO - CDS - contig=contig_1, start=3599, stop=4030, strand=-, nt=[ATGCGAAAAC..GACCTACTGA]
-12:39:48.032 - INFO - CDS - contig=contig_1, start=4046, stop=4744, strand=-, nt=[ATGAAGGCCC..GTTCTTCTGA]
-12:39:48.032 - INFO - CDS - contig=contig_1, start=4744, stop=5010, strand=-, nt=[ATGGACAAAT..CCGGCGCTGA]
-12:39:48.032 - INFO - CDS - contig=contig_1, start=5039, stop=5674, strand=-, nt=[ATGCCGTTCT..GGCCGAGTAG]
-12:39:48.033 - INFO - CDS - contig=contig_1, start=5688, stop=6275, strand=-, nt=[ATGAAGAAGA..GCTGAACTGA]
-12:39:48.033 - INFO - CDS - contig=contig_1, start=6293, stop=8023, strand=-, nt=[ATGAGAATGC..AACTGCGTAA]
-12:39:48.033 - INFO - CDS - contig=contig_1, start=8034, stop=8261, strand=-, nt=[ATGAAAGCAA..CGAATGGTGA]
-12:39:48.033 - INFO - CDS - contig=contig_1, start=8271, stop=9035, strand=-, nt=[ATGAAGCAGA..CACCTGGTAA]
-12:39:48.033 - INFO - CDS - contig=contig_1, start=9056, stop=10477, strand=-, nt=[ATGACAGAAA..CGATTACTAA]
-12:39:48.033 - INFO - CDS - contig=contig_1, start=10482, stop=10970, strand=-, nt=[ATGCGCAAGA..CAAGGAGTGA]
-12:39:48.033 - INFO - CDS - contig=contig_1, start=10973, stop=11872, strand=-, nt=[ATGAAGAAAA..GAGGAAGTGA]
-12:39:48.033 - INFO - CDS - contig=contig_1, start=11890, stop=12672, strand=-, nt=[ATGAGCATCG..CATCCAATGA]
-12:39:48.033 - INFO - CDS - contig=contig_1, start=12669, stop=15227, strand=-, nt=[ATGATCGAAG..GGCCGCATGA]
-12:39:48.033 - INFO - CDS - contig=contig_1, start=15224, stop=15535, strand=-, nt=[ATGGCTCTGC..ATACAAATGA]
-12:39:48.033 - INFO - CDS - contig=contig_1, start=15539, stop=16003, strand=-, nt=[ATGCAAGCCT..CGCGGGGTAA]
-12:39:48.033 - INFO - CDS - contig=contig_1, start=16017, stop=16982, strand=-, nt=[ATGAGCGATC..GTCCCTTTAA]
-12:39:48.033 - INFO - CDS - contig=contig_1, start=17290, stop=17652, strand=-, nt=[TTGTACAACT..AGGGAGTTGA]
-12:39:48.034 - INFO - CDS - contig=contig_1, start=17766, stop=18107, strand=+, nt=[ATGAGCCACA..CGGCCAATAA]
-12:39:48.034 - INFO - CDS - contig=contig_1, start=18155, stop=19375, strand=+, nt=[ATGCCAAACG..CAAGCGGTGA]
-12:39:48.034 - INFO - CDS - contig=contig_1, start=19376, stop=19570, strand=-, nt=[ATGGGGCCCT..AGGGCGGTGA]
-12:39:48.034 - INFO - CDS - contig=contig_1, start=20867, stop=21295, strand=+, nt=[ATGAACACCC..TATTGACTGA]
-12:39:48.034 - INFO - CDS - contig=contig_1, start=21347, stop=22555, strand=+, nt=[ATGGCGAAGC..CATCACATGA]
-12:39:48.034 - INFO - CDS - contig=contig_1, start=22572, stop=22829, strand=+, nt=[ATGACGAACG..AGAGGATTGA]
-12:39:48.034 - INFO - CDS - contig=contig_1, start=22987, stop=23223, strand=+, nt=[ATGAGCAAGA..CGGCTGGTAA]
-12:39:48.034 - INFO - CDS - contig=contig_1, start=23282, stop=23497, strand=+, nt=[ATGAGCAAAG..GCTGCAATGA]
-12:39:48.034 - INFO - CDS - contig=contig_1, start=23642, stop=23971, strand=+, nt=[ATGTCCAACA..AGGGCTTTGA]
-12:39:48.034 - INFO - CDS - contig=contig_1, start=23973, stop=24503, strand=+, nt=[ATGGCAAAGC..AAATTTTTAG]
-12:39:48.034 - INFO - CDS - contig=contig_1, start=24608, stop=24919, strand=+, nt=[GTGCAATCCA..CAAGTCATGA]
-12:39:48.034 - INFO - CDS - contig=contig_1, start=24916, stop=25680, strand=+, nt=[ATGAAAACAC..CGCGCAATGA]
-12:39:48.034 - INFO - CDS - contig=contig_1, start=25677, stop=26726, strand=+, nt=[ATGAGCGCCA..GGAGGGCTGA]
-12:39:48.034 - INFO - CDS - contig=contig_1, start=26905, stop=27936, strand=+, nt=[ATGGCGATCT..AAAGACCTGA]
-12:39:48.034 - INFO - CDS - contig=contig_1, start=28108, stop=28455, strand=+, nt=[ATGAAAGAAC..CTCCATGTAG]
-12:39:48.035 - INFO - CDS - contig=contig_1, start=28484, stop=29137, strand=+, nt=[TTGAAACGAC..GCCCGCATAA]
-12:39:48.035 - INFO - CDS - contig=contig_1, start=29340, stop=29780, strand=-, nt=[ATGGCGGCCG..CTCGCTGTAG]
-12:39:48.035 - INFO - CDS - contig=contig_1, start=29780, stop=30505, strand=-, nt=[ATGGCGAAAA..GGTGCTCTGA]
-12:39:48.035 - INFO - CDS - contig=contig_1, start=30505, stop=30903, strand=-, nt=[ATGCCAAAGA..TTTACTGTAA]
-12:39:48.035 - INFO - CDS - contig=contig_1, start=31278, stop=31652, strand=+, nt=[ATGGAGAACG..CGAGCCTTGA]
-12:39:48.035 - INFO - CDS - contig=contig_1, start=31687, stop=33927, strand=+, nt=[ATGATCGCCA..GAGTAGATGA]
-12:39:48.035 - INFO - CDS - contig=contig_1, start=33924, stop=35837, strand=+, nt=[ATGAAGATCA..CACGATATGA]
-12:39:48.035 - INFO - CDS - contig=contig_1, start=35834, stop=36370, strand=+, nt=[ATGAGCCGCA..CACCTGGTAG]
-12:39:48.035 - INFO - CDS - contig=contig_1, start=36383, stop=38446, strand=+, nt=[ATGCGCCTTT..ATCCGAATGA]
-12:39:48.035 - INFO - CDS - contig=contig_1, start=38468, stop=38857, strand=+, nt=[ATGAACGAGC..GGAGGGCTGA]
-12:39:48.035 - INFO - CDS - contig=contig_1, start=38861, stop=43207, strand=+, nt=[ATGCCGATCA..CATCGGATAA]
-12:39:48.035 - INFO - CDS - contig=contig_1, start=43590, stop=45167, strand=-, nt=[ATGCGCCAGA..ACGAGGATAA]
-12:39:48.035 - INFO - CDS - contig=contig_1, start=45477, stop=46037, strand=+, nt=[GTGCAGGGGC..GGACGACTGA]
-12:39:48.035 - INFO - CDS - contig=contig_1, start=46041, stop=49007, strand=+, nt=[ATGCCGCGTC..AAAACCTTAG]
-12:39:48.035 - INFO - CDS - contig=contig_1, start=49004, stop=49348, strand=-, nt=[ATGACAGGAC..CGTACGCTAA]
-12:39:48.036 - INFO - CDS - contig=contig_1, start=49422, stop=50186, strand=-, nt=[ATGACGGATT..AGCCGCCTGA]
-12:39:48.036 - INFO - CDS - contig=contig_1, start=50573, stop=50710, strand=+, nt=[ATGGAAGTGG..CGAGTTCTAG]
-12:39:48.036 - INFO - CDS - contig=contig_1, start=50693, stop=51124, strand=-, nt=[ATGCACGACG..CGAAATCTAA]
-12:39:48.036 - INFO - CDS - contig=contig_1, start=51323, stop=52162, strand=-, nt=[ATGGTGACGG..TCATGCCTAG]
-12:39:48.036 - INFO - CDS - contig=contig_1, start=52156, stop=52503, strand=-, nt=[ATGAAAGGCT..GCCATGGTGA]
-12:39:48.036 - INFO - CDS - contig=contig_1, start=52667, stop=53446, strand=-, nt=[GTGATCGCCG..CGGCAAATAA]
-12:39:48.036 - INFO - CDS - contig=contig_1, start=53495, stop=54322, strand=-, nt=[ATGGCAATCC..TGCGCGATAA]
-12:39:48.036 - INFO - CDS - contig=contig_1, start=54404, stop=55030, strand=-, nt=[TTGCTACGCA..TGATGCCTAA]
-12:39:48.036 - INFO - CDS - contig=contig_1, start=55236, stop=56036, strand=-, nt=[ATGTTAAAAG..CGCCGAGTAG]
-12:39:48.036 - INFO - CDS - contig=contig_1, start=56206, stop=57165, strand=+, nt=[ATGAAAACCG..ATACCTTTGA]
-12:39:48.036 - INFO - CDS - contig=contig_1, start=57056, stop=57760, strand=-, nt=[ATGAACCCAT..TGAAATGTAA]
-12:39:48.036 - INFO - CDS - contig=contig_1, start=57844, stop=58728, strand=-, nt=[ATGACAATTC..AGTTATATAA]
-12:39:48.037 - INFO - CDS - contig=contig_1, start=58784, stop=60259, strand=-, nt=[ATGAGTTTAA..AGATTGTTAA]
-12:39:48.037 - INFO - CDS - contig=contig_1, start=60346, stop=61050, strand=-, nt=[ATGAACCCAT..TGAAATGTAA]
-12:39:48.037 - INFO - CDS - contig=contig_1, start=61062, stop=61232, strand=-, nt=[ATGGCCGAGC..CTTTTGCTGA]
-12:39:48.062 - INFO - CDS - predicted=66
-12:39:48.100 - INFO - ORF - discarded=0
-12:39:48.108 - INFO - UPS - looked-up=61
-12:39:48.115 - INFO - IPS - looked-up=61
-12:39:48.115 - INFO - ORF - write internal aa seqs: # seqs=5, path=/tmp/tmpdilrwres/cds.psc.faa
-12:41:11.758 - INFO - PSC - found: PSC=3, PSCC=0
-12:41:11.767 - INFO - PSC - looked-up=64
-12:41:11.773 - INFO - PSCC - looked-up=62
-12:41:11.773 - INFO - ORF - write internal aa seqs: # seqs=66, path=/tmp/tmpdilrwres/cds.expert.faa
-12:41:13.585 - INFO - EXPERT-AMRFINDER - found=9
-12:41:14.575 - INFO - EXPERT_AA_SEQ - found=5
-12:41:14.575 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=pinE
-12:41:14.575 - INFO - ANNOTATION - fix gene: lowercase first char. new=spoIVCA, old=SpoIVCA
-12:41:14.575 - INFO - ANNOTATION - fix gene: lowercase first char. new=spoIVCA, old=SpoIVCA
-12:41:14.576 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trbP
-12:41:14.576 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trbO
-12:41:14.576 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trbM
-12:41:14.576 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trbL
-12:41:14.576 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trbK
-12:41:14.576 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trbJ
-12:41:14.576 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trbI
-12:41:14.576 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trbH
-12:41:14.576 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trbG
-12:41:14.576 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=virB8
-12:41:14.577 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=virB4
-12:41:14.577 - INFO - ANNOTATION - fix gene: lowercase first char. new=virB4, old=VirB4
-12:41:14.577 - INFO - ANNOTATION - fix gene: lowercase first char. new=virB4, old=VirB4
-12:41:14.577 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trbD
-12:41:14.577 - INFO - ANNOTATION - fix gene: lowercase first char. new=trbD, old=TrbD
-12:41:14.577 - INFO - ANNOTATION - fix gene: lowercase first char. new=trbD, old=TrbD
-12:41:14.577 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trbC
-12:41:14.577 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trbB
-12:41:14.577 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trfB
-12:41:14.577 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trfA
-12:41:14.577 - INFO - ANNOTATION - marked as hypothetical: contig=contig_1, start=19376, stop=19570, strand=-
-12:41:14.577 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=klcA
-12:41:14.577 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=klcB
-12:41:14.577 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=korC
-12:41:14.578 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=kleA
-12:41:14.578 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=kleB
-12:41:14.578 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=kleE
-12:41:14.578 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=kleF
-12:41:14.578 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trfB
-12:41:14.578 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=incC
-12:41:14.578 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=korB
-12:41:14.578 - INFO - ANNOTATION - fix product: replace domain name underscores. new=KfrA-N domain-containing protein, old=KfrA_N domain-containing protein
-12:41:14.578 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=kfrB
-12:41:14.578 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=traN
-12:41:14.578 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=traM
-12:41:14.578 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=traL
-12:41:14.578 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=traK
-12:41:14.578 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=traJ
-12:41:14.579 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=traI
-12:41:14.579 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=traG
-12:41:14.579 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=traF
-12:41:14.579 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=traD
-12:41:14.579 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=traC
-12:41:14.579 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=tnpR
-12:41:14.579 - INFO - ANNOTATION - marked as hypothetical: contig=contig_1, start=49004, stop=49348, strand=-
-12:41:14.579 - INFO - ANNOTATION - marked as hypothetical: contig=contig_1, start=50573, stop=50710, strand=+
-12:41:14.579 - INFO - ANNOTATION - fix product: replace putative synonyms. new=putative N-acetyltransferase YhbS, old=Predicted N-acetyltransferase YhbS
-12:41:14.579 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=yhbS
-12:41:14.579 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=qacE
-12:41:14.580 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=aadA1
-12:41:14.580 - INFO - ANNOTATION - fix gene: lowercase first char. new=xerD, old=XerD
-12:41:14.580 - INFO - ANNOTATION - fix gene: lowercase first char. new=xerD, old=XerD
-12:41:14.580 - INFO - ANNOTATION - marked as hypothetical: contig=contig_1, start=61062, stop=61232, strand=-
-12:41:14.580 - INFO - ORF - write internal aa seqs: # seqs=4, path=/tmp/tmpdilrwres/cds.pseudo.candidates.faa
-12:42:46.879 - INFO - CDS - found: pseudogene-candidates=0
-12:42:46.880 - INFO - PSC - looked-up=0
-12:42:46.880 - INFO - PSCC - looked-up=0
-12:42:47.754 - INFO - CDS - predicted-pfams=0, CDS-w/-pfams=0
-12:42:47.805 - INFO - S_ORF - predicted=501
-12:42:47.842 - INFO - S_ORF - sORF filter: # valid=90, # discarded=411
-12:42:47.872 - INFO - ORF - discarded=0
-12:42:47.881 - INFO - UPS - looked-up=0
-12:42:47.881 - INFO - IPS - looked-up=0
-12:42:47.881 - INFO - ORF - write internal aa seqs: # seqs=90, path=/tmp/tmpdilrwres/sorf.faa
-12:42:48.029 - INFO - S_ORF - found=0
-12:42:48.030 - INFO - PSC - looked-up=0
-12:42:48.030 - INFO - PSCC - looked-up=0
-12:42:49.157 - INFO - ORI - type=oriV, contig=contig_1, start=19614, stop=20866, nt=[CGCCACATCC..GAGAGTTCCG]
-12:42:49.163 - INFO - ORI - predicted=1
-12:42:49.310 - INFO - ORI - type=oriT, contig=contig_1, start=30904, stop=31277, nt=[CGTGTTCGTC..GAGGCGAGGC]
-12:42:49.314 - INFO - ORI - predicted=1
-12:42:49.315 - INFO - UTILS - generated sequence tag prefix: prefix=LOPNJJBBCC, length=10, MD5=589733BBCC11E1651777365114E5CC72
-12:42:49.315 - INFO - MAIN - selected features=70
-12:42:49.316 - INFO - UTILS - generated sequence tag prefix: prefix=LOPNJJ, length=6, MD5=589733BBCC11E1651777365114E5CC72
-12:42:49.316 - INFO - MAIN - locus tag prefix=LOPNJJ
-12:42:49.317 - INFO - UTILS - genome-size=61540
-12:42:49.317 - INFO - UTILS - GC=0.624
-12:42:49.318 - INFO - UTILS - N=0.000
-12:42:49.318 - INFO - UTILS - N50=61540
-12:42:49.318 - INFO - UTILS - coding-ratio=0.923
-12:42:49.319 - INFO - TSV - write tsv: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/enterobacter_unicycler_vim_plasmid_aa919/enterobacter_unicycler_vim_plasmid_aa919.tsv
-12:42:49.320 - INFO - GFF - write GFF3: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/enterobacter_unicycler_vim_plasmid_aa919/enterobacter_unicycler_vim_plasmid_aa919.gff3
-12:42:49.325 - INFO - INSDC - write GenBank: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/enterobacter_unicycler_vim_plasmid_aa919/enterobacter_unicycler_vim_plasmid_aa919.gbff
-12:42:49.344 - INFO - INSDC - write EMBL: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/enterobacter_unicycler_vim_plasmid_aa919/enterobacter_unicycler_vim_plasmid_aa919.embl
-12:42:49.361 - INFO - FASTA - write genome sequences: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/enterobacter_unicycler_vim_plasmid_aa919/enterobacter_unicycler_vim_plasmid_aa919.fna, description=True, wrap=True
-12:42:49.362 - INFO - FASTA - write feature nucleotide sequences: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/enterobacter_unicycler_vim_plasmid_aa919/enterobacter_unicycler_vim_plasmid_aa919.ffn
-12:42:49.363 - INFO - FASTA - write translated CDS/sORF: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/enterobacter_unicycler_vim_plasmid_aa919/enterobacter_unicycler_vim_plasmid_aa919.faa
-12:42:49.426 - INFO - PLOT - write circular genome plot: file-name=enterobacter_unicycler_vim_plasmid_aa919, output-dir=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/enterobacter_unicycler_vim_plasmid_aa919
-12:42:58.903 - INFO - TSV - write hypothetical tsv: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/enterobacter_unicycler_vim_plasmid_aa919/enterobacter_unicycler_vim_plasmid_aa919.hypotheticals.tsv
-12:42:58.904 - INFO - FASTA - write translated CDS/sORF: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/enterobacter_unicycler_vim_plasmid_aa919/enterobacter_unicycler_vim_plasmid_aa919.hypotheticals.faa
-12:42:58.904 - INFO - JSON - write JSON: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/enterobacter_unicycler_vim_plasmid_aa919/enterobacter_unicycler_vim_plasmid_aa919.json
-12:42:58.916 - INFO - MAIN - removed tmp dir: /tmp/tmpdilrwres
+13:12:46.058 - INFO - UTILS - version=1.8.2
+13:12:46.058 - INFO - UTILS - developer: Oliver Schwengers, github.com/oschwengers
+13:12:46.058 - INFO - UTILS - command: /bioinf/anaconda3/envs/bakta/bin/bakta --skip-plot --genus Enterobacter --species soli --strain patient B --plasmid p.AC919 --force --keep-contig-headers --compliant --db ../../../bakta_db/db --output bakta/enterobacter_unicycler_vim_plasmid_aa919 --complete --threads 12 --prodigal-tf bakta/prodigal_training_file enterobacter_unicycler_vim_plasmid_aa919.fna
+13:12:46.058 - INFO - UTILS - local time: 2023-10-22 13:12:46
+13:12:46.059 - INFO - UTILS - machine: type=, cores=12
+13:12:46.059 - INFO - UTILS - system: type=Linux, release=6.3.5-arch1-1
+13:12:46.059 - INFO - UTILS - python: version=3.10.8, implementation=CPython
+13:12:46.059 - INFO - CONFIG - threads=12
+13:12:46.059 - INFO - CONFIG - verbose=False
+13:12:46.060 - INFO - CONFIG - debug=False
+13:12:46.060 - INFO - CONFIG - database: type=parameter, path=/workspace/fin/SHL/bacteria/bakta_db/db
+13:12:46.060 - INFO - CONFIG - tmp-path=/tmp/tmp0hef6azh
+13:12:46.060 - INFO - CONFIG - genome-path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/enterobacter_unicycler_vim_plasmid_aa919.fna
+13:12:46.060 - INFO - CONFIG - min_contig_length=1
+13:12:46.060 - INFO - CONFIG - prefix=enterobacter_unicycler_vim_plasmid_aa919
+13:12:46.060 - INFO - CONFIG - output-path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/enterobacter_unicycler_vim_plasmid_aa919
+13:12:46.060 - INFO - CONFIG - force=True
+13:12:46.060 - INFO - CONFIG - genus=Enterobacter
+13:12:46.060 - INFO - CONFIG - species=soli
+13:12:46.061 - INFO - CONFIG - strain=patient B
+13:12:46.061 - INFO - CONFIG - plasmid=p.AC919
+13:12:46.061 - INFO - CONFIG - complete=True
+13:12:46.061 - INFO - CONFIG - prodigal_tf=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/prodigal_training_file
+13:12:46.061 - INFO - CONFIG - translation_table=11
+13:12:46.061 - INFO - CONFIG - gram=?
+13:12:46.061 - INFO - CONFIG - compliant=True
+13:12:46.061 - INFO - CONFIG - compliant mode! min_contig_length=200
+13:12:46.061 - INFO - CONFIG - meta=False
+13:12:46.061 - INFO - CONFIG - locus=None
+13:12:46.061 - INFO - CONFIG - locus-tag=None
+13:12:46.061 - INFO - CONFIG - keep_contig_headers=True
+13:12:46.061 - INFO - CONFIG - replicon-table=None
+13:12:46.061 - INFO - CONFIG - skip-tRNA=False
+13:12:46.061 - INFO - CONFIG - skip-tmRNA=False
+13:12:46.061 - INFO - CONFIG - skip-rRNA=False
+13:12:46.061 - INFO - CONFIG - skip-ncRNA=False
+13:12:46.061 - INFO - CONFIG - skip-ncRNA-region=False
+13:12:46.061 - INFO - CONFIG - skip-CRISPR=False
+13:12:46.061 - INFO - CONFIG - skip-CDS=False
+13:12:46.061 - INFO - CONFIG - skip-pseudo=False
+13:12:46.061 - INFO - CONFIG - skip-sORF=False
+13:12:46.061 - INFO - CONFIG - skip-gap=False
+13:12:46.062 - INFO - CONFIG - skip-ori=False
+13:12:46.062 - INFO - CONFIG - skip-plot=True
+13:12:46.062 - INFO - DB - detected: major=5, minor=0, type=full, date=2023-02-20
+13:12:46.162 - INFO - UTILS - dependency: tool=tRNAscan-SE, version=v2.0.11, path=/bioinf/anaconda3/envs/bakta/bin/tRNAscan-SE
+13:12:46.163 - INFO - UTILS - dependency: tool=Aragorn, version=v1.2.41, path=/bioinf/anaconda3/envs/bakta/bin/aragorn
+13:12:46.167 - INFO - UTILS - dependency: tool=CMscan, version=v1.1.4, path=/bioinf/anaconda3/envs/bakta/bin/cmscan
+13:12:46.169 - INFO - UTILS - dependency: tool=PilerCR, version=v1.6.0, path=/bioinf/anaconda3/envs/bakta/bin/pilercr
+13:12:46.223 - INFO - UTILS - dependency: tool=Pyrodigal, version=v2.3.0, path=/bioinf/anaconda3/envs/bakta/bin/python
+13:12:46.227 - INFO - UTILS - dependency: tool=AMRFinderPlus, version=v3.11.20, path=/bioinf/anaconda3/envs/bakta/bin/amrfinder
+13:12:46.295 - INFO - UTILS - dependency: tool=Pyhmmer, version=v0.10.2, path=/bioinf/anaconda3/envs/bakta/bin/python
+13:12:46.300 - INFO - UTILS - dependency: tool=Diamond, version=v2.0.15, path=/bioinf/anaconda3/envs/bakta/bin/diamond
+13:12:46.381 - INFO - UTILS - dependency: tool=Blastn, version=v2.14.1, path=/bioinf/anaconda3/envs/bakta/bin/blastn
+13:12:46.387 - INFO - FASTA - imported: id=enterobacter_vim_aa919, length=61540, description=, genomic=True, dna=True
+13:12:46.388 - INFO - MAIN - imported sequences=1
+13:12:46.388 - INFO - UTILS - qc: revised sequence: id=enterobacter_vim_aa919, orig-id=, type=plasmid, complete=True, topology=circular, name=p.AC919, description='', orig-description=''
+13:12:46.388 - INFO - FASTA - write genome sequences: path=/tmp/tmp0hef6azh/contigs.fna, description=False, wrap=False
+13:12:46.919 - INFO - T_RNA - predicted=0
+13:12:46.949 - INFO - TM_RNA - predicted=0
+13:12:47.017 - INFO - R_RNA - predicted=0
+13:12:47.883 - INFO - NC_RNA - predicted=0
+13:12:48.185 - INFO - NC_RNA_REGION - contig=enterobacter_vim_aa919, start=31138, stop=31242, strand=+, label=traJ-II, product=traJ-II RNA, length=105, truncated=None, score=107.3, evalue=1.4e-17
+13:12:48.185 - INFO - NC_RNA_REGION - contig=enterobacter_vim_aa919, start=56047, stop=56113, strand=-, label=AAC_AAD_leader, product=putative aminoglycoside riboswitch / attI site, length=67, truncated=None, score=76.1, evalue=1.4e-12
+13:12:48.185 - INFO - NC_RNA_REGION - predicted=2
+13:12:48.202 - INFO - CRISPR - predicted=0
+13:12:48.202 - INFO - CDS - use provided prodigal training info: file=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/prodigal_training_file, meta mode=False
+13:12:48.329 - INFO - CDS - contig=enterobacter_vim_aa919, start=159, stop=782, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+13:12:48.329 - INFO - CDS - contig=enterobacter_vim_aa919, start=877, stop=1659, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=None
+13:12:48.329 - INFO - CDS - contig=enterobacter_vim_aa919, start=1917, stop=2768, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=GGAGG
+13:12:48.329 - INFO - CDS - contig=enterobacter_vim_aa919, start=2770, stop=3444, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=AGGA
+13:12:48.329 - INFO - CDS - contig=enterobacter_vim_aa919, start=3599, stop=4030, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+13:12:48.329 - INFO - CDS - contig=enterobacter_vim_aa919, start=4046, stop=4744, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=GGxGG
+13:12:48.329 - INFO - CDS - contig=enterobacter_vim_aa919, start=4744, stop=5010, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=None
+13:12:48.329 - INFO - CDS - contig=enterobacter_vim_aa919, start=5039, stop=5674, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAGG
+13:12:48.330 - INFO - CDS - contig=enterobacter_vim_aa919, start=5688, stop=6275, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=AGGAG
+13:12:48.330 - INFO - CDS - contig=enterobacter_vim_aa919, start=6293, stop=8023, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+13:12:48.330 - INFO - CDS - contig=enterobacter_vim_aa919, start=8034, stop=8261, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+13:12:48.330 - INFO - CDS - contig=enterobacter_vim_aa919, start=8271, stop=9035, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=AGGAG
+13:12:48.330 - INFO - CDS - contig=enterobacter_vim_aa919, start=9056, stop=10477, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=AGGAG
+13:12:48.330 - INFO - CDS - contig=enterobacter_vim_aa919, start=10482, stop=10970, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=GGAGG
+13:12:48.330 - INFO - CDS - contig=enterobacter_vim_aa919, start=10973, stop=11872, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+13:12:48.330 - INFO - CDS - contig=enterobacter_vim_aa919, start=11890, stop=12672, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=GGAGG
+13:12:48.330 - INFO - CDS - contig=enterobacter_vim_aa919, start=12669, stop=15227, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+13:12:48.330 - INFO - CDS - contig=enterobacter_vim_aa919, start=15224, stop=15535, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=None
+13:12:48.331 - INFO - CDS - contig=enterobacter_vim_aa919, start=15539, stop=16003, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=AGGAG
+13:12:48.331 - INFO - CDS - contig=enterobacter_vim_aa919, start=16017, stop=16982, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+13:12:48.331 - INFO - CDS - contig=enterobacter_vim_aa919, start=17290, stop=17652, strand=-, frame=2, truncated=no, start-type=TTG, RBS-motif=AGxAGG/AGGxGG
+13:12:48.331 - INFO - CDS - contig=enterobacter_vim_aa919, start=17766, stop=18107, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=AGGAG
+13:12:48.331 - INFO - CDS - contig=enterobacter_vim_aa919, start=18155, stop=19375, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=AGGAG
+13:12:48.331 - INFO - CDS - contig=enterobacter_vim_aa919, start=19376, stop=19570, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+13:12:48.331 - INFO - CDS - contig=enterobacter_vim_aa919, start=20867, stop=21295, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+13:12:48.331 - INFO - CDS - contig=enterobacter_vim_aa919, start=21347, stop=22555, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=AGGAG/GGAGG
+13:12:48.331 - INFO - CDS - contig=enterobacter_vim_aa919, start=22572, stop=22829, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=AGGAG
+13:12:48.331 - INFO - CDS - contig=enterobacter_vim_aa919, start=22987, stop=23223, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+13:12:48.332 - INFO - CDS - contig=enterobacter_vim_aa919, start=23282, stop=23497, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+13:12:48.332 - INFO - CDS - contig=enterobacter_vim_aa919, start=23642, stop=23971, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=GGAGG
+13:12:48.332 - INFO - CDS - contig=enterobacter_vim_aa919, start=23973, stop=24503, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+13:12:48.332 - INFO - CDS - contig=enterobacter_vim_aa919, start=24608, stop=24919, strand=+, frame=2, truncated=no, start-type=GTG, RBS-motif=GGAG/GAGG
+13:12:48.332 - INFO - CDS - contig=enterobacter_vim_aa919, start=24916, stop=25680, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=AGGA
+13:12:48.332 - INFO - CDS - contig=enterobacter_vim_aa919, start=25677, stop=26726, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+13:12:48.332 - INFO - CDS - contig=enterobacter_vim_aa919, start=26905, stop=27936, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=AGGAG
+13:12:48.332 - INFO - CDS - contig=enterobacter_vim_aa919, start=28108, stop=28455, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=AGGAG
+13:12:48.332 - INFO - CDS - contig=enterobacter_vim_aa919, start=28484, stop=29137, strand=+, frame=2, truncated=no, start-type=TTG, RBS-motif=AGGAG
+13:12:48.332 - INFO - CDS - contig=enterobacter_vim_aa919, start=29340, stop=29780, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=GGxGG
+13:12:48.333 - INFO - CDS - contig=enterobacter_vim_aa919, start=29780, stop=30505, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+13:12:48.333 - INFO - CDS - contig=enterobacter_vim_aa919, start=30505, stop=30903, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+13:12:48.333 - INFO - CDS - contig=enterobacter_vim_aa919, start=31278, stop=31652, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+13:12:48.333 - INFO - CDS - contig=enterobacter_vim_aa919, start=31687, stop=33927, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAGG
+13:12:48.333 - INFO - CDS - contig=enterobacter_vim_aa919, start=33924, stop=35837, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=AGGA
+13:12:48.333 - INFO - CDS - contig=enterobacter_vim_aa919, start=35834, stop=36370, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=GGAGG
+13:12:48.333 - INFO - CDS - contig=enterobacter_vim_aa919, start=36383, stop=38446, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+13:12:48.333 - INFO - CDS - contig=enterobacter_vim_aa919, start=38468, stop=38857, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=AGGAG
+13:12:48.333 - INFO - CDS - contig=enterobacter_vim_aa919, start=38861, stop=43207, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=GGAGG
+13:12:48.334 - INFO - CDS - contig=enterobacter_vim_aa919, start=43590, stop=45167, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+13:12:48.334 - INFO - CDS - contig=enterobacter_vim_aa919, start=45477, stop=46037, strand=+, frame=3, truncated=no, start-type=GTG, RBS-motif=AGGAG
+13:12:48.334 - INFO - CDS - contig=enterobacter_vim_aa919, start=46041, stop=49007, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+13:12:48.334 - INFO - CDS - contig=enterobacter_vim_aa919, start=49004, stop=49348, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=None
+13:12:48.334 - INFO - CDS - contig=enterobacter_vim_aa919, start=49422, stop=50186, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+13:12:48.334 - INFO - CDS - contig=enterobacter_vim_aa919, start=50573, stop=50710, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+13:12:48.334 - INFO - CDS - contig=enterobacter_vim_aa919, start=50693, stop=51124, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=AGGA/GGAG/GAGG
+13:12:48.334 - INFO - CDS - contig=enterobacter_vim_aa919, start=51323, stop=52162, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAGG
+13:12:48.334 - INFO - CDS - contig=enterobacter_vim_aa919, start=52156, stop=52503, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+13:12:48.334 - INFO - CDS - contig=enterobacter_vim_aa919, start=52667, stop=53446, strand=-, frame=1, truncated=no, start-type=GTG, RBS-motif=GGAG/GAGG
+13:12:48.335 - INFO - CDS - contig=enterobacter_vim_aa919, start=53495, stop=54322, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=AGGA
+13:12:48.335 - INFO - CDS - contig=enterobacter_vim_aa919, start=54404, stop=55030, strand=-, frame=1, truncated=no, start-type=TTG, RBS-motif=GGAG/GAGG
+13:12:48.335 - INFO - CDS - contig=enterobacter_vim_aa919, start=55236, stop=56036, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+13:12:48.335 - INFO - CDS - contig=enterobacter_vim_aa919, start=56206, stop=57165, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=None
+13:12:48.335 - INFO - CDS - contig=enterobacter_vim_aa919, start=57056, stop=57760, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+13:12:48.335 - INFO - CDS - contig=enterobacter_vim_aa919, start=57844, stop=58728, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=AGGA
+13:12:48.335 - INFO - CDS - contig=enterobacter_vim_aa919, start=58784, stop=60259, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=AGGAG
+13:12:48.335 - INFO - CDS - contig=enterobacter_vim_aa919, start=60346, stop=61050, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=GGAG/GAGG
+13:12:48.335 - INFO - CDS - contig=enterobacter_vim_aa919, start=61062, stop=61232, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+13:12:48.335 - INFO - CDS - contig=enterobacter_vim_aa919, start=159, stop=782, strand=+, nt=[ATGTTGATCG..AGCCGCATAG]
+13:12:48.336 - INFO - CDS - contig=enterobacter_vim_aa919, start=877, stop=1659, strand=-, nt=[ATGCCAAAAC..ATCAAGCTAA]
+13:12:48.336 - INFO - CDS - contig=enterobacter_vim_aa919, start=1917, stop=2768, strand=+, nt=[ATGACCAGCC..GCAGGCGTGA]
+13:12:48.336 - INFO - CDS - contig=enterobacter_vim_aa919, start=2770, stop=3444, strand=-, nt=[ATGAGATACC..GGCCGAGTAG]
+13:12:48.336 - INFO - CDS - contig=enterobacter_vim_aa919, start=3599, stop=4030, strand=-, nt=[ATGCGAAAAC..GACCTACTGA]
+13:12:48.336 - INFO - CDS - contig=enterobacter_vim_aa919, start=4046, stop=4744, strand=-, nt=[ATGAAGGCCC..GTTCTTCTGA]
+13:12:48.336 - INFO - CDS - contig=enterobacter_vim_aa919, start=4744, stop=5010, strand=-, nt=[ATGGACAAAT..CCGGCGCTGA]
+13:12:48.336 - INFO - CDS - contig=enterobacter_vim_aa919, start=5039, stop=5674, strand=-, nt=[ATGCCGTTCT..GGCCGAGTAG]
+13:12:48.336 - INFO - CDS - contig=enterobacter_vim_aa919, start=5688, stop=6275, strand=-, nt=[ATGAAGAAGA..GCTGAACTGA]
+13:12:48.336 - INFO - CDS - contig=enterobacter_vim_aa919, start=6293, stop=8023, strand=-, nt=[ATGAGAATGC..AACTGCGTAA]
+13:12:48.336 - INFO - CDS - contig=enterobacter_vim_aa919, start=8034, stop=8261, strand=-, nt=[ATGAAAGCAA..CGAATGGTGA]
+13:12:48.336 - INFO - CDS - contig=enterobacter_vim_aa919, start=8271, stop=9035, strand=-, nt=[ATGAAGCAGA..CACCTGGTAA]
+13:12:48.336 - INFO - CDS - contig=enterobacter_vim_aa919, start=9056, stop=10477, strand=-, nt=[ATGACAGAAA..CGATTACTAA]
+13:12:48.337 - INFO - CDS - contig=enterobacter_vim_aa919, start=10482, stop=10970, strand=-, nt=[ATGCGCAAGA..CAAGGAGTGA]
+13:12:48.337 - INFO - CDS - contig=enterobacter_vim_aa919, start=10973, stop=11872, strand=-, nt=[ATGAAGAAAA..GAGGAAGTGA]
+13:12:48.337 - INFO - CDS - contig=enterobacter_vim_aa919, start=11890, stop=12672, strand=-, nt=[ATGAGCATCG..CATCCAATGA]
+13:12:48.337 - INFO - CDS - contig=enterobacter_vim_aa919, start=12669, stop=15227, strand=-, nt=[ATGATCGAAG..GGCCGCATGA]
+13:12:48.337 - INFO - CDS - contig=enterobacter_vim_aa919, start=15224, stop=15535, strand=-, nt=[ATGGCTCTGC..ATACAAATGA]
+13:12:48.337 - INFO - CDS - contig=enterobacter_vim_aa919, start=15539, stop=16003, strand=-, nt=[ATGCAAGCCT..CGCGGGGTAA]
+13:12:48.337 - INFO - CDS - contig=enterobacter_vim_aa919, start=16017, stop=16982, strand=-, nt=[ATGAGCGATC..GTCCCTTTAA]
+13:12:48.337 - INFO - CDS - contig=enterobacter_vim_aa919, start=17290, stop=17652, strand=-, nt=[TTGTACAACT..AGGGAGTTGA]
+13:12:48.337 - INFO - CDS - contig=enterobacter_vim_aa919, start=17766, stop=18107, strand=+, nt=[ATGAGCCACA..CGGCCAATAA]
+13:12:48.337 - INFO - CDS - contig=enterobacter_vim_aa919, start=18155, stop=19375, strand=+, nt=[ATGCCAAACG..CAAGCGGTGA]
+13:12:48.337 - INFO - CDS - contig=enterobacter_vim_aa919, start=19376, stop=19570, strand=-, nt=[ATGGGGCCCT..AGGGCGGTGA]
+13:12:48.337 - INFO - CDS - contig=enterobacter_vim_aa919, start=20867, stop=21295, strand=+, nt=[ATGAACACCC..TATTGACTGA]
+13:12:48.338 - INFO - CDS - contig=enterobacter_vim_aa919, start=21347, stop=22555, strand=+, nt=[ATGGCGAAGC..CATCACATGA]
+13:12:48.338 - INFO - CDS - contig=enterobacter_vim_aa919, start=22572, stop=22829, strand=+, nt=[ATGACGAACG..AGAGGATTGA]
+13:12:48.338 - INFO - CDS - contig=enterobacter_vim_aa919, start=22987, stop=23223, strand=+, nt=[ATGAGCAAGA..CGGCTGGTAA]
+13:12:48.338 - INFO - CDS - contig=enterobacter_vim_aa919, start=23282, stop=23497, strand=+, nt=[ATGAGCAAAG..GCTGCAATGA]
+13:12:48.338 - INFO - CDS - contig=enterobacter_vim_aa919, start=23642, stop=23971, strand=+, nt=[ATGTCCAACA..AGGGCTTTGA]
+13:12:48.338 - INFO - CDS - contig=enterobacter_vim_aa919, start=23973, stop=24503, strand=+, nt=[ATGGCAAAGC..AAATTTTTAG]
+13:12:48.338 - INFO - CDS - contig=enterobacter_vim_aa919, start=24608, stop=24919, strand=+, nt=[GTGCAATCCA..CAAGTCATGA]
+13:12:48.338 - INFO - CDS - contig=enterobacter_vim_aa919, start=24916, stop=25680, strand=+, nt=[ATGAAAACAC..CGCGCAATGA]
+13:12:48.338 - INFO - CDS - contig=enterobacter_vim_aa919, start=25677, stop=26726, strand=+, nt=[ATGAGCGCCA..GGAGGGCTGA]
+13:12:48.338 - INFO - CDS - contig=enterobacter_vim_aa919, start=26905, stop=27936, strand=+, nt=[ATGGCGATCT..AAAGACCTGA]
+13:12:48.338 - INFO - CDS - contig=enterobacter_vim_aa919, start=28108, stop=28455, strand=+, nt=[ATGAAAGAAC..CTCCATGTAG]
+13:12:48.338 - INFO - CDS - contig=enterobacter_vim_aa919, start=28484, stop=29137, strand=+, nt=[TTGAAACGAC..GCCCGCATAA]
+13:12:48.338 - INFO - CDS - contig=enterobacter_vim_aa919, start=29340, stop=29780, strand=-, nt=[ATGGCGGCCG..CTCGCTGTAG]
+13:12:48.338 - INFO - CDS - contig=enterobacter_vim_aa919, start=29780, stop=30505, strand=-, nt=[ATGGCGAAAA..GGTGCTCTGA]
+13:12:48.339 - INFO - CDS - contig=enterobacter_vim_aa919, start=30505, stop=30903, strand=-, nt=[ATGCCAAAGA..TTTACTGTAA]
+13:12:48.339 - INFO - CDS - contig=enterobacter_vim_aa919, start=31278, stop=31652, strand=+, nt=[ATGGAGAACG..CGAGCCTTGA]
+13:12:48.339 - INFO - CDS - contig=enterobacter_vim_aa919, start=31687, stop=33927, strand=+, nt=[ATGATCGCCA..GAGTAGATGA]
+13:12:48.339 - INFO - CDS - contig=enterobacter_vim_aa919, start=33924, stop=35837, strand=+, nt=[ATGAAGATCA..CACGATATGA]
+13:12:48.339 - INFO - CDS - contig=enterobacter_vim_aa919, start=35834, stop=36370, strand=+, nt=[ATGAGCCGCA..CACCTGGTAG]
+13:12:48.339 - INFO - CDS - contig=enterobacter_vim_aa919, start=36383, stop=38446, strand=+, nt=[ATGCGCCTTT..ATCCGAATGA]
+13:12:48.339 - INFO - CDS - contig=enterobacter_vim_aa919, start=38468, stop=38857, strand=+, nt=[ATGAACGAGC..GGAGGGCTGA]
+13:12:48.339 - INFO - CDS - contig=enterobacter_vim_aa919, start=38861, stop=43207, strand=+, nt=[ATGCCGATCA..CATCGGATAA]
+13:12:48.339 - INFO - CDS - contig=enterobacter_vim_aa919, start=43590, stop=45167, strand=-, nt=[ATGCGCCAGA..ACGAGGATAA]
+13:12:48.339 - INFO - CDS - contig=enterobacter_vim_aa919, start=45477, stop=46037, strand=+, nt=[GTGCAGGGGC..GGACGACTGA]
+13:12:48.339 - INFO - CDS - contig=enterobacter_vim_aa919, start=46041, stop=49007, strand=+, nt=[ATGCCGCGTC..AAAACCTTAG]
+13:12:48.339 - INFO - CDS - contig=enterobacter_vim_aa919, start=49004, stop=49348, strand=-, nt=[ATGACAGGAC..CGTACGCTAA]
+13:12:48.339 - INFO - CDS - contig=enterobacter_vim_aa919, start=49422, stop=50186, strand=-, nt=[ATGACGGATT..AGCCGCCTGA]
+13:12:48.340 - INFO - CDS - contig=enterobacter_vim_aa919, start=50573, stop=50710, strand=+, nt=[ATGGAAGTGG..CGAGTTCTAG]
+13:12:48.340 - INFO - CDS - contig=enterobacter_vim_aa919, start=50693, stop=51124, strand=-, nt=[ATGCACGACG..CGAAATCTAA]
+13:12:48.340 - INFO - CDS - contig=enterobacter_vim_aa919, start=51323, stop=52162, strand=-, nt=[ATGGTGACGG..TCATGCCTAG]
+13:12:48.340 - INFO - CDS - contig=enterobacter_vim_aa919, start=52156, stop=52503, strand=-, nt=[ATGAAAGGCT..GCCATGGTGA]
+13:12:48.340 - INFO - CDS - contig=enterobacter_vim_aa919, start=52667, stop=53446, strand=-, nt=[GTGATCGCCG..CGGCAAATAA]
+13:12:48.340 - INFO - CDS - contig=enterobacter_vim_aa919, start=53495, stop=54322, strand=-, nt=[ATGGCAATCC..TGCGCGATAA]
+13:12:48.340 - INFO - CDS - contig=enterobacter_vim_aa919, start=54404, stop=55030, strand=-, nt=[TTGCTACGCA..TGATGCCTAA]
+13:12:48.340 - INFO - CDS - contig=enterobacter_vim_aa919, start=55236, stop=56036, strand=-, nt=[ATGTTAAAAG..CGCCGAGTAG]
+13:12:48.340 - INFO - CDS - contig=enterobacter_vim_aa919, start=56206, stop=57165, strand=+, nt=[ATGAAAACCG..ATACCTTTGA]
+13:12:48.340 - INFO - CDS - contig=enterobacter_vim_aa919, start=57056, stop=57760, strand=-, nt=[ATGAACCCAT..TGAAATGTAA]
+13:12:48.340 - INFO - CDS - contig=enterobacter_vim_aa919, start=57844, stop=58728, strand=-, nt=[ATGACAATTC..AGTTATATAA]
+13:12:48.340 - INFO - CDS - contig=enterobacter_vim_aa919, start=58784, stop=60259, strand=-, nt=[ATGAGTTTAA..AGATTGTTAA]
+13:12:48.340 - INFO - CDS - contig=enterobacter_vim_aa919, start=60346, stop=61050, strand=-, nt=[ATGAACCCAT..TGAAATGTAA]
+13:12:48.340 - INFO - CDS - contig=enterobacter_vim_aa919, start=61062, stop=61232, strand=-, nt=[ATGGCCGAGC..CTTTTGCTGA]
+13:12:48.357 - INFO - CDS - predicted=66
+13:12:48.395 - INFO - ORF - discarded=0
+13:12:48.403 - INFO - UPS - looked-up=61
+13:12:48.411 - INFO - IPS - looked-up=61
+13:12:48.411 - INFO - ORF - write internal aa seqs: # seqs=5, path=/tmp/tmp0hef6azh/cds.psc.faa
+13:14:13.494 - INFO - PSC - found: PSC=3, PSCC=0
+13:14:13.503 - INFO - PSC - looked-up=64
+13:14:13.510 - INFO - PSCC - looked-up=62
+13:14:13.510 - INFO - ORF - write internal aa seqs: # seqs=66, path=/tmp/tmp0hef6azh/cds.expert.faa
+13:14:15.400 - INFO - EXPERT-AMRFINDER - found=9
+13:14:16.619 - INFO - EXPERT_AA_SEQ - found=5
+13:14:16.620 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=pinE
+13:14:16.620 - INFO - ANNOTATION - fix gene: lowercase first char. new=spoIVCA, old=SpoIVCA
+13:14:16.620 - INFO - ANNOTATION - fix gene: lowercase first char. new=spoIVCA, old=SpoIVCA
+13:14:16.621 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trbP
+13:14:16.621 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trbO
+13:14:16.621 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trbM
+13:14:16.621 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trbL
+13:14:16.621 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trbK
+13:14:16.621 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trbJ
+13:14:16.621 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trbI
+13:14:16.621 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trbH
+13:14:16.621 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trbG
+13:14:16.621 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=virB8
+13:14:16.621 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=virB4
+13:14:16.621 - INFO - ANNOTATION - fix gene: lowercase first char. new=virB4, old=VirB4
+13:14:16.622 - INFO - ANNOTATION - fix gene: lowercase first char. new=virB4, old=VirB4
+13:14:16.622 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trbD
+13:14:16.622 - INFO - ANNOTATION - fix gene: lowercase first char. new=trbD, old=TrbD
+13:14:16.622 - INFO - ANNOTATION - fix gene: lowercase first char. new=trbD, old=TrbD
+13:14:16.622 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trbC
+13:14:16.622 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trbB
+13:14:16.622 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trfB
+13:14:16.622 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trfA
+13:14:16.622 - INFO - ANNOTATION - marked as hypothetical: contig=enterobacter_vim_aa919, start=19376, stop=19570, strand=-
+13:14:16.622 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=klcA
+13:14:16.622 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=klcB
+13:14:16.622 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=korC
+13:14:16.622 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=kleA
+13:14:16.623 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=kleB
+13:14:16.623 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=kleE
+13:14:16.623 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=kleF
+13:14:16.623 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=trfB
+13:14:16.623 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=incC
+13:14:16.623 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=korB
+13:14:16.623 - INFO - ANNOTATION - fix product: replace domain name underscores. new=KfrA-N domain-containing protein, old=KfrA_N domain-containing protein
+13:14:16.623 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=kfrB
+13:14:16.623 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=traN
+13:14:16.623 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=traM
+13:14:16.623 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=traL
+13:14:16.624 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=traK
+13:14:16.624 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=traJ
+13:14:16.624 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=traI
+13:14:16.624 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=traG
+13:14:16.624 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=traF
+13:14:16.624 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=traD
+13:14:16.624 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=traC
+13:14:16.624 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=tnpR
+13:14:16.624 - INFO - ANNOTATION - marked as hypothetical: contig=enterobacter_vim_aa919, start=49004, stop=49348, strand=-
+13:14:16.624 - INFO - ANNOTATION - marked as hypothetical: contig=enterobacter_vim_aa919, start=50573, stop=50710, strand=+
+13:14:16.624 - INFO - ANNOTATION - fix product: replace putative synonyms. new=putative N-acetyltransferase YhbS, old=Predicted N-acetyltransferase YhbS
+13:14:16.624 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=yhbS
+13:14:16.625 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=qacE
+13:14:16.625 - INFO - ANNOTATION - fix gene: extract symbol from protein name. symbol=aadA1
+13:14:16.625 - INFO - ANNOTATION - fix gene: lowercase first char. new=xerD, old=XerD
+13:14:16.625 - INFO - ANNOTATION - fix gene: lowercase first char. new=xerD, old=XerD
+13:14:16.625 - INFO - ANNOTATION - marked as hypothetical: contig=enterobacter_vim_aa919, start=61062, stop=61232, strand=-
+13:14:16.625 - INFO - ORF - write internal aa seqs: # seqs=4, path=/tmp/tmp0hef6azh/cds.pseudo.candidates.faa
+13:15:55.985 - INFO - CDS - found: pseudogene-candidates=0
+13:15:55.986 - INFO - PSC - looked-up=0
+13:15:55.986 - INFO - PSCC - looked-up=0
+13:15:56.889 - INFO - CDS - predicted-pfams=0, CDS-w/-pfams=0
+13:15:56.944 - INFO - S_ORF - predicted=501
+13:15:56.987 - INFO - S_ORF - sORF filter: # valid=90, # discarded=411
+13:15:57.020 - INFO - ORF - discarded=0
+13:15:57.029 - INFO - UPS - looked-up=0
+13:15:57.029 - INFO - IPS - looked-up=0
+13:15:57.029 - INFO - ORF - write internal aa seqs: # seqs=90, path=/tmp/tmp0hef6azh/sorf.faa
+13:15:57.192 - INFO - S_ORF - found=0
+13:15:57.192 - INFO - PSC - looked-up=0
+13:15:57.192 - INFO - PSCC - looked-up=0
+13:15:58.394 - INFO - ORI - type=oriV, contig=enterobacter_vim_aa919, start=19614, stop=20866, nt=[CGCCACATCC..GAGAGTTCCG]
+13:15:58.397 - INFO - ORI - predicted=1
+13:15:58.550 - INFO - ORI - type=oriT, contig=enterobacter_vim_aa919, start=30904, stop=31277, nt=[CGTGTTCGTC..GAGGCGAGGC]
+13:15:58.552 - INFO - ORI - predicted=1
+13:15:58.553 - INFO - UTILS - generated sequence tag prefix: prefix=LOPNJJBBCC, length=10, MD5=589733BBCC11E1651777365114E5CC72
+13:15:58.553 - INFO - MAIN - selected features=70
+13:15:58.553 - INFO - UTILS - generated sequence tag prefix: prefix=LOPNJJ, length=6, MD5=589733BBCC11E1651777365114E5CC72
+13:15:58.553 - INFO - MAIN - locus tag prefix=LOPNJJ
+13:15:58.553 - INFO - UTILS - genome-size=61540
+13:15:58.554 - INFO - UTILS - GC=0.624
+13:15:58.554 - INFO - UTILS - N=0.000
+13:15:58.554 - INFO - UTILS - N50=61540
+13:15:58.554 - INFO - UTILS - coding-ratio=0.923
+13:15:58.554 - INFO - TSV - write tsv: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/enterobacter_unicycler_vim_plasmid_aa919/enterobacter_unicycler_vim_plasmid_aa919.tsv
+13:15:58.555 - INFO - GFF - write GFF3: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/enterobacter_unicycler_vim_plasmid_aa919/enterobacter_unicycler_vim_plasmid_aa919.gff3
+13:15:58.558 - INFO - INSDC - write GenBank: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/enterobacter_unicycler_vim_plasmid_aa919/enterobacter_unicycler_vim_plasmid_aa919.gbff
+13:15:58.565 - INFO - INSDC - write EMBL: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/enterobacter_unicycler_vim_plasmid_aa919/enterobacter_unicycler_vim_plasmid_aa919.embl
+13:15:58.579 - INFO - FASTA - write genome sequences: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/enterobacter_unicycler_vim_plasmid_aa919/enterobacter_unicycler_vim_plasmid_aa919.fna, description=True, wrap=True
+13:15:58.580 - INFO - FASTA - write feature nucleotide sequences: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/enterobacter_unicycler_vim_plasmid_aa919/enterobacter_unicycler_vim_plasmid_aa919.ffn
+13:15:58.580 - INFO - FASTA - write translated CDS/sORF: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/enterobacter_unicycler_vim_plasmid_aa919/enterobacter_unicycler_vim_plasmid_aa919.faa
+13:15:58.581 - INFO - TSV - write hypothetical tsv: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/enterobacter_unicycler_vim_plasmid_aa919/enterobacter_unicycler_vim_plasmid_aa919.hypotheticals.tsv
+13:15:58.581 - INFO - FASTA - write translated CDS/sORF: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/enterobacter_unicycler_vim_plasmid_aa919/enterobacter_unicycler_vim_plasmid_aa919.hypotheticals.faa
+13:15:58.581 - INFO - JSON - write JSON: path=/workspace/fin/SHL/bacteria/vim_betalactamase_genomes/vim_linkage_analysis/vim_plasmids/bakta/enterobacter_unicycler_vim_plasmid_aa919/enterobacter_unicycler_vim_plasmid_aa919.json
+13:15:58.590 - INFO - MAIN - removed tmp dir: /tmp/tmp0hef6azh

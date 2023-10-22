@@ -1,3 +1,0 @@
-# cmd: integron_finder --circ --local-max --cpu 10 --promoter-attI --outdir . --path-func-annot ../../HMM --gbk --pdf ../vim_plasmids/pputida_trycycler_ac907.fna
-ID_replicon	CALIN	complete	In0	topology	size
-pputida_trycycler_ac907	0	1	0	circ	279019
