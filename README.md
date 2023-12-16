@@ -28,7 +28,8 @@ Each sample was sequenced via Nanopore with plasmid miniprep and general easyMAG
     - VIM alignment via AliView v1.26 and inkscape v1.3 0e150ed6c4
     - Figures were combined and edited in inkscape v1.3 0e150ed6c4 
 
-![Combined VIM figure](plots/combined_figure.png)
+![Combined VIM figure](plots/Figure_1_mobile_genetic_elements.png)
+![Reporting Challenge](plots/Figure_2_reporting_overview.png)
 
 ## Sample Data
 
